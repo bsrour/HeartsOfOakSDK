@@ -1,0 +1,29 @@
+<Graph isModule="1" moduleName="Cannon_Auto_Fire" Description="" Group="" enabled="1" MultiPlayer="ClientServer">
+ <ModuleInputsOutputs>
+  <Port Name="EntityId" Type="3" Input="1"/>
+ </ModuleInputsOutputs>
+ <Nodes>
+  <Node Id="1" Class="Module:Start_Cannon_Auto_Fire" pos="-140,-90,0" flags="0"/>
+  <Node Id="2" Class="Module:End_Cannon_Auto_Fire" pos="630,-80,0" flags="0">
+   <Inputs />
+  </Node>
+  <Node Id="12" Class="Math:Random" pos="-80,40,0" flags="0">
+   <Inputs min="0.5" max="2"/>
+  </Node>
+  <Node Id="13" Class="Time:Timer" pos="160,50,0" flags="0">
+   <Inputs period="0" min="0" max="0" paused="0"/>
+  </Node>
+  <Node Id="14" Class="Weapon:FireWeapon" pos="370,20,0" flags="0">
+   <Inputs entityId="0" TargetId="0" TargetPos="0,0,0" AlignToTarget="0" NumberOfShots="0" Accuracy="1"/>
+  </Node>
+ </Nodes>
+ <Edges>
+  <Edge nodeIn="2" nodeOut="1" portIn="Cancel" portOut="Cancel" enabled="1"/>
+  <Edge nodeIn="12" nodeOut="1" portIn="generate" portOut="Start" enabled="1"/>
+  <Edge nodeIn="14" nodeOut="1" portIn="entityId" portOut="EntityId" enabled="1"/>
+  <Edge nodeIn="13" nodeOut="12" portIn="period" portOut="out" enabled="1"/>
+  <Edge nodeIn="14" nodeOut="13" portIn="StartFire" portOut="out" enabled="1"/>
+  <Edge nodeIn="2" nodeOut="14" portIn="Success" portOut="FireStopped" enabled="1"/>
+ </Edges>
+ <GraphTokens />
+</Graph>

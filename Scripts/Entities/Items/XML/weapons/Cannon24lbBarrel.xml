@@ -1,4 +1,4 @@
-<item name="Cannon24lbBarrel" class="Weapon" invisible="0" weaponParams="1">
+<item name="Cannon24lbBarrel" class="Cannon" invisible="0" weaponParams="1">
 	<params>
 		<param name="giveable" value="0" />
 		<param name="selectable" value="0" />
@@ -40,8 +40,8 @@
 		
 	</spread>
 	<geometry>		
-		<firstperson name="Objects/HeartsOfOak/weapons/cannons/barrel_24pdr_9ft6in_bronze.cga" angles="0,0,0" position="0,0,0" />
-		<thirdperson name="Objects/HeartsOfOak/weapons/cannons/barrel_24pdr_9ft6in_bronze.cga" angles="0,0,0"/>
+		<firstperson name="Objects/heartsofoak/weapons/cannons/cannon_24pdr_9ft6in_bronze_tall.cgf" angles="0,0,0" position="0,0,0" />
+		<thirdperson name="Objects/heartsofoak/weapons/cannons/cannon_24pdr_9ft6in_bronze_tall.cgf" angles="0,0,0"/>
 		<attachment target="firstperson" name="magazine" bone="magazine" />
 		<attachment target="firstperson" name="silencer_attach" bone="silencer_attach" />
 		<attachment target="firstperson" name="muzzle_flash_effect" bone="weapon_term" />
@@ -86,9 +86,6 @@
 		<defaultAccessoires>
 			<accessory name="cannonball_24pdr" GAME="SP" />
 		</defaultAccessoires>
-		<initialsetup>
-			<accessory name="24lbcarriage" GAME="SP" />
-		</initialsetup>
 
 		<accessory name="24lbcarriage">
 			<attach helper="barrel_24pdr_9ft6in_bronze" />

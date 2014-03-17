@@ -1,4 +1,4 @@
-<ammo name="cannonball_24pdr" class="Projectile">
+<ammo name="cannonball_24pdr" class="Rocket">
 	<geometry>
 		<firstperson name="Objects/heartsofoak/weapons/cannons/cannonball_24pdr.cgf" />
 		<thirdperson name="Objects/heartsofoak/weapons/cannons/cannonball_24pdr.cgf" />

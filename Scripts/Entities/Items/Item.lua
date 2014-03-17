@@ -291,6 +291,51 @@ function Cannon24lb:OnAIUsed(user, goalPipeID)
 	
 	AI.Signal(SIGNALFILTER_SENDER, 0, "PrepareForMountedWeaponUse", user.id, g_SignalData);
 end
+
+CreateItemTable("Cannon24lbBarrel");
+Cannon24lbBarrel.Properties.bMounted=1;
+Cannon24lbBarrel.Properties.bUsable=1;
+Cannon24lbBarrel.Properties.bPickable=0;
+Cannon24lbBarrel.Properties.MountedLimits = {
+	pitchMin = -22,
+	pitchMax = 60,
+	yaw = 70
+	};
+Cannon24lbBarrel.Properties.fRecoilDistance=3;
+Cannon24lbBarrel.Properties.fRecoilStep=.1;
+Cannon24lbBarrel.Properties.fRecoverStep=.005;
+
+-----------------------------------------------------------------------------------------------------
+function Cannon24lbBarrel:OnReset()
+	self.item:SetMountedAngleLimits(self.Properties.MountedLimits.pitchMin, self.Properties.MountedLimits.pitchMax, self.Properties.MountedLimits.yaw);
+	self.inUse = false
+end
+
+----------------------------------------------------------------------------------------------------
+function Cannon24lbBarrel:OnSpawn()
+	self:OnReset();
+end
+
+----------------------------------------------------------------------------------------------------
+function Cannon24lbBarrel:OnUsed(user)
+	if (user.actor:IsPlayer()) then
+		return Item.OnUsed(self, user);
+	end
+end
+
+function Cannon24lbBarrel:OnAIUsed(user, goalPipeID)
+	if (user.OnUseMountedWeaponRequest) then
+		user:OnUseMountedWeaponRequest(self.id)
+		return
+	end
+
+	g_SignalData.id = self.id;
+	g_SignalData.iValue = goalPipeID;
+	
+	AI.Signal(SIGNALFILTER_SENDER, 0, "PrepareForMountedWeaponUse", user.id, g_SignalData);
+end
+
+
 ---------------------------------------------------------------------------------------------------- // end HoO
 ----------------------------------------------------------------------------------------------------
 

@@ -13,37 +13,37 @@ LyonHoy = {
 	
 		Models = {
 			Hull1 = {
-				object_Model = "Objects/drakes_legacy/ships/lyonhoy1.cga",
+				object_Model = "Objects/heartsofoak/ships/lyonhoy1.cga",
 				vectorOffsetPosition = {x=0,y=0,z=0},
 				fMass = 0,
 			},
 			
 			Hull2 = {
-				object_Model = "Objects/drakes_legacy/ships/lyonhoy2.cgf",
+				object_Model = "Objects/heartsofoak/ships/lyonhoy2.cgf",
 				vectorOffsetPosition = {x=0,y=0,z=0},
 				fMass = 0,
 			},
 			
 			Hull3 = {
-				object_Model = "", -- compass 1
+				object_Model = "", 
 				vectorOffsetPosition = {x=0,y=0,z=0},
 				fMass = 0,
 			},
 
 			Hull4 = {
-				object_Model = "", -- compass 1
+				object_Model = "", 
 				vectorOffsetPosition = {x=0,y=0,z=0},
 				fMass = 0,
 			},
 			
 			Hull5 = {
-				object_Model = "", -- compass 1
+				object_Model = "", 
 				vectorOffsetPosition = {x=0,y=0,z=0},
 				fMass = 0,
 			},
 			
 			Hull6 = {
-				object_Model = "", -- compass 1
+				object_Model = "", 
 				vectorOffsetPosition = {x=0,y=0,z=0},
 				fMass = 0,
 			},			
@@ -51,21 +51,21 @@ LyonHoy = {
 			
 		MassObjects = {
 			Cargo = {
-				object_Model = "objects/default/primitive_cube.cgf", -- compass 1
+				object_Model = "objects/default/primitive_cube.cgf",
 				vectorOffsetPosition = {x=0,y=0,z=0},
 				fMass = 0,
 				fScale = 1,
 				bDraw = 0,
 			},
 			Damage = {
-				object_Model = "objects/default/primitive_cube.cgf", -- compass 1
+				object_Model = "objects/default/primitive_cube.cgf",
 				vectorOffsetPosition = {x=0,y=0,z=0},
 				fMass = 0,
 				fScale = 1,
 				bDraw = 0,
 			},
 			Hull = {
-				object_Model = "objects/default/primitive_cube.cgf", -- compass 1
+				object_Model = "objects/default/primitive_cube.cgf", 
 				vectorOffsetPosition = {x=0,y=0,z=0},
 				fMass2 = 50000,
 				fMass = 0,

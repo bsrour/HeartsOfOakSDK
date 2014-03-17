@@ -1,0 +1,62 @@
+<ControllerDef>
+ <Tags filename="Animations/Mannequin/ADB/itemTags.xml"/>
+ <Fragments filename="Animations/Mannequin/ADB/itemActions.xml"/>
+ <FragmentDefs>
+  <burst_fire scopes="WeaponSound"/>
+  <rapid_fire scopes="WeaponSound" flags="Persistent"/>
+  <cock scopes="WeaponSound"/>
+  <stop_rapid_fire scopes="WeaponSound"/>
+  <melee />
+  <melee_multipart scopes="WeaponSound"/>
+  <melee_weapon scopes="WeaponSound"/>
+  <melee_interact />
+  <select scopes="WeaponSound"/>
+  <deselect scopes="WeaponSound"/>
+  <idle scopes="WeaponSound"/>
+  <idle_break scopes="WeaponSound"/>
+  <idle_lastGrenade scopes="WeaponSound"/>
+  <jump scopes="WeaponSound"/>
+  <fire scopes="WeaponSound">
+   <Override tags="rapid" scopes=""/>
+   <Override tags="burst" scopes=""/>
+  </fire>
+  <throw scopes="WeaponSound"/>
+  <hold scopes="WeaponSound"/>
+  <prime scopes="WeaponSound"/>
+  <raise />
+  <lower />
+  <reload scopes="WeaponSound"/>
+  <begin_reload scopes="WeaponSound"/>
+  <reload_shell scopes="WeaponSound"/>
+  <exit_reload scopes="WeaponSound"/>
+  <enter_modify scopes="WeaponSound" flags="Persistent"/>
+  <leave_modify scopes="WeaponSound"/>
+  <change_firemode scopes="WeaponSound"/>
+  <intoPlant scopes="WeaponSound"/>
+  <fromPlant scopes="WeaponSound"/>
+  <plant scopes="WeaponSound"/>
+  <grab scopes="WeaponSound"/>
+  <drop scopes="WeaponSound"/>
+  <rip_off />
+  <spin_down scopes="WeaponSound"/>
+  <spin_down_tail scopes="WeaponSound"/>
+  <hit scopes="OneShotSound"/>
+  <empty_clip scopes="OneShotSound"/>
+  <pickedup scopes="OneShotSound"/>
+  <pickedup_ammo scopes="OneShotSound"/>
+  <zoom_in scopes="OneShotSound"/>
+  <zoom_out scopes="OneShotSound"/>
+  <zoom_lean scopes="OneShotSound"/>
+  <shot_last_bullet scopes="OneShotSound"/>
+  <spin_up scopes="WeaponSound"/>
+  <aimPose />
+  <unprime scopes="WeaponSound"/>
+  <pre_fire />
+  <barrel_spin />
+ </FragmentDefs>
+ <ScopeDefs>
+  <Body layer="0" numLayers="1" context="Weapon"/>
+  <WeaponSound layer="0" numLayers="0" context="Sound"/>
+  <OneShotSound layer="0" numLayers="0" context="Sound"/>
+ </ScopeDefs>
+</ControllerDef>
