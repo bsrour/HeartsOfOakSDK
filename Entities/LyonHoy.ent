@@ -1,0 +1,4 @@
+<Entity
+Name="LyonHoy"
+Script="Scripts/Entities/Ships/LyonHoy.lua"
+/>

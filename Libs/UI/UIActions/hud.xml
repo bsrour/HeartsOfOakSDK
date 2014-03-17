@@ -1,0 +1,32 @@
+<Graph Description="" Group="HUD" enabled="1" MultiPlayer="ClientServer">
+ <Nodes>
+  <Node Id="1" Class="UI:Action:Start" pos="-820,-70,0" flags="0">
+   <Inputs UseAsState="1"/>
+  </Node>
+  <Node Id="2" Class="UI:Action:Control" pos="-570,-80,0" flags="0">
+   <Inputs uiActions_UIAction="HUD_2D" Strict="0" Args=""/>
+  </Node>
+  <Node Id="3" Name="This_UIAction_simply_starts_all_HUD_related_Actions" Class="_commentbox" pos="-822,-127.99926,0" flags="0">
+   <Inputs TextSize="1" Color="0.27451,0.352941,0.705882" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
+   <ResizeBorder X="0" Y="0" Width="1130.9093" Height="140.83017"/>
+   <NodeSize Width="1130.9093" Height="168.22079"/>
+  </Node>
+  <Node Id="4" Class="UI:Action:End" pos="150,-80,0" flags="0">
+   <Inputs UseAsState="1" Args=""/>
+  </Node>
+  <Node Id="5" Class="UI:Action:Control" pos="-100,-80,0" flags="0">
+   <Inputs uiActions_UIAction="HUD_Radar" Strict="0" Args=""/>
+  </Node>
+  <Node Id="6" Class="UI:Action:Control" pos="-330,-80,0" flags="0">
+   <Inputs uiActions_UIAction="HUD_3D" Strict="0" Args=""/>
+  </Node>
+  <Node Id="7" Class="UI:Action:Control" pos="-320,130,0" flags="0">
+   <Inputs uiActions_UIAction="hud_new" Strict="0" Args=""/>
+  </Node>
+ </Nodes>
+ <Edges>
+  <Edge nodeIn="7" nodeOut="1" portIn="Start" portOut="StartAction" enabled="1"/>
+  <Edge nodeIn="4" nodeOut="7" portIn="EndAction" portOut="OnEnd" enabled="1"/>
+ </Edges>
+ <GraphTokens />
+</Graph>

@@ -1,0 +1,39 @@
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Name="m_hulldetails_bright" MtlFlags="524418" Shader="Illum" GenMask="80000" StringGenMask="%GLOSS_MAP" SurfaceType="mat_wood_breakable" MatTemplate="" Diffuse="0.34886485,0.19397216,0.030256517" Specular="0.12752977,0.12752977,0.12752977" Emissive="0,0,0" Shininess="50" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/heartsofoak/textures/wood_2b_DIFF.dds">
+     <TexMod TileU="20" TileV="20"/>
+    </Texture>
+    <Texture Map="Specular" File="objects/heartsofoak/textures/wood_2b_spec.tif"/>
+   </Textures>
+   <PublicParams SpecMapChannelB="0" SpecMapChannelR="0" GlossMapChannelB="0" SpecMapChannelG="0" FresnelScale="1" FresnelBias="1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="m_hulldetails_dark1" MtlFlags="524416" Shader="Illum" GenMask="80200" StringGenMask="%BUMP_MAP%GLOSS_MAP" SurfaceType="mat_wood_breakable" MatTemplate="" Diffuse="0.18354899,0.14799802,0.091518357" Specular="0.12752977,0.12752977,0.12752977" Emissive="0,0,0" Shininess="50" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/heartsofoak/textures/wood_4b_diff.dds" Filter="7">
+     <TexMod TileU="30" TileV="30"/>
+    </Texture>
+    <Texture Map="Specular" File="objects/heartsofoak/textures/wood_4b_spec.tif"/>
+    <Texture Map="Bumpmap" File="objects/heartsofoak/textures/wood_4b_ddn.dds">
+     <TexMod TileU="30" TileV="30"/>
+    </Texture>
+    <Texture Map="Detail" File="objects/heartsofoak/textures/decal_3_diff.tif">
+     <TexMod TileU="0.30000001"/>
+    </Texture>
+   </Textures>
+   <PublicParams SpecMapChannelB="0" SpecMapChannelR="0" GlossMapChannelB="0" SpecMapChannelG="0" FresnelScale="1" FresnelBias="1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="m_rope" MtlFlags="524416" Shader="Illum" GenMask="80200" StringGenMask="%BUMP_MAP%GLOSS_MAP" SurfaceType="mat_fabric" MatTemplate="" Diffuse="0.25084025,0.22331043,0.17343903" Specular="0.12752977,0.12752977,0.12752977" Emissive="0,0,0" Shininess="10" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/heartsofoak/textures/rope_1_diff.tif">
+     <TexMod TileU="70" TileV="70"/>
+    </Texture>
+    <Texture Map="Specular" File="objects/heartsofoak/textures/rope_1_spec.tif"/>
+    <Texture Map="Bumpmap" File="objects/heartsofoak/textures/rope_1_ddn.dds"/>
+   </Textures>
+   <PublicParams SpecMapChannelB="0" SpecMapChannelR="0" GlossMapChannelB="0" SpecMapChannelG="0" FresnelScale="1" FresnelBias="1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams GlossFromDiffuseContrast="1" FresnelScale="1" GlossFromDiffuseOffset="0" FresnelBias="1" GlossFromDiffuseAmount="0" GlossFromDiffuseBrightness="0.333" IndirectColor="0.25,0.25,0.25"/>
+</Material>

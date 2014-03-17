@@ -1,0 +1,57 @@
+<Graph Description="" Group="HUD" enabled="1" MultiPlayer="ClientServer">
+ <Nodes>
+  <Node Id="279" Class="UI:Action:Start" pos="-430,40,0" flags="0">
+   <Inputs UseAsState="1"/>
+  </Node>
+  <Node Id="288" Class="UI:Display:Display" pos="-70,10,0" flags="0">
+   <Inputs uiElements_Element="HUD_NEW" instanceID="-1"/>
+  </Node>
+  <Node Id="289" Class="UI:Functions:HUD_NEW:ChangeTime" pos="290,270,0" flags="0">
+   <Inputs instanceID="-1" fTime=""/>
+  </Node>
+  <Node Id="291" Class="Time:TimeOfDay" pos="-320,300,0" flags="0">
+   <Inputs Time="0" ForceUpdate="0" Speed="1"/>
+  </Node>
+  <Node Id="292" Class="Time:Timer" pos="-510,360,0" flags="0">
+   <Inputs period="1" min="0" max="0" paused="0"/>
+  </Node>
+  <Node Id="294" Class="Math:Round" pos="90,320,0" flags="0">
+   <Inputs In="0"/>
+  </Node>
+  <Node Id="295" Class="Math:Mul" pos="-100,300,0" flags="0">
+   <Inputs A="0" B="100"/>
+  </Node>
+  <Node Id="296" Class="Time:Timer" pos="-600,-170,0" flags="0">
+   <Inputs period="0.1" min="0" max="0" paused="0"/>
+  </Node>
+  <Node Id="297" Class="Multiplayer:CheckCVar" pos="-360,-170,0" flags="0">
+   <Inputs CVar="t_Scale"/>
+  </Node>
+  <Node Id="298" Class="UI:Functions:HUD_NEW:ChangeTimeScale" pos="100,-170,0" flags="0">
+   <Inputs instanceID="-1" fTimeScale=""/>
+  </Node>
+  <Node Id="299" Class="Debug:InputKey" pos="-280,660,0" flags="0">
+   <Inputs entityId="0" Key="" NonDevMode="0"/>
+  </Node>
+  <Node Id="300" Class="Actor:LocalPlayer" pos="-482.95456,654.54547,0" flags="0">
+   <Inputs />
+  </Node>
+  <Node Id="301" Class="String:Compare" pos="20,670,0" flags="0">
+   <Inputs A="" B="" IgnoreCase="1"/>
+  </Node>
+ </Nodes>
+ <Edges>
+  <Edge nodeIn="288" nodeOut="279" portIn="show" portOut="StartAction" enabled="1"/>
+  <Edge nodeIn="289" nodeOut="291" portIn="Call" portOut="CurTime" enabled="1"/>
+  <Edge nodeIn="295" nodeOut="291" portIn="A" portOut="CurTime" enabled="1"/>
+  <Edge nodeIn="291" nodeOut="292" portIn="Get" portOut="out" enabled="1"/>
+  <Edge nodeIn="289" nodeOut="294" portIn="fTime" portOut="outRounded" enabled="1"/>
+  <Edge nodeIn="294" nodeOut="295" portIn="In" portOut="out" enabled="1"/>
+  <Edge nodeIn="297" nodeOut="296" portIn="Get" portOut="out" enabled="1"/>
+  <Edge nodeIn="298" nodeOut="297" portIn="Call" portOut="FloatValue" enabled="1"/>
+  <Edge nodeIn="298" nodeOut="297" portIn="fTimeScale" portOut="FloatValue" enabled="1"/>
+  <Edge nodeIn="301" nodeOut="299" portIn="A" portOut="Pressed" enabled="1"/>
+  <Edge nodeIn="299" nodeOut="300" portIn="entityId" portOut="entityId" enabled="1"/>
+ </Edges>
+ <GraphTokens />
+</Graph>

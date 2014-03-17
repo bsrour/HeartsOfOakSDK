@@ -1,0 +1,14 @@
+<Material MtlFlags="256">
+ <SubMaterials>
+  <Material Name="dummy" MtlFlags="130" Shader="Illum" GenMask="285212672" SurfaceType="mat_cliff" Diffuse="0.19607845,0.19607845,0.19607845" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/heartsofoak/textures/ornament_one.dds">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams AmbientMultiplier="1"/>
+  </Material>
+  <MaterialRef />
+ </SubMaterials>
+ <PublicParams AmbientMultiplier="1"/>
+</Material>

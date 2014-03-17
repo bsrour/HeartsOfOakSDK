@@ -1,0 +1,4 @@
+<Entity
+Name="Chest"
+Script="Scripts/Entities/Containers/Chest.lua"
+/>

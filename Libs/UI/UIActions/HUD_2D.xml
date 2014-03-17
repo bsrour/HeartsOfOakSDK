@@ -1,0 +1,172 @@
+<Graph Description="" Group="HUD" enabled="1" MultiPlayer="ClientServer">
+ <Nodes>
+  <Node Id="1" Class="UI:Action:Start" pos="-1320,40,0" flags="0">
+   <Inputs UseAsState="1"/>
+  </Node>
+  <Node Id="2" Class="UI:Display:Display" pos="-1070,40,0" flags="0">
+   <Inputs uiElements_Element="HUD2D" instanceID="-1"/>
+  </Node>
+  <Node Id="4" Class="UI:Action:End" pos="-770,40,0" flags="0">
+   <Inputs UseAsState="1" Args=""/>
+  </Node>
+  <Node Id="5" Name="Display_the_2d_hud_and_unload_the_hud_on_level_end" Class="_commentbox" pos="-1347.04,-30.247499,0" flags="0">
+   <Inputs TextSize="1" Color="0.27451,0.352941,0.705882" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
+   <ResizeBorder X="0" Y="0" Width="713.87109" Height="199.56754"/>
+   <NodeSize Width="958.13391" Height="254.34877"/>
+  </Node>
+  <Node Id="6" Class="Game:WeaponSensor" pos="-450,340,0" flags="0" InHideMask="15" OutHideMask="8388607">
+   <Inputs entityId="0"/>
+  </Node>
+  <Node Id="7" Class="Actor:LocalPlayer" pos="-1090,340,0" flags="0">
+   <Inputs />
+  </Node>
+  <Node Id="8" Class="UI:Action:Start" pos="-1320,340,0" flags="0">
+   <Inputs UseAsState="1"/>
+  </Node>
+  <Node Id="14" Class="UI:Functions:HUD2D:SetWeapon" pos="80,300,0" flags="0">
+   <Inputs instanceID="-1" WeaponName="" Zoomed="0"/>
+  </Node>
+  <Node Id="15" Class="Logic:Any" pos="-100,300,0" flags="0" InHideMask="63" OutHideMask="1">
+   <Inputs />
+  </Node>
+  <Node Id="16" Class="UI:Functions:HUD2D:OnShoot" pos="-100,420,0" flags="0">
+   <Inputs instanceID="-1"/>
+  </Node>
+  <Node Id="145" Class="String:Compare" pos="-100,660,0" flags="0">
+   <Inputs A="" B="Binoculars" IgnoreCase="1"/>
+  </Node>
+  <Node Id="167" Class="Physics:RayCastCamera" pos="330,760,0" flags="0">
+   <Inputs offset="0,0,0" maxLength="201"/>
+  </Node>
+  <Node Id="267" Name="Raycast_when_using_binoculars" Class="_commentbox" pos="-136.04225,583.3197,0" flags="0">
+   <Inputs TextSize="1" Color="0.27451,0.352941,0.705882" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
+   <ResizeBorder X="0" Y="0" Width="942.15674" Height="308.38556"/>
+   <NodeSize Width="942.15674" Height="363.16681"/>
+  </Node>
+  <Node Id="269" Class="UI:Functions:HUD2D:SetZoomDistance" pos="540,830,0" flags="0">
+   <Inputs instanceID="-1" distance="0"/>
+  </Node>
+  <Node Id="270" Class="UI:Functions:HUD2D:SetZoomMode" pos="-100,470,0" flags="0">
+   <Inputs instanceID="-1" Step="0"/>
+  </Node>
+  <Node Id="271" Class="UI:Functions:HUD2D:SetZoomDistance" pos="540,760,0" flags="0">
+   <Inputs instanceID="-1" distance="999"/>
+  </Node>
+  <Node Id="274" Class="Math:BooleanTo" pos="100,660,0" flags="0">
+   <Inputs />
+  </Node>
+  <Node Id="276" Class="Time:Timer" pos="170,760,0" flags="0">
+   <Inputs period="0.2" min="0" max="0" paused="1"/>
+  </Node>
+  <Node Id="277" Name="Setup_Weapon_info_for_crosshair" Class="_commentbox" pos="-139.04874,207.51161,0" flags="0">
+   <Inputs TextSize="1" Color="0.27451,0.352941,0.705882" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
+   <ResizeBorder X="0" Y="0" Width="426.88651" Height="297.28622"/>
+   <NodeSize Width="599.05194" Height="352.06747"/>
+  </Node>
+  <Node Id="278" Name="handle_weapon_events" Class="_commentbox" pos="-1343.9902,258.27164,0" flags="0">
+   <Inputs TextSize="1" Color="0.27451,0.352941,0.705882" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
+   <ResizeBorder X="0" Y="0" Width="1087.1128" Height="210.86484"/>
+   <NodeSize Width="1087.1128" Height="265.64609"/>
+  </Node>
+  <Node Id="279" Class="Logic:AND" pos="-100,760,0" flags="0">
+   <Inputs A="0" B="0" Always="0"/>
+  </Node>
+  <Node Id="285" Class="Logic:NOT" pos="50,760,0" flags="0">
+   <Inputs in="0"/>
+  </Node>
+  <Node Id="286" Class="UI:Events:System:OnGameplayEnded" pos="-1320,110,0" flags="0">
+   <Inputs Port="-1" Idx=""/>
+  </Node>
+  <Node Id="288" Class="Actor:ActionFilter" pos="-720,1140,0" flags="0">
+   <Inputs entityId="0" Filter="only_ui"/>
+  </Node>
+  <Node Id="290" Class="Actor:LocalPlayer" pos="-1000,1140,0" flags="0">
+   <Inputs />
+  </Node>
+  <Node Id="291" Class="UI:Action:Start" pos="-1320,1140,0" flags="0">
+   <Inputs UseAsState="1"/>
+  </Node>
+  <Node Id="293" Class="Input:Action" pos="-1000,1180,0" flags="0">
+   <Inputs entityId="0" Action="ui_start_chat" ActionMap="default" NonDevMode="1"/>
+  </Node>
+  <Node Id="295" Name="Chat_functionality" Class="_commentbox" pos="-1343.0549,1058.5172,0" flags="0">
+   <Inputs TextSize="1" Color="0.27451,0.352941,0.705882" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
+   <ResizeBorder X="0" Y="0" Width="1059.6836" Height="477.59137"/>
+   <NodeSize Width="1059.6836" Height="532.37262"/>
+  </Node>
+  <Node Id="297" Class="UI:Functions:HUD2D:StartChat" pos="-500,1140,0" flags="0">
+   <Inputs instanceID="-1"/>
+  </Node>
+  <Node Id="299" Class="UI:Events:HUD2D:OnChatMessageSend" pos="-1320,1340,0" flags="0">
+   <Inputs instanceID="-1" Port="-1" Idx=""/>
+  </Node>
+  <Node Id="301" Class="UI:Events:HUD2D:OnChatMessageCancel" pos="-1320,1410,0" flags="0">
+   <Inputs instanceID="-1" Port="-1" Idx=""/>
+  </Node>
+  <Node Id="303" Class="Logic:Any" pos="-1000,1400,0" flags="0" InHideMask="60">
+   <Inputs />
+  </Node>
+  <Node Id="308" Class="UI:Functions:HUD2D:DisplayChatMessage" pos="-1000,1480,0" flags="0">
+   <Inputs instanceID="-1" Player="" Message="TEST"/>
+  </Node>
+  <Node Id="312" Class="UI:Events:MP:ChatMessageReceived" pos="-1320,1480,0" flags="0">
+   <Inputs Port="-1" Idx=""/>
+  </Node>
+  <Node Id="314" Class="UI:Functions:MP:SendChatMessage" pos="-1000,1340,0" flags="0">
+   <Inputs Message=""/>
+  </Node>
+  <Node Id="316" Class="Actor:Sensor" pos="-870,400,0" flags="0" InHideMask="15" OutHideMask="262143">
+   <Inputs entityId="0"/>
+  </Node>
+  <Node Id="317" Class="Logic:Any" pos="-610,400,0" flags="0" InHideMask="63" OutHideMask="1">
+   <Inputs />
+  </Node>
+ </Nodes>
+ <Edges>
+  <Edge nodeIn="2" nodeOut="1" portIn="hide" portOut="StartAction" enabled="1"/>
+  <Edge nodeIn="4" nodeOut="2" portIn="EndAction" portOut="onUnload" enabled="1"/>
+  <Edge nodeIn="14" nodeOut="6" portIn="WeaponName" portOut="WeaponName" enabled="1"/>
+  <Edge nodeIn="14" nodeOut="6" portIn="Zoomed" portOut="Zoomed" enabled="1"/>
+  <Edge nodeIn="15" nodeOut="6" portIn="in3" portOut="OnReloaded" enabled="1"/>
+  <Edge nodeIn="15" nodeOut="6" portIn="in4" portOut="OnStopFire" enabled="1"/>
+  <Edge nodeIn="15" nodeOut="6" portIn="in1" portOut="OnWeaponChange" enabled="1"/>
+  <Edge nodeIn="15" nodeOut="6" portIn="in2" portOut="OnZoom" enabled="1"/>
+  <Edge nodeIn="16" nodeOut="6" portIn="Call" portOut="OnShoot" enabled="1"/>
+  <Edge nodeIn="145" nodeOut="6" portIn="Compare" portOut="OnWeaponChange" enabled="1"/>
+  <Edge nodeIn="145" nodeOut="6" portIn="A" portOut="WeaponName" enabled="1"/>
+  <Edge nodeIn="270" nodeOut="6" portIn="Step" portOut="CurrZoomStep" enabled="1"/>
+  <Edge nodeIn="270" nodeOut="6" portIn="Call" portOut="OnZoom" enabled="1"/>
+  <Edge nodeIn="279" nodeOut="6" portIn="B" portOut="Zoomed" enabled="1"/>
+  <Edge nodeIn="6" nodeOut="7" portIn="Enable" portOut="entityId" enabled="1"/>
+  <Edge nodeIn="6" nodeOut="7" portIn="entityId" portOut="entityId" enabled="1"/>
+  <Edge nodeIn="316" nodeOut="7" portIn="Enable" portOut="entityId" enabled="1"/>
+  <Edge nodeIn="316" nodeOut="7" portIn="entityId" portOut="entityId" enabled="1"/>
+  <Edge nodeIn="317" nodeOut="7" portIn="in1" portOut="entityId" enabled="1"/>
+  <Edge nodeIn="14" nodeOut="15" portIn="Call" portOut="out" enabled="1"/>
+  <Edge nodeIn="274" nodeOut="145" portIn="false" portOut="False" enabled="1"/>
+  <Edge nodeIn="274" nodeOut="145" portIn="true" portOut="True" enabled="1"/>
+  <Edge nodeIn="269" nodeOut="167" portIn="Call" portOut="distance" enabled="1"/>
+  <Edge nodeIn="269" nodeOut="167" portIn="distance" portOut="distance" enabled="1"/>
+  <Edge nodeIn="271" nodeOut="167" portIn="Call" portOut="nohit" enabled="1"/>
+  <Edge nodeIn="279" nodeOut="274" portIn="A" portOut="out" enabled="1"/>
+  <Edge nodeIn="167" nodeOut="276" portIn="go" portOut="out" enabled="1"/>
+  <Edge nodeIn="285" nodeOut="279" portIn="in" portOut="out" enabled="1"/>
+  <Edge nodeIn="276" nodeOut="285" portIn="paused" portOut="out" enabled="1"/>
+  <Edge nodeIn="2" nodeOut="286" portIn="unload" portOut="onEvent" enabled="1"/>
+  <Edge nodeIn="297" nodeOut="288" portIn="Call" portOut="Enabled" enabled="1"/>
+  <Edge nodeIn="288" nodeOut="290" portIn="entityId" portOut="entityId" enabled="1"/>
+  <Edge nodeIn="288" nodeOut="293" portIn="Enable" portOut="Pressed" enabled="1"/>
+  <Edge nodeIn="303" nodeOut="299" portIn="in1" portOut="onEvent" enabled="1"/>
+  <Edge nodeIn="314" nodeOut="299" portIn="Message" portOut="Message" enabled="1"/>
+  <Edge nodeIn="314" nodeOut="299" portIn="send" portOut="onEvent" enabled="1"/>
+  <Edge nodeIn="303" nodeOut="301" portIn="in2" portOut="onEvent" enabled="1"/>
+  <Edge nodeIn="288" nodeOut="303" portIn="Disable" portOut="out" enabled="1"/>
+  <Edge nodeIn="308" nodeOut="312" portIn="Message" portOut="Message" enabled="1"/>
+  <Edge nodeIn="308" nodeOut="312" portIn="Player" portOut="Player" enabled="1"/>
+  <Edge nodeIn="308" nodeOut="312" portIn="Call" portOut="onEvent" enabled="1"/>
+  <Edge nodeIn="317" nodeOut="316" portIn="in3" portOut="OnToggleThirdPerson" enabled="1"/>
+  <Edge nodeIn="317" nodeOut="316" portIn="in2" portOut="SeatChange" enabled="1"/>
+  <Edge nodeIn="6" nodeOut="317" portIn="Get" portOut="out" enabled="1"/>
+ </Edges>
+ <GraphTokens />
+</Graph>

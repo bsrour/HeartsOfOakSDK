@@ -1,0 +1,6 @@
+<Material MtlFlags="524288" Shader="Vegetation" GenMask="400201000" StringGenMask="%DETAIL_BENDING%GRASS%TEMP_VEGETATION" SurfaceType="" MatTemplate="" Diffuse="0.50543249,0.50543249,0.50543249" Specular="0.00080465846,0.00080465846,0.00080465846" Emissive="0,0,0" Shininess="170" Opacity="1" AlphaTest="0.02">
+ <Textures>
+  <Texture Map="Diffuse" File="objects/natural/grass/grass_patch_desat.tif"/>
+ </Textures>
+ <PublicParams bendDetailLeafAmplitude="0.29899999" BackShadowBias="0.465" FresnelPower="4" bendDetailFrequency="0.70999998" bendDetailBranchAmplitude="0" blendWithTerrainAmount="0.5" FresnelScale="1" FresnelBias="1" BackViewDep="0.81900001" BackDiffuseMultiplier="0.85000002" BackDiffuse="0.56999999,0.75999999,0.37" IndirectColor="0.14799802,0.14799802,0.14799802"/>
+</Material>

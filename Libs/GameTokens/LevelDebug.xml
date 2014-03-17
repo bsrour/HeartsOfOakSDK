@@ -1,0 +1,3 @@
+<GameTokensLibrary Name="LevelDebug">
+ <GameToken Name="Cannons.AutoFire" Type="Bool" Value="true" LocalOnly="0"/>
+</GameTokensLibrary>

@@ -1,0 +1,31 @@
+<Graph Description="" Group="HUD" enabled="1" MultiPlayer="ClientServer">
+ <Nodes>
+  <Node Id="1" Class="UI:Action:Start" pos="-530,-80,0" flags="0">
+   <Inputs UseAsState="1"/>
+  </Node>
+  <Node Id="2" Class="UI:Action:End" pos="-260,-230,0" flags="0">
+   <Inputs UseAsState="1" Args=""/>
+  </Node>
+  <Node Id="3" Class="UI:Display:Display" pos="-260,-120,0" flags="0">
+   <Inputs uiElements_Element="HUD2D" instanceID="-1"/>
+  </Node>
+  <Node Id="4" Class="UI:Display:Display" pos="-260,90,0" flags="0">
+   <Inputs uiElements_Element="HUD3D" instanceID="-1"/>
+  </Node>
+  <Node Id="5" Name="Hide_all_HUD_elements" Class="_commentbox" pos="-549,-250,0" flags="0">
+   <Inputs TextSize="1" Color="0.27451,0.352941,0.705882" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
+   <ResizeBorder X="0" Y="0" Width="555" Height="454"/>
+   <NodeSize Width="555" Height="481.39063"/>
+  </Node>
+  <Node Id="6" Class="UI:Display:Display" pos="-260,290,0" flags="0">
+   <Inputs uiElements_Element="HUD_NEW" instanceID="-1"/>
+  </Node>
+ </Nodes>
+ <Edges>
+  <Edge nodeIn="2" nodeOut="1" portIn="EndAction" portOut="StartAction" enabled="1"/>
+  <Edge nodeIn="3" nodeOut="1" portIn="hide" portOut="StartAction" enabled="1"/>
+  <Edge nodeIn="4" nodeOut="1" portIn="hide" portOut="StartAction" enabled="1"/>
+  <Edge nodeIn="6" nodeOut="1" portIn="hide" portOut="StartAction" enabled="1"/>
+ </Edges>
+ <GraphTokens />
+</Graph>

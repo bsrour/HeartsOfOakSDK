@@ -1,0 +1,134 @@
+<Graph Description="" Group="MP" enabled="1" MultiPlayer="ClientServer">
+ <Nodes>
+  <Node Id="1" Class="UI:Events:MP:PlayerJoined" pos="-430,-30,0" flags="0">
+   <Inputs Port="-1" Idx=""/>
+  </Node>
+  <Node Id="2" Class="UI:Functions:UIEntityTagsDynTex:AddEntityTag" pos="-80,-150,0" flags="0">
+   <Inputs EntityID="0" uiElements_UIElement="EntityFlashTag" EntityClass="EntityFlashTag" Material="Materials/gfx/EntityFlashTag" Offset="0,0,2" TagIDX="PlayerTag"/>
+  </Node>
+  <Node Id="6" Class="UI:Variable:Var" pos="-80,-30,0" flags="0">
+   <Inputs uiVariables_Variable="EntityFlashTag:PlayerName" instanceID="-1"/>
+  </Node>
+  <Node Id="7" Name="Add_a_3D_dynamic_texture_flash_tag_on_player_join_/_display_join,_left_messages" Class="_commentbox" pos="-452,-249.3925,0" flags="0">
+   <Inputs TextSize="1" Color="0.27451,0.352941,0.705882" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
+   <ResizeBorder X="0" Y="0" Width="706.85303" Height="556.31793"/>
+   <NodeSize Width="1438.6221" Height="611.09918"/>
+  </Node>
+  <Node Id="8" Class="UI:Events:MP:PlayerLeft" pos="-430,240,0" flags="0">
+   <Inputs Port="-1" Idx=""/>
+  </Node>
+  <Node Id="10" Class="UI:Events:MP:EnteredGame" pos="-430,490,0" flags="0">
+   <Inputs Port="-1" Idx=""/>
+  </Node>
+  <Node Id="11" Class="UI:Functions:MP:GetPlayers" pos="-90,490,0" flags="0">
+   <Inputs />
+  </Node>
+  <Node Id="12" Name="On_enter_game_request_other_players" Class="_commentbox" pos="-450.55063,409.50928,0" flags="0">
+   <Inputs TextSize="1" Color="0.27451,0.352941,0.705882" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
+   <ResizeBorder X="0" Y="0" Width="707.51788" Height="115.46652"/>
+   <NodeSize Width="707.51788" Height="170.24776"/>
+  </Node>
+  <Node Id="13" Class="UI:Events:MP:PlayerRenamed" pos="-430,670,0" flags="0">
+   <Inputs Port="-1" Idx=""/>
+  </Node>
+  <Node Id="14" Class="UI:Variable:Var" pos="-90,670,0" flags="0">
+   <Inputs uiVariables_Variable="EntityFlashTag:PlayerName" instanceID="-1"/>
+  </Node>
+  <Node Id="15" Name="Update_player_tag_name_on_rename" Class="_commentbox" pos="-454.34299,590.3399,0" flags="0">
+   <Inputs TextSize="1" Color="0.27451,0.352941,0.705882" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
+   <ResizeBorder X="0" Y="0" Width="711.99707" Height="141.95451"/>
+   <NodeSize Width="711.99707" Height="196.73575"/>
+  </Node>
+  <Node Id="16" Class="UI:Events:MP:PlayerKilled" pos="-430,850,0" flags="0">
+   <Inputs Port="-1" Idx=""/>
+  </Node>
+  <Node Id="17" Class="UI:Functions:HUD3D:AddMpMessage" pos="-80,60,0" flags="0">
+   <Inputs instanceID="-1" MsgType="join" Str1="" Str2=""/>
+  </Node>
+  <Node Id="18" Class="UI:Functions:HUD3D:AddMpMessage" pos="-80,240,0" flags="0">
+   <Inputs instanceID="-1" MsgType="left" Str1="" Str2=""/>
+  </Node>
+  <Node Id="19" Class="UI:Functions:HUD3D:AddMpMessage" pos="-90,850,0" flags="0">
+   <Inputs instanceID="-1" MsgType="kill" Str1="" Str2=""/>
+  </Node>
+  <Node Id="20" Name="Display_kill_message" Class="_commentbox" pos="-454.5303,780.83856,0" flags="0">
+   <Inputs TextSize="1" Color="0.27451,0.352941,0.705882" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
+   <ResizeBorder X="0" Y="0" Width="712.67957" Height="136.95457"/>
+   <NodeSize Width="712.67957" Height="191.73581"/>
+  </Node>
+  <Node Id="23" Class="Game:Start" pos="-430,1120,0" flags="0">
+   <Inputs InGame="1" InEditor="1"/>
+  </Node>
+  <Node Id="38" Class="Input:Action" pos="100,1110,0" flags="0">
+   <Inputs entityId="0" Action="scoreboard" ActionMap="multiplayer" NonDevMode="1"/>
+  </Node>
+  <Node Id="40" Class="UI:Functions:HUD2D:OnHideScoreboard" pos="510,1160,0" flags="0">
+   <Inputs instanceID="-1"/>
+  </Node>
+  <Node Id="42" Class="UI:Functions:HUD2D:OnShowScoreboard" pos="510,1110,0" flags="0">
+   <Inputs instanceID="-1"/>
+  </Node>
+  <Node Id="61" Class="UI:Events:MP:UpdateOrAddScoreBoardItem" pos="-430,1310,0" flags="0">
+   <Inputs Port="-1" Idx=""/>
+  </Node>
+  <Node Id="63" Class="UI:Functions:HUD2D:UpdateOrAddScoreboardItem" pos="-110,1310,0" flags="0">
+   <Inputs instanceID="-1" PlayerID="0" Name="" Kills="0" Deaths="0"/>
+  </Node>
+  <Node Id="64" Name="Scoreboard_functionality" Class="_commentbox" pos="-458.52414,982.64136,0" flags="0">
+   <Inputs TextSize="1" Color="0.27451,0.352941,0.705882" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
+   <ResizeBorder X="0" Y="0" Width="1226.5288" Height="620.55554"/>
+   <NodeSize Width="1226.5288" Height="675.33679"/>
+  </Node>
+  <Node Id="66" Class="Multiplayer:GameType" pos="-210,1120,0" flags="0" InHideMask="1" OutHideMask="16383">
+   <Inputs />
+  </Node>
+  <Node Id="67" Class="UI:Events:MP:PlayerLeft" pos="-430,1550,0" flags="0">
+   <Inputs Port="-1" Idx=""/>
+  </Node>
+  <Node Id="73" Class="UI:Functions:HUD2D:RemoveScoreBoardItem" pos="170,1540,0" flags="0">
+   <Inputs instanceID="-1" PlayerID="0"/>
+  </Node>
+  <Node Id="74" Class="Time:Delay" pos="-100,1520,0" flags="0">
+   <Inputs delay="1" resetOnInput="0"/>
+  </Node>
+  <Node Id="76" Class="UI:Functions:MP:EnableUpdateScores" pos="510,1060,0" flags="0">
+   <Inputs Enable="1"/>
+  </Node>
+  <Node Id="77" Class="UI:Functions:MP:EnableUpdateScores" pos="510,1210,0" flags="0">
+   <Inputs Enable="0"/>
+  </Node>
+ </Nodes>
+ <Edges>
+  <Edge nodeIn="2" nodeOut="1" portIn="EntityID" portOut="ID" enabled="1"/>
+  <Edge nodeIn="2" nodeOut="1" portIn="send" portOut="onEvent" enabled="1"/>
+  <Edge nodeIn="6" nodeOut="1" portIn="instanceID" portOut="ID" enabled="1"/>
+  <Edge nodeIn="6" nodeOut="1" portIn="Value" portOut="Name" enabled="1"/>
+  <Edge nodeIn="6" nodeOut="1" portIn="Set" portOut="onEvent" enabled="1"/>
+  <Edge nodeIn="17" nodeOut="1" portIn="Str1" portOut="Name" enabled="1"/>
+  <Edge nodeIn="17" nodeOut="1" portIn="Call" portOut="onEvent" enabled="1"/>
+  <Edge nodeIn="18" nodeOut="8" portIn="Str1" portOut="Name" enabled="1"/>
+  <Edge nodeIn="18" nodeOut="8" portIn="Call" portOut="onEvent" enabled="1"/>
+  <Edge nodeIn="11" nodeOut="10" portIn="send" portOut="onEvent" enabled="1"/>
+  <Edge nodeIn="14" nodeOut="13" portIn="instanceID" portOut="ID" enabled="1"/>
+  <Edge nodeIn="14" nodeOut="13" portIn="Value" portOut="NewName" enabled="1"/>
+  <Edge nodeIn="14" nodeOut="13" portIn="Set" portOut="onEvent" enabled="1"/>
+  <Edge nodeIn="19" nodeOut="16" portIn="Str2" portOut="Name" enabled="1"/>
+  <Edge nodeIn="19" nodeOut="16" portIn="Str1" portOut="ShooterName" enabled="1"/>
+  <Edge nodeIn="19" nodeOut="16" portIn="Call" portOut="onEvent" enabled="1"/>
+  <Edge nodeIn="66" nodeOut="23" portIn="GetGameType" portOut="output" enabled="1"/>
+  <Edge nodeIn="40" nodeOut="38" portIn="Call" portOut="Released" enabled="1"/>
+  <Edge nodeIn="42" nodeOut="38" portIn="Call" portOut="Pressed" enabled="1"/>
+  <Edge nodeIn="76" nodeOut="38" portIn="send" portOut="Pressed" enabled="1"/>
+  <Edge nodeIn="77" nodeOut="38" portIn="send" portOut="Released" enabled="1"/>
+  <Edge nodeIn="63" nodeOut="61" portIn="Deaths" portOut="Deaths" enabled="1"/>
+  <Edge nodeIn="63" nodeOut="61" portIn="PlayerID" portOut="ID" enabled="1"/>
+  <Edge nodeIn="63" nodeOut="61" portIn="Kills" portOut="Kills" enabled="1"/>
+  <Edge nodeIn="63" nodeOut="61" portIn="Name" portOut="Name" enabled="1"/>
+  <Edge nodeIn="63" nodeOut="61" portIn="Call" portOut="onEvent" enabled="1"/>
+  <Edge nodeIn="38" nodeOut="66" portIn="Enable" portOut="DeathMatch" enabled="1"/>
+  <Edge nodeIn="73" nodeOut="67" portIn="PlayerID" portOut="ID" enabled="1"/>
+  <Edge nodeIn="74" nodeOut="67" portIn="in" portOut="onEvent" enabled="1"/>
+  <Edge nodeIn="73" nodeOut="74" portIn="Call" portOut="out" enabled="1"/>
+ </Edges>
+ <GraphTokens />
+</Graph>

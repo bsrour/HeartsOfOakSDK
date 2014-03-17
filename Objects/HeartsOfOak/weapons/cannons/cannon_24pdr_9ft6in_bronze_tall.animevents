@@ -1,0 +1,7 @@
+<anim_event_list>
+ <animation name="objects/drakes_legacy/weapons/cannons/cannon_24pdr_9ft6in_bronze_tall_recoil.anm">
+  <event name="sound" time="0.0010141988" endTime="0.0010141988" parameter="Sounds/weapons:tank_main_cannon:fire_3p" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="fire" time="0.0010141988" endTime="0.0010141988" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="sound" time="0.8488844" endTime="0.8488844" parameter="Sounds/weapons:tank_main_cannon:reload_fp" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+</anim_event_list>

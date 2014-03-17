@@ -1,0 +1,29 @@
+<!-- Category name, of your own choosing -->
+<UIElements name="HUD_NEW">
+ 
+  <!-- Object name, again, of your own choosing -->
+  <UIElement name="HUD_NEW" render_lockless="1">
+     
+   <!-- Point it to the correct files and give it some default settings -->
+    <GFx file="HUD_NEW.gfx" layer="0">
+      <Constraints>
+         <Align mode="dynamic" valign="top" halign="right" scale="1" max="0" />
+      </Constraints>
+    </GFx>
+ 
+    <!-- Map the function to change the message in the box -->
+    <functions>
+		<function name="ChangeDate" funcname="ChangeDate">
+            <param name="fDate" desc="" type="String"/>
+        </function> 
+		<function name="ChangeTime" funcname="ChangeTime">
+            <param name="fTime" desc="" type="String"/>
+        </function>
+		<function name="ChangeTimeScale" funcname="ChangeTimeScale">
+            <param name="fTimeScale" desc="" type="String"/>
+        </function> 
+    </functions>
+
+  </UIElement>
+   
+</UIElements>

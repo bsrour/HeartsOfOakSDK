@@ -1,0 +1,103 @@
+<item name="Cannon24lbBarrel" class="Weapon" invisible="0" weaponParams="1">
+	<params>
+		<param name="giveable" value="0" />
+		<param name="selectable" value="0" />
+		<param name="pickable" value="0" />
+		<param name="mountable" value="1" />
+		<param name="usable" value="1" />
+		<param name="stat_accuracy" value="1" />
+		<param name="stat_recoil" value="300" />
+		<param name="actionController" value="itemControllerDef.xml" />
+		<param name="mass" value="2000" />
+		<mount>
+			<param name="pivot" value="" />
+			<param name="min_pitch" value="-22" />
+			<param name="max_pitch" value="60" />
+			<param name="yaw_range" value="70" />
+			<param name="body_distance" value="2" />
+			<param name="ground_distance" value="1.18145" />
+			<param name="fpBody_offset" value="-0.0, -0.5, 2.1" />
+			<param name="fpBody_offset_ironsight" value="-0.0, -0.4, 2.1" />
+			<param name="left_hand_helper" value="grip_left" />
+			<param name="right_hand_helper" value="grip_right" />
+			<param name="rotate_sound_fp" value="Sounds/w_hmg:hmg_handling:move_stationary_fp" GAME="SP" />
+			<param name="rotate_sound_fp" value="Sounds/w_hmg_mp:hmg_handling:move_stationary_fp" GAME="MP" />
+			<param name="rotate_sound_tp" value="Sounds/w_hmg:hmg_handling:move_stationary_3p" GAME="SP" />
+			<param name="rotate_sound_tp" value="Sounds/w_hmg_mp:hmg_handling:move_stationary_3p" GAME="MP" />
+			<param name="shoot_sound_fp" value="Sounds/weapons:tank_main_cannon:fire_3p" />
+			<param name="shoot_sound_tp" value="Sounds/weapons:tank_main_cannon:fire_3p" />
+			<param name="shoot_recoil_anim" value="24pdr_9ft6in_bronze_tall_recoil" />
+			<param name="shoot_sound_override" value="true" />
+		</mount>
+	</params>
+	<ammos>
+		<ammo name="CannonBall" extra="0" amount="0" />
+	</ammos>
+	<spread>
+		<param name="min" value=".25" />
+		<param name="max" value="50" />
+		<param name="attack" value="2.5" />
+		
+	</spread>
+	<geometry>		
+		<firstperson name="Objects/HeartsOfOak/weapons/cannons/barrel_24pdr_9ft6in_bronze.cga" angles="0,0,0" position="0,0,0" />
+		<thirdperson name="Objects/HeartsOfOak/weapons/cannons/barrel_24pdr_9ft6in_bronze.cga" angles="0,0,0"/>
+		<attachment target="firstperson" name="magazine" bone="magazine" />
+		<attachment target="firstperson" name="silencer_attach" bone="silencer_attach" />
+		<attachment target="firstperson" name="muzzle_flash_effect" bone="weapon_term" />
+		<attachment target="firstperson" name="muzzle_flash_light" bone="weapon_term" />
+		<attachment target="firstperson" name="muzzle_flash_smoke" bone="weapon_term" />
+	</geometry>
+	
+	<Helpers>
+		<Helper name="cannonOut" position="-0.0634,5.9910002,1.8238" direction="0,1,0" part="cannon"/>	
+		<Helper name="weapon_term" position="0,4,2" direction="0,1,0" part="barrel"/>		
+	</Helpers>
+	
+	<actions>
+  	<action name="fire">
+		<animation target="firstperson" name="24pdr_9ft6in_bronze_tall_recoil" />
+		<sound target="firstperson" name="sounds/DrakesLegacy:Cannon_12ft_9pdr:Fire_02_reverb_fp" radius="500" static="1" />
+		<sound target="thirdperson" name="sounds/DrakesLegacy:Cannon_12ft_9pdr:Fire_02_reverb_fp" radius="500" static="1" />
+  	</action>
+  	<action name="reload">
+  		<sound target="firstperson" name="sounds/vehicles:abrams:hatch_close" radius="50" static="1" />
+  	</action>
+  </actions>
+	<firemodes>
+		<firemode name="Single" type="Single">
+			<fire>
+				<param name="ammo_type" value="CannonBall" />
+				<param name="clip_size" value="-1" />
+				<param name="rate" value="60" />
+				<param name="damage" value="600" />
+				<param name="reload_time" value="14.0" />
+				<param name="helper_tp" value="weapon_term" />
+				<param name="helper_fp" value="weapon_term" />
+			</fire>
+			<muzzleflash>
+				<firstperson effect="weapon_fx.cannon.cannonball.muzzle_flash" helper="weapon_term" light_helper="weapon_term" light_radius="20" light_time="0.06" light_color="236,183,83" light_diffuse_mult="10" />
+				<thirdperson effect="weapon_fx.cannon.cannonball.muzzle_flash" helper="weapon_term" light_helper="weapon_term" light_radius="20" light_time="0.06" light_color="236,183,83" light_diffuse_mult="10" />
+			</muzzleflash>
+		</firemode>
+	</firemodes>
+	
+	<accessories>
+		<defaultAccessoires>
+			<accessory name="cannonball_24pdr" GAME="SP" />
+		</defaultAccessoires>
+		<initialsetup>
+			<accessory name="24lbcarriage" GAME="SP" />
+		</initialsetup>
+
+		<accessory name="24lbcarriage">
+			<attach helper="barrel_24pdr_9ft6in_bronze" />
+			<detach />
+		</accessory>
+
+		<accessory name="cannonball_24pdr" category="ammo" exclusive="1" default="1" GAME="SP">
+			<attach helper="attachment_ammo" />
+			<detach />
+		</accessory>
+	</accessories>
+</item>

@@ -1,0 +1,11 @@
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Name="m_flag" MtlFlags="524418" Shader="Cloth" GenMask="100000000000" StringGenMask="%TEMP_CLOTH" SurfaceType="mat_fabric" MatTemplate="" Diffuse="0.26735809,0.26735809,0.26735809" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/heartsofoak/textures/flag_1_diff.dds"/>
+   </Textures>
+   <PublicParams AnimAmplitudeWav0="0" FresnelScale="1" FuzzynessSpread="1" FuzzynessStrength="1.5" FresnelBias="1" FuzzynessSmoothness="1" FuzzynessSaturation="1" DiffuseExponent="0.5" AnimFrequency="0" AnimAmplitudeWav2="0" AnimPhase="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams GlossFromDiffuseContrast="1" FresnelScale="1" GlossFromDiffuseOffset="0" FresnelBias="1" GlossFromDiffuseAmount="0" GlossFromDiffuseBrightness="0.333" IndirectColor="0.25,0.25,0.25"/>
+</Material>

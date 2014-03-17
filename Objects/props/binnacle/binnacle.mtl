@@ -1,0 +1,24 @@
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Name="SubMtl1" MtlFlags="524416" Shader="Illum" GenMask="8080200" StringGenMask="%BUMP_MAP%GLOSS_MAP%PARALLAX_OCCLUSION_MAPPING" SurfaceType="mat_metal" MatTemplate="" Diffuse="1,1,1" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1" CloakAmount="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/props/binnacle/binnacle_diff.dds"/>
+    <Texture Map="Specular" File="objects/props/binnacle/binnacle_spec.dds"/>
+    <Texture Map="Bumpmap" File="objects/props/binnacle/binnacle_ddn.dds"/>
+   </Textures>
+   <PublicParams SpecMapChannelB="0" SpecMapChannelR="0" GlossMapChannelB="0" PomDisplacement="0.025" SpecMapChannelG="0" FresnelScale="1" FresnelBias="1" SelfShadowStrength="3" HeightBias="1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="SubMtl2" MtlFlags="526496" Shader="Glass" GenMask="88010" StringGenMask="%BILINEAR_FP16%DIRT_MAP%GLOSS_MAP" SurfaceType="mat_glass_unbreakable" MatTemplate="" Diffuse="0.028991185,0.028991185,0.028991185" Specular="0.004614884,0.004614884,0.004614884" Emissive="0,0,0" Shininess="50" Opacity="0.43000001" CloakAmount="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/props/binnacle/binnacle_diff.dds"/>
+    <Texture Map="Specular" File="objects/props/binnacle/binnacle_spec.dds"/>
+    <Texture Map="Bumpmap" File="objects/props/binnacle/binnacle_ddn.dds"/>
+   </Textures>
+   <PublicParams BumpMapTile="1" TintColor="1,1,1" FresnelScale="1" FresnelBias="1" TintCloudiness="0" BackLightScale="0.5" BumpScale="0.1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="SubMtl3" MtlFlags="525440" Shader="NoDraw" GenMask="0" StringGenMask="" SurfaceType="mat_metal" MatTemplate="" Diffuse="1,1,1" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1" CloakAmount="0" LayerAct="1">
+   <Textures />
+  </Material>
+ </SubMaterials>
+ <PublicParams GlossFromDiffuseContrast="1" FresnelScale="1" GlossFromDiffuseOffset="0" FresnelBias="1" GlossFromDiffuseAmount="0" GlossFromDiffuseBrightness="0.333" IndirectColor="0.25,0.25,0.25"/>
+</Material>

@@ -1,0 +1,4 @@
+<Entity
+Name="Compass"
+Script="Scripts/Entities/ShipAccessories/Compass.lua"
+/>

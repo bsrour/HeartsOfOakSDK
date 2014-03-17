@@ -1,0 +1,34 @@
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Name="proxy" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_nodraw" MatTemplate="" Diffuse="0.5,0.5,0.5" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1" LayerAct="1">
+   <Textures />
+  </Material>
+  <Material Name="m_hull_one" MtlFlags="524418" Shader="Illum" GenMask="8080200" StringGenMask="%BUMP_MAP%GLOSS_MAP%PARALLAX_OCCLUSION_MAPPING" SurfaceType="mat_wood" MatTemplate="" Diffuse="0.71546543,0.37867627,0.12474094" Specular="0.12752977,0.12752977,0.12752977" Emissive="0,0,0" Shininess="200" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/heartsofoak/textures/wood_planks_1b_diff.dds">
+     <TexMod TileU="20" TileV="20"/>
+    </Texture>
+    <Texture Map="Specular" File="objects/heartsofoak/textures/wood_planks_1b_spec.dds"/>
+    <Texture Map="Bumpmap" File="objects/heartsofoak/textures/wood_planks_1b_ddn.dds"/>
+    <Texture Map="Detail" File="objects/heartsofoak/textures/decal_3_diff.tif">
+     <TexMod TileU="0.2"/>
+    </Texture>
+   </Textures>
+   <PublicParams SpecMapChannelB="0" SpecMapChannelR="0" GlossMapChannelB="0" PomDisplacement="0.0049999999" SpecMapChannelG="0" FresnelScale="1" FresnelBias="1" SelfShadowStrength="5" HeightBias="1" IndirectColor="0.26735809,0.26735809,0.26735809"/>
+  </Material>
+  <Material Name="damaged" MtlFlags="524418" Shader="Illum" GenMask="8080200" StringGenMask="%BUMP_MAP%GLOSS_MAP%PARALLAX_OCCLUSION_MAPPING" SurfaceType="mat_wood" MatTemplate="" Diffuse="0.71546543,0.37867627,0.12474094" Specular="0.12752977,0.12752977,0.12752977" Emissive="0,0,0" Shininess="50" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/heartsofoak/textures/wood_planks_1b_diff_damaged.dds">
+     <TexMod TileU="20" TileV="20"/>
+    </Texture>
+    <Texture Map="Specular" File="objects/heartsofoak/textures/wood_planks_1b_spec_damaged.dds"/>
+    <Texture Map="Bumpmap" File="objects/heartsofoak/textures/wood_planks_1b_ddn_damaged.dds"/>
+    <Texture Map="Detail" File="objects/heartsofoak/textures/decal_3_diff_damaged.dds">
+     <TexMod TileU="0.2"/>
+    </Texture>
+   </Textures>
+   <PublicParams SpecMapChannelB="0" SpecMapChannelR="0" GlossMapChannelB="0" PomDisplacement="0.0049999999" SpecMapChannelG="0" FresnelScale="1" FresnelBias="1" SelfShadowStrength="5" HeightBias="1" IndirectColor="0.26735809,0.26735809,0.26735809"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams GlossFromDiffuseContrast="1" FresnelScale="1" GlossFromDiffuseOffset="0" FresnelBias="1" GlossFromDiffuseAmount="0" GlossFromDiffuseBrightness="0.333" IndirectColor="0.25,0.25,0.25"/>
+</Material>

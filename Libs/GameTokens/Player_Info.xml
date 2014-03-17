@@ -1,0 +1,4 @@
+<GameTokensLibrary Name="Player Info">
+ <GameToken Name="PlayerStats.Status" Type="Bool" Value="false" LocalOnly="1"/>
+ <GameToken Name="PlayerStats.Position" Type="Vec3" Value="0,0,0" LocalOnly="1"/>
+</GameTokensLibrary>

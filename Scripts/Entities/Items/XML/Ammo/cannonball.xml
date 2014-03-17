@@ -1,0 +1,49 @@
+<ammo name="CannonBall" class="Bullet">
+	<geometry>
+		<firstperson name="Objects/heartsofoak/weapons/cannons/cannonball_24pdr.cgf" />
+		<thirdperson name="Objects/heartsofoak/weapons/cannons/cannonball_24pdr.cgf" />
+	</geometry>
+		
+	<flags>
+		<param name="serverspawn" value="1" />
+		<param name="predictspawn" value="1" />
+	</flags>
+	
+	<whiz>
+		<param name="sound" value="Sounds/physics:bullets/whizzes:bullet_whiz" />
+		<param name="distance" value="8.0" />
+	</whiz>
+	<ricochet>
+		<param name="sound" value="Sounds/physics:bullets/ricochets:bullet_ricochet" />
+	</ricochet>
+	
+	<physics type="particle">
+		<param name="mass" value="10.8" />
+		<param name="speed" value="500" />
+		<param name="radius" value="2" />
+		<param name="air_resistance" value="1" />
+		<param name="water_resistance" value="0.5" />
+		<param name="gravity" value="0, 0, -9.81" />
+		<param name="water_gravity" value="0, 0, -1" />
+		<param name="thrust" value="500" />
+		<param name="lift" value="0" />
+		<param name="min_bounce_speed" value="100" />
+		<param name="bounceableBullet" value="0" />
+		<param name="material" value="mat_metal" />
+		<param name="pierceability" value="100" />
+		<param name="single_contact" value="1" />
+	</physics>
+	<params>
+		<param name="lifetime" value="10" />
+		<param name="showtime" value="0" />
+	</params>
+	<!--trail>
+		<param name="effect" value="weapon_fx.tank.tank125.tracer.tracer" />
+		<param name="scale" value="1" />
+	</trail>
+	<trailUnderWater>
+		<param name="effect" value="weapon_fx.tank.tank125.tracer.tracer" />
+		<param name="scale" value="1" />
+	</trailUnderWater -->
+	
+</ammo>

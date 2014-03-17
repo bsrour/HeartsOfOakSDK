@@ -1,0 +1,30 @@
+<MusicThemeLibrary Name="HoO_music" SandboxVersion="3.5.8.2310">
+ <Theme Name="Default" Id="{1090706E-58DC-4F58-96A4-7AF7EC2B3E98}" Library="HoO_music" DefaultMood="" DefaultMoodTimeout="0" MoodCrossFadeTime="5">
+  <Moods>
+   <Mood Name="Darker" PlaySingle="0" Priority="0" FadeOutTime="5" FadeInTime="0" StartLayerPlayCount="-1">
+    <PatternSet MaxTimeout="120" MinTimeout="60" IncidentalLayerProbability="0" RhythmicLayerProbability="0" MaxSimultaneousIncidentalPatterns="1" MaxSimultaneousRhythmicPatterns="1" LoopCustomOrder="0">
+     <MainLayer>
+      <Pattern Name="Pattern0" ProbabilityPoints="1" CustomIndex="0" LayeringVolume="1" Filename="music/forest/sdk_set_dark.ogg" PreFadeIn="0"/>
+     </MainLayer>
+     <RhythmicLayer />
+     <IncidentalLayer />
+     <StartLayer />
+     <EndLayer />
+     <StingerLayer />
+    </PatternSet>
+   </Mood>
+   <Mood Name="Normal" PlaySingle="0" Priority="0" FadeOutTime="5" FadeInTime="0" StartLayerPlayCount="-1">
+    <PatternSet MaxTimeout="120" MinTimeout="60" IncidentalLayerProbability="0" RhythmicLayerProbability="0" MaxSimultaneousIncidentalPatterns="1" MaxSimultaneousRhythmicPatterns="1" LoopCustomOrder="0">
+     <MainLayer>
+      <Pattern Name="Pattern1" ProbabilityPoints="1" CustomIndex="0" LayeringVolume="1" Filename="music/level/hoo_theme.ogg" PreFadeIn="0"/>
+     </MainLayer>
+     <RhythmicLayer />
+     <IncidentalLayer />
+     <StartLayer />
+     <EndLayer />
+     <StingerLayer />
+    </PatternSet>
+   </Mood>
+  </Moods>
+ </Theme>
+</MusicThemeLibrary>

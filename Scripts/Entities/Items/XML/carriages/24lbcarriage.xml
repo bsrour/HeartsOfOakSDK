@@ -1,0 +1,10 @@
+<item name="24lbcarriage" class="Item" priority="111">
+  <params>
+    <param name="display_name" value="@mp_e24lbCarriage" />
+	<param name="mass" value="500" />
+  </params>
+  <geometry>
+    <firstperson name="Objects/heartsofoak/weapons/cannons/carriage_tall_24pdr.cga" />
+    <thirdperson name="Objects/heartsofoak/weapons/cannons/carriage_tall_24pdr.cga" />
+  </geometry>
+</item>

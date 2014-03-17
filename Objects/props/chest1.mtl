@@ -1,0 +1,18 @@
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Name="chest" MtlFlags="524420" Shader="Illum" GenMask="8080201" StringGenMask="%ALLOW_SILHOUETTE_POM%BUMP_MAP%GLOSS_MAP%PARALLAX_OCCLUSION_MAPPING" SurfaceType="mat_metal_thick" MatTemplate="" Diffuse="0.13902245,0.13902245,0.13902245" Specular="0.55422711,0.55422711,0.55422711" Emissive="0,0,0" Shininess="141" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/imobile/obiecte/chest/chest1_diff.tif"/>
+    <Texture Map="Specular" File="objects/imobile/obiecte/chest/chest1_spec.tif"/>
+    <Texture Map="Bumpmap" File="objects/imobile/obiecte/chest/chest1_ddn.tif"/>
+    <Texture Map="Heightmap" File="objects/imobile/obiecte/chest/chest1_disp.tif"/>
+   </Textures>
+   <PublicParams SpecMapChannelB="0" SpecMapChannelR="0" GlossMapChannelB="0" PomDisplacement="0.032200001" SpecMapChannelG="0" FresnelScale="18.440001" FresnelBias="1" SelfShadowStrength="4.2680001" HeightBias="1" IndirectColor="0.49950528,0.22331043,0.089193508"/>
+  </Material>
+  <Material Name="proxy" MtlFlags="524416" Shader="Illum" GenMask="1" StringGenMask="%ALLOW_SILHOUETTE_POM" SurfaceType="" MatTemplate="" Diffuse="1,0,0" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="0.5" LayerAct="1">
+   <Textures />
+   <PublicParams GlossFromDiffuseContrast="1" FresnelScale="1" GlossFromDiffuseOffset="0" FresnelBias="1" GlossFromDiffuseAmount="0" GlossFromDiffuseBrightness="0.333" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams GlossFromDiffuseContrast="1" FresnelScale="1" GlossFromDiffuseOffset="0" FresnelBias="1" GlossFromDiffuseAmount="0" GlossFromDiffuseBrightness="0.333" IndirectColor="0.25,0.25,0.25"/>
+</Material>

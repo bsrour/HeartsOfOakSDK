@@ -1,0 +1,92 @@
+<MusicLogic>
+ <Presets>
+  <Preset name="sdk_musiclogic">
+   <Node uid="1" pos="-430,-300,0" type="Mood" name="forest_ambient">
+    <Links>
+     <Link to="4"/>
+     <Link to="8"/>
+    </Links>
+   </Node>
+   <Node uid="2" pos="-170,-80,0" type="Mood" name="coast_ambient">
+    <Links>
+     <Link to="6"/>
+     <Link to="9"/>
+    </Links>
+   </Node>
+   <Node uid="3" pos="-710,-80,0" type="Mood" name="cave_ambient">
+    <Links>
+     <Link to="5"/>
+     <Link to="7"/>
+     <Link to="11"/>
+    </Links>
+   </Node>
+   <Node uid="4" pos="-570,-170,0" type="Condition">
+    <Conditions>
+     <Condition input="Location" value="2" timeMin="0" timeMax="0" operation="Equal"/>
+    </Conditions>
+    <Links>
+     <Link to="3"/>
+    </Links>
+   </Node>
+   <Node uid="5" pos="-410,-80,0" type="Condition">
+    <Conditions>
+     <Condition input="Location" value="3" timeMin="0" timeMax="0" operation="Equal"/>
+    </Conditions>
+    <Links>
+     <Link to="2"/>
+    </Links>
+   </Node>
+   <Node uid="6" pos="-320,-200,0" type="Condition">
+    <Conditions>
+     <Condition input="Location" value="1" timeMin="0" timeMax="0" operation="Equal"/>
+    </Conditions>
+    <Links>
+     <Link to="1"/>
+    </Links>
+   </Node>
+   <Node uid="7" pos="-670,-200,0" type="Condition">
+    <Conditions>
+     <Condition input="Location" value="1" timeMin="0" timeMax="0" operation="Equal"/>
+    </Conditions>
+    <Links>
+     <Link to="1"/>
+    </Links>
+   </Node>
+   <Node uid="8" pos="-200,-170,0" type="Condition">
+    <Conditions>
+     <Condition input="Location" value="3" timeMin="0" timeMax="0" operation="Equal"/>
+    </Conditions>
+    <Links>
+     <Link to="2"/>
+    </Links>
+   </Node>
+   <Node uid="9" pos="-410,-50,0" type="Condition">
+    <Conditions>
+     <Condition input="Location" value="2" timeMin="0" timeMax="0" operation="Equal"/>
+    </Conditions>
+    <Links>
+     <Link to="3"/>
+    </Links>
+   </Node>
+   <Node uid="10" pos="-720,120,0" type="Playlist" name="stinger_cave_enter">
+    <Links>
+     <Link to="13"/>
+    </Links>
+   </Node>
+   <Node uid="13" pos="-790,210,0" type="Event" name="STINGER_CAVE_ENTER_PLAYED">
+    <Links />
+   </Node>
+   <Node uid="11" pos="-720,30,0" type="Condition">
+    <Conditions>
+     <Condition input="StingerCaveEnter" value="0" timeMin="0" timeMax="0" operation="Equal"/>
+     <Condition input="PlayedSting" value="0.1" timeMin="0" timeMax="0" operation="GreaterThan"/>
+     <Condition input="TimeInPreviousMood" value="1" timeMin="0" timeMax="0" operation="GreaterThan"/>
+    </Conditions>
+    <Links>
+     <Link to="10"/>
+    </Links>
+   </Node>
+  </Preset>
+  <Preset name="HoO_MusicLogic"/>
+ </Presets>
+</MusicLogic>
