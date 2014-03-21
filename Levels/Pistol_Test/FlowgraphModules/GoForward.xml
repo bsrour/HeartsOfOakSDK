@@ -8,7 +8,7 @@
   <Node Id="2" Class="Module:End_GoForward" pos="510,-10,0" flags="0">
    <Inputs />
   </Node>
-  <Node Id="5" Class="Physics:ActionImpulse" pos="430,90,0" flags="0">
+  <Node Id="5" Class="Physics:ActionImpulse" pos="430,90,0" flags="1">
    <Inputs entityId="0" impulse="0,0,0" angImpulse="0,0,0" Point="0,0,0" partIndex="0" CoordSys="2"/>
   </Node>
   <Node Id="6" Class="Vec3:ToVec3" pos="170,140,0" flags="0">

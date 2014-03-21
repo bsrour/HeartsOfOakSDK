@@ -3,6 +3,8 @@ Script.ReloadScript( "Scripts/Entities/Physics/BasicEntity.lua" );
 -- Basic entity
 LyonHoy = {
 	Properties = {
+		fSinking = 0,
+		
 		bSerialize = 0, --by default rigid bodies are not being serialized (save/load)	
 		bDamagesPlayerOnCollisionSP = 0,
 	
@@ -67,8 +69,7 @@ LyonHoy = {
 			Hull = {
 				object_Model = "objects/default/primitive_cube.cgf", 
 				vectorOffsetPosition = {x=0,y=0,z=0},
-				fMass2 = 50000,
-				fMass = 0,
+				fMass = 95000,
 				fScale = 1,
 				bDraw = 0,
 			},			
@@ -79,7 +80,6 @@ LyonHoy = {
 			bActivateOnDamage = 0,
 			bResting = 1, -- If rigid body is originally in resting state.
 			bCanBreakOthers = 0,	
-			fSinking = 0,
 			air_resistance = 0,
 			Simulation =
 			{
@@ -143,6 +143,7 @@ LyonHoy = {
 	},
 	States = {"Default","Activated"},
 	bRigidBodyActive = 1,
+	dCount = 0,
 }
 
 local Physics_DX9MP_Simple = {
@@ -313,19 +314,12 @@ function LyonHoy:OnPropertyChange()
 	self:SetFromProperties();
 end
 
-function LyonHoy:OnUpdate()
-	--if self.Physics.fSinking > 0 then
-	self.Properties.Physics.Mass = self.Properties.Physics.Mass + self.Properties.Physics.fSinking;
-	Log(tostring(self.Properties.Physics.Mass));
-	--end
-end
-
 ------------------------------------------------------------------------------------------------------
 -- OnReset called only by the editor.
 ------------------------------------------------------------------------------------------------------
 function LyonHoy:OnReset()
 	self:ResetOnUsed()
-	
+	self:Activate(1);
 	self:SetFromProperties();
 	
 	local PhysProps = self.Properties.Physics;
@@ -380,16 +374,82 @@ function LyonHoy:OnPhysicsBreak( vPos,nPartId,nOtherPartId )
 	self.broken = 1;
 end
 
-function LyonHoy:OnSink(fMassAdd)
-	self.Properties.MassObjects.Damage.fMass = self.Properties.MassObjects.Damage.fMass + fMassAdd;
+---------------------------------------------------------------
+-- SINKING EFFECT
+---------------------------------------------------------------
+function LyonHoy:OnSink(damage)
+	
+	self.Properties.fSinking = self.Properties.fSinking + damage;
+	self.Properties.MassObjects.Damage.fMass = self.Properties.MassObjects.Damage.fMass + self.Properties.fSinking;
+	self:PhysicalizeThis();
+	self:SetSlotPos(98,self.Properties.MassObjects.Damage.vectorOffsetPosition);
+	self:DrawSlot(98,self.Properties.MassObjects.Damage.bDraw);
+end
+
+function LyonHoy.Client:OnHit( hit )
+	--randomly create smoke and fire at location
+	
+	--self:MakeFire(hit.normal);
+	self:MoveRandom();
+	self:OnSink(hit.damage);
+end
+
+function LyonHoy:MoveRandom()
+	local angStart = self.Properties.MassObjects.Damage.vectorOffsetPosition;
+	local r1 = (math.random() - math.random()) / 10;
+	local r2 = (math.random() - math.random());
+	local r3 = (math.random() - math.random()) / 10;
+
+	--Log(r1);
+	
+	angStart.x = angStart.x + r1;
+	angStart.y = angStart.y + r2;
+	angStart.z = angStart.z + r3;
+	
+	if (angStart.y > 3) then
+		angStart.y = 3
+	end
+	if (angStart.y < -3) then
+		angStart.y = -3
+	end
+	
+	self.Properties.MassObjects.Damage.vectorOffsetPosition = angStart;
+	--Log(self.Properties.MassObjects.Damage.vectorOffsetPosition.y);
+	--Log(self.Properties.MassObjects.Damage.fMass);
+end
+
+
+function LyonHoy:MakeFire(dPos)
+		local dProperties = {
+		soclasses_SmartObjectClass = "",
+		ParticleEffect="smoke_and_fire.campfire.small",
+		bActive=1,              -- Activate on startup
+		bEnableSound=1,         -- Allowed to play its sound event?
+		bPrime=1,               -- Starts in equilibrium state, as if activated in past
+		Scale=20,                -- Scale entire effect size.
+		SpeedScale=1,           -- Scale particle emission speed
+		TimeScale=1,            -- Scale emitter time evolution
+		CountScale=1,           -- Scale particle counts.
+		bCountPerUnit=0,        -- Multiply count by attachment extent
+		Strength=-1,            -- Custom param control
+		esAttachType="",        -- BoundingBox, Physics, Render
+		esAttachForm="",        -- Vertices, Edges, Surface, Volume
+		PulsePeriod=0,          -- Restart continually at this period.
+		NetworkSync=0,          -- Do I want to be bound to the network?
+		bRegisterByBBox=0,      -- Register In VisArea by BoundingBox, not by Position
+		};
+
+	local dParticleEffect = "smoke_and_fire.campfire.small";
+	self:LoadParticleEffect(750, dProperties.ParticleEffect, dProperties );
+	self:SetSlotPos(750, dPos);
+	Log(tostring(dPos.x));
 end
 
 ------------------------------------------------------------------------------------------------------
 function LyonHoy:OnDamage( hit )
-
-
+	self:OnSink(hit.damage);
+	
 	if (self:IsARigidBody() == 1) then
-				
 		if (self.Properties.Physics.bActivateOnDamage == 1) then
       if (hit.explosion and self:GetState()~="Activated") then
         BroadcastEvent(self, "Activate");

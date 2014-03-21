@@ -56,11 +56,6 @@
 		<Particle>
 			<Name>cannonball.hit_fabric.a</Name>
 		</Particle>
-		<RandEffect>
-			<Decal minscale="1" maxscale="1.5">
-				<Material>materials/decals/glass/glass</Material>
-			</Decal>
-		</RandEffect>
 		<Sound>
 			<Name>sounds/physics:cannonballs/impacts:dull</Name>
 		</Sound>

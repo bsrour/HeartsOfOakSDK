@@ -12,7 +12,5 @@
   <Ammo name="explosivegrenade" amount="0"/>
   <Ammo name="smokegrenade" amount="0"/>
   <Ammo name="CannonBall" amount="0"/>
-  <Ammo name="cannonball_12pdr" amount="0"/>
-  <Ammo name="cannonball_24pdr" amount="0"/>
  </Ammos>
 </EquipPack>

@@ -70,7 +70,7 @@ end
 function Compass:OnReset()
     --main body
 	if (self.Properties.object_Housing ~= "") then
-		self:LoadObject(0, self.Properties.object_Housing);
+		self:LoadObject(6, self.Properties.object_Housing);
 		--self:Physicalize(0, PE_STATIC, {mass = Mass, density = Density}); -- main body	
 	end
 	-- compass 1
@@ -101,11 +101,11 @@ function Compass:OnReset()
 	
 	-- add a candle effect 
 	if (self.Properties.Candle.sCandleParticle ~= "") then
-		self:LoadParticleEffect(1, self.Properties.Candle.sCandleParticle, {}); 
-		self:SetSlotPos(1, self.Properties.Candle.vectorCandlePosition);
-		self:DrawSlot(1,1);
-		self:SetSlotScale(1, self.Properties.Candle.fCandleScale);
-		self:SetSlotAngles(1, {1.5,0,0});
+		self:LoadParticleEffect(0, self.Properties.Candle.sCandleParticle, {}); 
+		self:SetSlotPos(0, self.Properties.Candle.vectorCandlePosition);
+		self:DrawSlot(0,1);
+		self:SetSlotScale(0, self.Properties.Candle.fCandleScale);
+		self:SetSlotAngles(0, {1.5,0,0});
 		
 	end
 

@@ -3,47 +3,56 @@
 		<firstperson name="Objects/heartsofoak/weapons/cannons/cannonball_24pdr.cgf" />
 		<thirdperson name="Objects/heartsofoak/weapons/cannons/cannonball_24pdr.cgf" />
 	</geometry>
-		
 	<flags>
 		<param name="serverspawn" value="1" />
-		<param name="predictspawn" value="1" />
+		<param name="clientonly" value="1" />
+		<param name="reusable" value="1" />
 	</flags>
-	
 	<whiz>
-		<param name="sound" value="Sounds/physics:bullets/whizzes:bullet_whiz" />
-		<param name="distance" value="8.0" />
+		<param name="sound" value="Sounds/cannonball:cannonball_whiz:miss" />
+		<param name="distance" value="10.0" />
 	</whiz>
 	<ricochet>
 		<param name="sound" value="Sounds/physics:bullets/ricochets:bullet_ricochet" />
 	</ricochet>
-	
 	<physics type="particle">
-		<param name="mass" value="10.8" />
-		<param name="speed" value="500" />
 		<param name="radius" value="2" />
+		<param name="mass" value="10.8" />
+		<param name="speed" value="120" GAME="SP"/>
+		<param name="speed" value="120" GAME="MP"/>
 		<param name="air_resistance" value="1" />
 		<param name="water_resistance" value="0.5" />
-		<param name="gravity" value="0, 0, -9.81" />
+		<param name="gravity" value="0, 0, -9.8" />
 		<param name="water_gravity" value="0, 0, -1" />
 		<param name="thrust" value="500" />
-		<param name="lift" value="0" />
-		<param name="min_bounce_speed" value="100" />
-		<param name="bounceableBullet" value="0" />
 		<param name="material" value="mat_metal" />
-		<param name="pierceability" value="100" />
-		<param name="single_contact" value="1" />
+		<param name="pierceability" value="8" />
+		<param name="single_contact" value="0" />
+<!-- 		<pierceabilityLevels>
+			<param name="level3" value="0" />
+			<param name="level2" value="60" />
+			<param name="level1" value="85" />
+			<param name="maxPenetrationThickness" value="1" />
+		</pierceabilityLevels> -->
 	</physics>
 	<params>
-		<param name="lifetime" value="10" />
+<!-- 		<param name="display_name" value="@mp_eCannonBall" />
+		<param name="ammo_category" value="Regular" /> -->
+		<param name="lifetime" value="4" GAME="SP" />
+		<param name="lifetime" value="1" GAME="MP" />
 		<param name="showtime" value="0" />
+		<!--<param name="bulletType" value="2" />  Bullet Type 2 - Assault rifle bullet 
+ 		<param name="hitRecoil" value="Level3" GAME="SP"/>
+		<param name="hitRecoil" value="Level4_mp" GAME="MP"/>
+		<param name="hitRecoilArmorMode" value="Level2" GAME="SP"/>
+		<param name="hitRecoilArmorMode" value="Level2_mp" GAME="MP"/>-->
 	</params>
-	<!--trail>
-		<param name="effect" value="weapon_fx.tank.tank125.tracer.tracer" />
-		<param name="scale" value="1" />
-	</trail>
 	<trailUnderWater>
-		<param name="effect" value="weapon_fx.tank.tank125.tracer.tracer" />
-		<param name="scale" value="1" />
-	</trailUnderWater -->
-	
+		<param name="effect" value="" />
+		<param name="scale" value="" />
+	</trailUnderWater>
+	<BulletTimeParams GAME="MP" >
+		<param name="geometry" value=""/>
+		<param name="effect" value=""/>
+	</BulletTimeParams>
 </ammo>

@@ -7,23 +7,28 @@
   <Node Id="2" Class="Module:End_Cannon_Auto_Fire" pos="630,-80,0" flags="0">
    <Inputs />
   </Node>
-  <Node Id="12" Class="Math:Random" pos="-80,40,0" flags="0">
-   <Inputs min="0.5" max="2"/>
-  </Node>
-  <Node Id="13" Class="Time:Timer" pos="160,50,0" flags="0">
-   <Inputs period="0" min="0" max="0" paused="0"/>
-  </Node>
-  <Node Id="14" Class="Weapon:FireWeapon" pos="370,20,0" flags="0">
+  <Node Id="14" Class="Weapon:FireWeapon" pos="530,30,0" flags="0">
    <Inputs entityId="0" TargetId="0" TargetPos="0,0,0" AlignToTarget="0" NumberOfShots="0" Accuracy="1"/>
+  </Node>
+  <Node Id="15" Class="Entity:GetPos" pos="-100,80,0" flags="0">
+   <Inputs entityId="0" CoordSys="1"/>
+  </Node>
+  <Node Id="18" Class="Vec3:FromVec3" pos="160,120,0" flags="0">
+   <Inputs vec3="0,0,0"/>
+  </Node>
+  <Node Id="19" Class="Math:Less" pos="340,130,0" flags="0">
+   <Inputs A="0" B="16"/>
   </Node>
  </Nodes>
  <Edges>
   <Edge nodeIn="2" nodeOut="1" portIn="Cancel" portOut="Cancel" enabled="1"/>
-  <Edge nodeIn="12" nodeOut="1" portIn="generate" portOut="Start" enabled="1"/>
   <Edge nodeIn="14" nodeOut="1" portIn="entityId" portOut="EntityId" enabled="1"/>
-  <Edge nodeIn="13" nodeOut="12" portIn="period" portOut="out" enabled="1"/>
-  <Edge nodeIn="14" nodeOut="13" portIn="StartFire" portOut="out" enabled="1"/>
+  <Edge nodeIn="15" nodeOut="1" portIn="entityId" portOut="EntityId" enabled="1"/>
+  <Edge nodeIn="15" nodeOut="1" portIn="Get" portOut="Start" enabled="1"/>
   <Edge nodeIn="2" nodeOut="14" portIn="Success" portOut="FireStopped" enabled="1"/>
+  <Edge nodeIn="18" nodeOut="15" portIn="vec3" portOut="Pos" enabled="1"/>
+  <Edge nodeIn="19" nodeOut="18" portIn="A" portOut="z" enabled="1"/>
+  <Edge nodeIn="14" nodeOut="19" portIn="StartFire" portOut="out" enabled="1"/>
  </Edges>
  <GraphTokens />
 </Graph>

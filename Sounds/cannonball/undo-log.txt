@@ -1,0 +1,84 @@
+17:47:00 c:\anthill_jobs\job534797\fmod4\tools\fmod_designer\src\builddialog.ui.h:186 AF: Modify Build Settings
+17:51:52 ..\..\src\propertyeditor.cpp:4234 ER: Set Loop Mode
+17:52:17 ..\..\src\propertyslider.cpp:315 EV: Set Volume
+17:52:17 ..\..\src\propertyslider.cpp:315 EV: Set Volume
+17:52:17 ..\..\src\propertyslider.cpp:315 EV: Set Volume
+17:52:17 ..\..\src\propertyslider.cpp:315 EV: Set Volume
+17:52:17 ..\..\src\propertyslider.cpp:315 EV: Set Volume
+17:52:17 ..\..\src\propertyslider.cpp:315 EV: Set Volume
+17:52:17 ..\..\src\propertyslider.cpp:315 EV: Set Volume
+17:52:17 ..\..\src\propertyslider.cpp:315 EV: Set Volume
+17:52:17 ..\..\src\propertyslider.cpp:315 EV: Set Volume
+17:52:17 ..\..\src\propertyslider.cpp:315 EV: Set Volume
+17:52:17 ..\..\src\propertyslider.cpp:315 EV: Set Volume
+17:52:18 ..\..\src\propertyslider.cpp:315 EV: Set Volume
+17:52:18 ..\..\src\propertyslider.cpp:315 EV: Set Volume
+17:52:18 ..\..\src\propertyslider.cpp:315 EV: Set Volume
+17:52:18 ..\..\src\propertyslider.cpp:315 EV: Set Volume
+17:52:18 ..\..\src\propertyslider.cpp:315 EV: Set Volume
+17:52:18 ..\..\src\propertyslider.cpp:315 EV: Set Volume
+17:52:18 ..\..\src\propertyslider.cpp:315 EV: Set Volume
+17:52:18 ..\..\src\propertyslider.cpp:315 EV: Set Volume
+17:52:18 ..\..\src\propertyslider.cpp:315 EV: Set Volume
+17:52:18 ..\..\src\propertyslider.cpp:315 EV: Set Volume
+17:52:18 ..\..\src\propertyslider.cpp:315 EV: Set Volume
+17:52:18 ..\..\src\propertyslider.cpp:315 EV: Set Volume
+17:52:18 ..\..\src\propertyslider.cpp:315 EV: Set Volume
+17:52:18 ..\..\src\propertyslider.cpp:315 EV: Set Volume
+17:52:18 ..\..\src\propertyslider.cpp:315 EV: Set Volume
+17:52:18 ..\..\src\propertyslider.cpp:315 EV: Set Volume
+17:52:18 ..\..\src\propertyslider.cpp:315 EV: Set Volume
+17:52:18 ..\..\src\propertyslider.cpp:315 EV: Set Volume
+17:52:18 ..\..\src\propertyslider.cpp:315 EV: Set Volume
+17:52:18 ..\..\src\propertyslider.cpp:315 EV: Set Volume
+17:52:18 ..\..\src\propertyslider.cpp:315 EV: Set Volume
+17:52:18 ..\..\src\propertyslider.cpp:315 EV: Set Volume
+17:52:18 ..\..\src\propertyslider.cpp:315 EV: Set Volume
+17:52:18 ..\..\src\propertyslider.cpp:315 EV: Set Volume
+17:52:18 ..\..\src\propertyslider.cpp:315 EV: Set Volume
+17:52:18 ..\..\src\propertyslider.cpp:315 EV: Set Volume
+17:52:18 ..\..\src\propertyslider.cpp:315 EV: Set Volume
+17:52:18 ..\..\src\propertyslider.cpp:315 EV: Set Volume
+17:52:18 ..\..\src\propertyslider.cpp:315 EV: Set Volume
+17:52:18 ..\..\src\propertyslider.cpp:315 EV: Set Volume
+17:52:18 ..\..\src\propertyslider.cpp:315 EV: Set Volume
+17:52:18 ..\..\src\propertyslider.cpp:315 EV: Set Volume
+17:52:18 ..\..\src\propertyslider.cpp:315 EV: Set Volume
+17:52:18 ..\..\src\propertyslider.cpp:315 EV: Set Volume
+17:52:18 ..\..\src\propertyslider.cpp:315 EV: Set Volume
+17:52:18 ..\..\src\propertyslider.cpp:315 EV: Set Volume
+17:52:18 ..\..\src\propertyslider.cpp:315 EV: Set Volume
+17:52:18 ..\..\src\propertyslider.cpp:315 EV: Set Volume
+17:52:18 ..\..\src\propertyslider.cpp:315 EV: Set Volume
+17:52:18 ..\..\src\propertyslider.cpp:315 EV: Set Volume
+17:52:18 ..\..\src\propertyslider.cpp:315 EV: Set Volume
+17:52:18 ..\..\src\propertyslider.cpp:315 EV: Set Volume
+17:52:19 ..\..\src\propertyslider.cpp:315 EV: Set Volume
+17:52:19 ..\..\src\propertyslider.cpp:315 EV: Set Volume
+17:52:19 ..\..\src\propertyslider.cpp:315 EV: Set Volume
+17:52:19 ..\..\src\propertyslider.cpp:315 EV: Set Volume
+17:52:19 ..\..\src\propertyslider.cpp:315 EV: Set Volume
+17:52:26 ..\..\src\propertyeditor.cpp:2619 EO: Set Volume
+11:42:21 c:\anthill_jobs\job534797\fmod4\tools\fmod_designer\src\eventform.ui.h:1428 BY: Add Event
+11:43:05 c:\anthill_jobs\job534797\fmod4\tools\fmod_designer\src\sounddefform.ui.h:1213 FI: Add Sound Def
+11:43:11 c:\anthill_jobs\job534797\fmod4\tools\fmod_designer\src\sounddefform.ui.h:1337 FK: Add Sound File
+11:44:14 ..\..\src\eventlayerstackwidget.cpp:1334 CV: Add Sound
+11:44:21 ..\..\src\parameterstackwidget.cpp:274 EK: Add Parameter
+11:44:31 c:\anthill_jobs\job534797\fmod4\tools\fmod_designer\src\parameterpropertiesdialog.ui.h:116 EJ: Change Parameter Properties
+11:44:41 ..\..\src\propertyeditor.cpp:4234 ER: Set Mode
+12:03:32 ..\..\src\propertyeditor.cpp:2619 EO: Set x 2D Speaker C
+12:03:34 ..\..\src\propertyeditor.cpp:2619 EO: Set x 2D Speaker LR
+12:03:35 ..\..\src\propertyeditor.cpp:2619 EO: Set x 2D Speaker RR
+12:03:37 ..\..\src\propertyeditor.cpp:2619 EO: Set x 2D Speaker LS
+12:03:38 ..\..\src\propertyeditor.cpp:2619 EO: Set x 2D Speaker RS
+12:03:39 ..\..\src\propertyeditor.cpp:2619 EO: Set x Speaker LFE
+12:03:46 ..\..\src\propertyeditor.cpp:2619 EO: Set x Speaker LFE
+12:03:50 ..\..\src\propertyslider.cpp:315 EV: Set x Speaker LFE
+12:03:55 ..\..\src\propertyslider.cpp:315 EV: Set x Speaker LFE
+12:04:53 ..\..\src\propertyeditor.cpp:3444 EQ: Set Priority
+12:04:53 ..\..\src\propertyeditor.cpp:3444 EQ: Set Priority
+12:04:53 ..\..\src\propertyeditor.cpp:3444 EQ: Set Priority
+12:04:57 ..\..\src\propertyeditor.cpp:3444 EQ: Set Max Playbacks
+12:04:57 ..\..\src\propertyeditor.cpp:3444 EQ: Set Max Playbacks
+12:04:57 ..\..\src\propertyeditor.cpp:3444 EQ: Set Max Playbacks
+12:05:05 ..\..\src\propertyeditor.cpp:2619 EO: Set Spawn Intensity

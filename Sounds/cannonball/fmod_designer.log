@@ -1,0 +1,500 @@
+Warning: QPainter::begin: Paint device returned engine == 0, type: 1
+Warning: QPainter::setPen: Painter not active
+Warning: QPainter::setBrush: Painter not active
+Warning: QPainter::setRenderHint: Painter must be active to set rendering hints
+Warning: QPainter::setPen: Painter not active
+Debug: 
+Building project 'cannonball'...
+Debug: Building project F:\Projects\CRYENGINE\HeartsOfOakSDK\Sounds\cannonball\cannonball.fev...
+Debug: Unique sound defs 2/6
+Debug: Retrieving sound file info...
+Debug: Retrieving reverb info...
+Debug: FEV file written ok
+Debug: Unique Envelope Points: 10 of 13
+Debug: Unique Strings: 279 characters of 288
+Debug: Caching sound file details for ''...
+Debug: cannonball_whiz_2.ogg
+Debug: cannonball_whiz_3.ogg
+Debug: cannonball_whiz_4.ogg
+Debug: cannonball_whiz_5.ogg
+Debug: files\9lb_fire.ogg
+Debug: files\9lb_fire_modebass.ogg
+Debug: files\9lb_fire_modebass_2.ogg
+Debug: files\Cannon_9pdr_01.wav
+Debug: Building 'cannonball_bank00.fsb'
+Debug: Encoded F:\Projects\CRYENGINE\HeartsOfOakSDK\Sounds\cannonball\cannonball_whiz_2.ogg
+Debug: Encoded F:\Projects\CRYENGINE\HeartsOfOakSDK\Sounds\cannonball\cannonball_whiz_3.ogg
+Debug: Encoded F:\Projects\CRYENGINE\HeartsOfOakSDK\Sounds\cannonball\cannonball_whiz_4.ogg
+Debug: Encoded F:\Projects\CRYENGINE\HeartsOfOakSDK\Sounds\cannonball\cannonball_whiz_5.ogg
+Debug: Encoded F:\Projects\CRYENGINE\HeartsOfOakSDK\Sounds\cannonball\files\9lb_fire.ogg
+Debug: Encoded F:\Projects\CRYENGINE\HeartsOfOakSDK\Sounds\cannonball\files\9lb_fire_modebass.ogg
+Debug: Encoded F:\Projects\CRYENGINE\HeartsOfOakSDK\Sounds\cannonball\files\9lb_fire_modebass_2.ogg
+Debug: Encoded F:\Projects\CRYENGINE\HeartsOfOakSDK\Sounds\cannonball\files\Cannon_9pdr_01.wav
+Debug: Writing FSB...
+Debug: Finished building FSB
+Debug: 
+Debug: 
+Summary of build:
+SUCCESS: F:/Projects/CRYENGINE/HeartsOfOakSDK/Sounds/cannonball/cannonball.fev
+SUCCESS: cannonball_bank00.fsb
+Debug: "17:47:00 c:\anthill_jobs\job534797\fmod4\tools\fmod_designer\src\builddialog.ui.h:186 AF: Modify Build Settings" 
+Debug: 
+Building project 'cannonball'...
+Debug: Building project F:\Projects\CRYENGINE\HeartsOfOakSDK\Sounds\cannonball\cannonball.fev...
+Debug: Unique sound defs 2/6
+Debug: Retrieving sound file info...
+Debug: Retrieving reverb info...
+Debug: FEV file written ok
+Debug: Unique Envelope Points: 10 of 13
+Debug: Unique Strings: 279 characters of 288
+Debug: Building header file F:\Projects\CRYENGINE\HeartsOfOakSDK\Sounds\cannonball\cannonball.h...
+Debug: Caching sound file details for ''...
+Debug: cannonball_whiz_2.ogg
+Debug: cannonball_whiz_3.ogg
+Debug: cannonball_whiz_4.ogg
+Debug: cannonball_whiz_5.ogg
+Debug: files\9lb_fire.ogg
+Debug: files\9lb_fire_modebass.ogg
+Debug: files\9lb_fire_modebass_2.ogg
+Debug: files\Cannon_9pdr_01.wav
+Debug: Building 'cannonball_bank00.fsb'
+Debug: Encoded F:\Projects\CRYENGINE\HeartsOfOakSDK\Sounds\cannonball\cannonball_whiz_2.ogg
+Debug: Encoded F:\Projects\CRYENGINE\HeartsOfOakSDK\Sounds\cannonball\cannonball_whiz_3.ogg
+Debug: Encoded F:\Projects\CRYENGINE\HeartsOfOakSDK\Sounds\cannonball\cannonball_whiz_4.ogg
+Debug: Encoded F:\Projects\CRYENGINE\HeartsOfOakSDK\Sounds\cannonball\cannonball_whiz_5.ogg
+Debug: Encoded F:\Projects\CRYENGINE\HeartsOfOakSDK\Sounds\cannonball\files\9lb_fire.ogg
+Debug: Encoded F:\Projects\CRYENGINE\HeartsOfOakSDK\Sounds\cannonball\files\9lb_fire_modebass.ogg
+Debug: Encoded F:\Projects\CRYENGINE\HeartsOfOakSDK\Sounds\cannonball\files\9lb_fire_modebass_2.ogg
+Debug: Encoded F:\Projects\CRYENGINE\HeartsOfOakSDK\Sounds\cannonball\files\Cannon_9pdr_01.wav
+Debug: Writing FSB...
+Debug: Finished building FSB
+Debug: 
+Debug: 
+Summary of build:
+SUCCESS: F:/Projects/CRYENGINE/HeartsOfOakSDK/Sounds/cannonball/cannonball.fev
+SUCCESS: F:/Projects/CRYENGINE/HeartsOfOakSDK/Sounds/cannonball/cannonball.h
+SUCCESS: cannonball_bank00.fsb
+Debug: 
+Building project 'cannonball'...
+Debug: Building project F:\Projects\CRYENGINE\HeartsOfOakSDK\Sounds\cannonball\cannonball.fev...
+Debug: Unique sound defs 2/6
+Debug: Retrieving sound file info...
+Debug: Retrieving reverb info...
+Debug: FEV file written ok
+Debug: Unique Envelope Points: 10 of 13
+Debug: Unique Strings: 279 characters of 288
+Debug: Building header file F:\Projects\CRYENGINE\HeartsOfOakSDK\Sounds\cannonball\cannonball.h...
+Debug: Caching sound file details for ''...
+Debug: cannonball_whiz_2.ogg
+Debug: cannonball_whiz_3.ogg
+Debug: cannonball_whiz_4.ogg
+Debug: cannonball_whiz_5.ogg
+Debug: files\9lb_fire.ogg
+Debug: files\9lb_fire_modebass.ogg
+Debug: files\9lb_fire_modebass_2.ogg
+Debug: files\Cannon_9pdr_01.wav
+Debug: Building 'cannonball_bank00.fsb'
+Debug: Encoded F:\Projects\CRYENGINE\HeartsOfOakSDK\Sounds\cannonball\cannonball_whiz_3.ogg
+Debug: Encoded F:\Projects\CRYENGINE\HeartsOfOakSDK\Sounds\cannonball\cannonball_whiz_2.ogg
+Debug: Encoded F:\Projects\CRYENGINE\HeartsOfOakSDK\Sounds\cannonball\cannonball_whiz_4.ogg
+Debug: Encoded F:\Projects\CRYENGINE\HeartsOfOakSDK\Sounds\cannonball\cannonball_whiz_5.ogg
+Debug: Encoded F:\Projects\CRYENGINE\HeartsOfOakSDK\Sounds\cannonball\files\9lb_fire.ogg
+Debug: Encoded F:\Projects\CRYENGINE\HeartsOfOakSDK\Sounds\cannonball\files\9lb_fire_modebass.ogg
+Debug: Encoded F:\Projects\CRYENGINE\HeartsOfOakSDK\Sounds\cannonball\files\9lb_fire_modebass_2.ogg
+Debug: Encoded F:\Projects\CRYENGINE\HeartsOfOakSDK\Sounds\cannonball\files\Cannon_9pdr_01.wav
+Debug: Writing FSB...
+Debug: Finished building FSB
+Debug: 
+Debug: 
+Summary of build:
+SUCCESS: F:/Projects/CRYENGINE/HeartsOfOakSDK/Sounds/cannonball/cannonball.fev
+SUCCESS: F:/Projects/CRYENGINE/HeartsOfOakSDK/Sounds/cannonball/cannonball.h
+SUCCESS: cannonball_bank00.fsb
+Warning: QColor::setHsv: HSV parameters out of range
+Warning: QColor::setHsv: HSV parameters out of range
+Debug: 
+Building project 'cannonball'...
+Debug: Building project F:\Projects\CRYENGINE\HeartsOfOakSDK\Sounds\cannonball\cannonball.fev...
+Debug: Unique sound defs 2/6
+Debug: Retrieving sound file info...
+Debug: Retrieving reverb info...
+Debug: FEV file written ok
+Debug: Unique Envelope Points: 10 of 13
+Debug: Unique Strings: 279 characters of 288
+Debug: Building header file F:\Projects\CRYENGINE\HeartsOfOakSDK\Sounds\cannonball\cannonball.h...
+Debug: Caching sound file details for ''...
+Debug: cannonball_whiz_2.ogg
+Debug: cannonball_whiz_3.ogg
+Debug: cannonball_whiz_4.ogg
+Debug: cannonball_whiz_5.ogg
+Debug: files\9lb_fire.ogg
+Debug: files\9lb_fire_modebass.ogg
+Debug: files\9lb_fire_modebass_2.ogg
+Debug: files\Cannon_9pdr_01.wav
+Debug: Building 'cannonball_bank00.fsb'
+Debug: Encoded F:\Projects\CRYENGINE\HeartsOfOakSDK\Sounds\cannonball\cannonball_whiz_3.ogg
+Debug: Encoded F:\Projects\CRYENGINE\HeartsOfOakSDK\Sounds\cannonball\cannonball_whiz_2.ogg
+Debug: Encoded F:\Projects\CRYENGINE\HeartsOfOakSDK\Sounds\cannonball\cannonball_whiz_4.ogg
+Debug: Encoded F:\Projects\CRYENGINE\HeartsOfOakSDK\Sounds\cannonball\cannonball_whiz_5.ogg
+Debug: Encoded F:\Projects\CRYENGINE\HeartsOfOakSDK\Sounds\cannonball\files\9lb_fire.ogg
+Debug: Encoded F:\Projects\CRYENGINE\HeartsOfOakSDK\Sounds\cannonball\files\9lb_fire_modebass.ogg
+Debug: Encoded F:\Projects\CRYENGINE\HeartsOfOakSDK\Sounds\cannonball\files\9lb_fire_modebass_2.ogg
+Debug: Encoded F:\Projects\CRYENGINE\HeartsOfOakSDK\Sounds\cannonball\files\Cannon_9pdr_01.wav
+Debug: Writing FSB...
+Debug: Finished building FSB
+Debug: 
+Debug: 
+Summary of build:
+SUCCESS: F:/Projects/CRYENGINE/HeartsOfOakSDK/Sounds/cannonball/cannonball.fev
+SUCCESS: F:/Projects/CRYENGINE/HeartsOfOakSDK/Sounds/cannonball/cannonball.h
+SUCCESS: cannonball_bank00.fsb
+Debug: 
+Building project 'cannonball'...
+Debug: Building project F:\Projects\CRYENGINE\HeartsOfOakSDK\Sounds\cannonball\cannonball.fev...
+Debug: Unique sound defs 2/6
+Debug: Retrieving sound file info...
+Debug: Retrieving reverb info...
+Debug: FEV file written ok
+Debug: Unique Envelope Points: 10 of 13
+Debug: Unique Strings: 279 characters of 288
+Debug: Building header file F:\Projects\CRYENGINE\HeartsOfOakSDK\Sounds\cannonball\cannonball.h...
+Debug: Caching sound file details for ''...
+Debug: cannonball_whiz_2.ogg
+Debug: cannonball_whiz_3.ogg
+Debug: cannonball_whiz_4.ogg
+Debug: cannonball_whiz_5.ogg
+Debug: files\9lb_fire.ogg
+Debug: files\9lb_fire_modebass.ogg
+Debug: files\9lb_fire_modebass_2.ogg
+Debug: files\Cannon_9pdr_01.wav
+Debug: Building 'cannonball_bank00.fsb'
+Debug: Encoded F:\Projects\CRYENGINE\HeartsOfOakSDK\Sounds\cannonball\cannonball_whiz_2.ogg
+Debug: Encoded F:\Projects\CRYENGINE\HeartsOfOakSDK\Sounds\cannonball\cannonball_whiz_3.ogg
+Debug: Encoded F:\Projects\CRYENGINE\HeartsOfOakSDK\Sounds\cannonball\cannonball_whiz_4.ogg
+Debug: Encoded F:\Projects\CRYENGINE\HeartsOfOakSDK\Sounds\cannonball\cannonball_whiz_5.ogg
+Debug: Encoded F:\Projects\CRYENGINE\HeartsOfOakSDK\Sounds\cannonball\files\9lb_fire.ogg
+Debug: Encoded F:\Projects\CRYENGINE\HeartsOfOakSDK\Sounds\cannonball\files\9lb_fire_modebass.ogg
+Debug: Encoded F:\Projects\CRYENGINE\HeartsOfOakSDK\Sounds\cannonball\files\9lb_fire_modebass_2.ogg
+Debug: Encoded F:\Projects\CRYENGINE\HeartsOfOakSDK\Sounds\cannonball\files\Cannon_9pdr_01.wav
+Debug: Writing FSB...
+Debug: Finished building FSB
+Debug: 
+Debug: 
+Summary of build:
+SUCCESS: F:/Projects/CRYENGINE/HeartsOfOakSDK/Sounds/cannonball/cannonball.fev
+SUCCESS: F:/Projects/CRYENGINE/HeartsOfOakSDK/Sounds/cannonball/cannonball.h
+SUCCESS: cannonball_bank00.fsb
+Warning: QColor::setHsv: HSV parameters out of range
+Debug: "17:51:52 ..\..\src\propertyeditor.cpp:4234 ER: Set Loop Mode" 
+Debug: "17:52:17 ..\..\src\propertyslider.cpp:315 EV: Set Volume" 
+Debug: "17:52:17 ..\..\src\propertyslider.cpp:315 EV: Set Volume" 
+Debug: "17:52:17 ..\..\src\propertyslider.cpp:315 EV: Set Volume" 
+Debug: "17:52:17 ..\..\src\propertyslider.cpp:315 EV: Set Volume" 
+Debug: "17:52:17 ..\..\src\propertyslider.cpp:315 EV: Set Volume" 
+Debug: "17:52:17 ..\..\src\propertyslider.cpp:315 EV: Set Volume" 
+Debug: "17:52:17 ..\..\src\propertyslider.cpp:315 EV: Set Volume" 
+Debug: "17:52:17 ..\..\src\propertyslider.cpp:315 EV: Set Volume" 
+Debug: "17:52:17 ..\..\src\propertyslider.cpp:315 EV: Set Volume" 
+Debug: "17:52:17 ..\..\src\propertyslider.cpp:315 EV: Set Volume" 
+Debug: "17:52:17 ..\..\src\propertyslider.cpp:315 EV: Set Volume" 
+Debug: "17:52:18 ..\..\src\propertyslider.cpp:315 EV: Set Volume" 
+Debug: "17:52:18 ..\..\src\propertyslider.cpp:315 EV: Set Volume" 
+Debug: "17:52:18 ..\..\src\propertyslider.cpp:315 EV: Set Volume" 
+Debug: "17:52:18 ..\..\src\propertyslider.cpp:315 EV: Set Volume" 
+Debug: "17:52:18 ..\..\src\propertyslider.cpp:315 EV: Set Volume" 
+Debug: "17:52:18 ..\..\src\propertyslider.cpp:315 EV: Set Volume" 
+Debug: "17:52:18 ..\..\src\propertyslider.cpp:315 EV: Set Volume" 
+Debug: "17:52:18 ..\..\src\propertyslider.cpp:315 EV: Set Volume" 
+Debug: "17:52:18 ..\..\src\propertyslider.cpp:315 EV: Set Volume" 
+Debug: "17:52:18 ..\..\src\propertyslider.cpp:315 EV: Set Volume" 
+Debug: "17:52:18 ..\..\src\propertyslider.cpp:315 EV: Set Volume" 
+Debug: "17:52:18 ..\..\src\propertyslider.cpp:315 EV: Set Volume" 
+Debug: "17:52:18 ..\..\src\propertyslider.cpp:315 EV: Set Volume" 
+Debug: "17:52:18 ..\..\src\propertyslider.cpp:315 EV: Set Volume" 
+Debug: "17:52:18 ..\..\src\propertyslider.cpp:315 EV: Set Volume" 
+Debug: "17:52:18 ..\..\src\propertyslider.cpp:315 EV: Set Volume" 
+Debug: "17:52:18 ..\..\src\propertyslider.cpp:315 EV: Set Volume" 
+Debug: "17:52:18 ..\..\src\propertyslider.cpp:315 EV: Set Volume" 
+Debug: "17:52:18 ..\..\src\propertyslider.cpp:315 EV: Set Volume" 
+Debug: "17:52:18 ..\..\src\propertyslider.cpp:315 EV: Set Volume" 
+Debug: "17:52:18 ..\..\src\propertyslider.cpp:315 EV: Set Volume" 
+Debug: "17:52:18 ..\..\src\propertyslider.cpp:315 EV: Set Volume" 
+Debug: "17:52:18 ..\..\src\propertyslider.cpp:315 EV: Set Volume" 
+Debug: "17:52:18 ..\..\src\propertyslider.cpp:315 EV: Set Volume" 
+Debug: "17:52:18 ..\..\src\propertyslider.cpp:315 EV: Set Volume" 
+Debug: "17:52:18 ..\..\src\propertyslider.cpp:315 EV: Set Volume" 
+Debug: "17:52:18 ..\..\src\propertyslider.cpp:315 EV: Set Volume" 
+Debug: "17:52:18 ..\..\src\propertyslider.cpp:315 EV: Set Volume" 
+Debug: "17:52:18 ..\..\src\propertyslider.cpp:315 EV: Set Volume" 
+Debug: "17:52:18 ..\..\src\propertyslider.cpp:315 EV: Set Volume" 
+Debug: "17:52:18 ..\..\src\propertyslider.cpp:315 EV: Set Volume" 
+Debug: "17:52:18 ..\..\src\propertyslider.cpp:315 EV: Set Volume" 
+Debug: "17:52:18 ..\..\src\propertyslider.cpp:315 EV: Set Volume" 
+Debug: "17:52:18 ..\..\src\propertyslider.cpp:315 EV: Set Volume" 
+Debug: "17:52:18 ..\..\src\propertyslider.cpp:315 EV: Set Volume" 
+Debug: "17:52:18 ..\..\src\propertyslider.cpp:315 EV: Set Volume" 
+Debug: "17:52:18 ..\..\src\propertyslider.cpp:315 EV: Set Volume" 
+Debug: "17:52:18 ..\..\src\propertyslider.cpp:315 EV: Set Volume" 
+Debug: "17:52:18 ..\..\src\propertyslider.cpp:315 EV: Set Volume" 
+Debug: "17:52:18 ..\..\src\propertyslider.cpp:315 EV: Set Volume" 
+Debug: "17:52:18 ..\..\src\propertyslider.cpp:315 EV: Set Volume" 
+Debug: "17:52:18 ..\..\src\propertyslider.cpp:315 EV: Set Volume" 
+Debug: "17:52:19 ..\..\src\propertyslider.cpp:315 EV: Set Volume" 
+Debug: "17:52:19 ..\..\src\propertyslider.cpp:315 EV: Set Volume" 
+Debug: "17:52:19 ..\..\src\propertyslider.cpp:315 EV: Set Volume" 
+Debug: "17:52:19 ..\..\src\propertyslider.cpp:315 EV: Set Volume" 
+Debug: "17:52:19 ..\..\src\propertyslider.cpp:315 EV: Set Volume" 
+Debug: "17:52:26 ..\..\src\propertyeditor.cpp:2619 EO: Set Volume" 
+Debug: 
+Building project 'cannonball'...
+Debug: Building project F:\Projects\CRYENGINE\HeartsOfOakSDK\Sounds\cannonball\cannonball.fev...
+Debug: Unique sound defs 2/6
+Debug: Retrieving sound file info...
+Debug: Retrieving reverb info...
+Debug: FEV file written ok
+Debug: Unique Envelope Points: 10 of 13
+Debug: Unique Strings: 279 characters of 288
+Debug: Building header file F:\Projects\CRYENGINE\HeartsOfOakSDK\Sounds\cannonball\cannonball.h...
+Debug: Caching sound file details for ''...
+Debug: cannonball_whiz_2.ogg
+Debug: cannonball_whiz_3.ogg
+Debug: cannonball_whiz_4.ogg
+Debug: cannonball_whiz_5.ogg
+Debug: files\9lb_fire.ogg
+Debug: files\9lb_fire_modebass.ogg
+Debug: files\9lb_fire_modebass_2.ogg
+Debug: files\Cannon_9pdr_01.wav
+Debug: Building 'cannonball_bank00.fsb'
+Debug: Encoded F:\Projects\CRYENGINE\HeartsOfOakSDK\Sounds\cannonball\cannonball_whiz_3.ogg
+Debug: Encoded F:\Projects\CRYENGINE\HeartsOfOakSDK\Sounds\cannonball\cannonball_whiz_2.ogg
+Debug: Encoded F:\Projects\CRYENGINE\HeartsOfOakSDK\Sounds\cannonball\cannonball_whiz_4.ogg
+Debug: Encoded F:\Projects\CRYENGINE\HeartsOfOakSDK\Sounds\cannonball\cannonball_whiz_5.ogg
+Debug: Encoded F:\Projects\CRYENGINE\HeartsOfOakSDK\Sounds\cannonball\files\9lb_fire.ogg
+Debug: Encoded F:\Projects\CRYENGINE\HeartsOfOakSDK\Sounds\cannonball\files\9lb_fire_modebass.ogg
+Debug: Encoded F:\Projects\CRYENGINE\HeartsOfOakSDK\Sounds\cannonball\files\9lb_fire_modebass_2.ogg
+Debug: Encoded F:\Projects\CRYENGINE\HeartsOfOakSDK\Sounds\cannonball\files\Cannon_9pdr_01.wav
+Debug: Writing FSB...
+Debug: Finished building FSB
+Debug: 
+Debug: 
+Summary of build:
+SUCCESS: F:/Projects/CRYENGINE/HeartsOfOakSDK/Sounds/cannonball/cannonball.fev
+SUCCESS: F:/Projects/CRYENGINE/HeartsOfOakSDK/Sounds/cannonball/cannonball.h
+SUCCESS: cannonball_bank00.fsb
+Debug: 
+Building project 'cannonball'...
+Debug: Building project F:\Projects\CRYENGINE\HeartsOfOakSDK\Sounds\cannonball\cannonball.fev...
+Debug: Unique sound defs 2/6
+Debug: Retrieving sound file info...
+Debug: Retrieving reverb info...
+Debug: FEV file written ok
+Debug: Unique Envelope Points: 10 of 13
+Debug: Unique Strings: 279 characters of 288
+Debug: Building header file F:\Projects\CRYENGINE\HeartsOfOakSDK\Sounds\cannonball\cannonball.h...
+Debug: Caching sound file details for ''...
+Debug: cannonball_whiz_2.ogg
+Debug: cannonball_whiz_3.ogg
+Debug: cannonball_whiz_4.ogg
+Debug: cannonball_whiz_5.ogg
+Debug: files\9lb_fire.ogg
+Debug: files\9lb_fire_modebass.ogg
+Debug: files\9lb_fire_modebass_2.ogg
+Debug: files\Cannon_9pdr_01.wav
+Debug: Building 'cannonball_bank00.fsb'
+Debug: Encoded F:\Projects\CRYENGINE\HeartsOfOakSDK\Sounds\cannonball\cannonball_whiz_3.ogg
+Debug: Encoded F:\Projects\CRYENGINE\HeartsOfOakSDK\Sounds\cannonball\cannonball_whiz_2.ogg
+Debug: Encoded F:\Projects\CRYENGINE\HeartsOfOakSDK\Sounds\cannonball\cannonball_whiz_4.ogg
+Debug: Encoded F:\Projects\CRYENGINE\HeartsOfOakSDK\Sounds\cannonball\cannonball_whiz_5.ogg
+Debug: Encoded F:\Projects\CRYENGINE\HeartsOfOakSDK\Sounds\cannonball\files\9lb_fire.ogg
+Debug: Encoded F:\Projects\CRYENGINE\HeartsOfOakSDK\Sounds\cannonball\files\9lb_fire_modebass.ogg
+Debug: Encoded F:\Projects\CRYENGINE\HeartsOfOakSDK\Sounds\cannonball\files\9lb_fire_modebass_2.ogg
+Debug: Encoded F:\Projects\CRYENGINE\HeartsOfOakSDK\Sounds\cannonball\files\Cannon_9pdr_01.wav
+Debug: Writing FSB...
+Debug: Finished building FSB
+Debug: 
+Debug: 
+Summary of build:
+SUCCESS: F:/Projects/CRYENGINE/HeartsOfOakSDK/Sounds/cannonball/cannonball.fev
+SUCCESS: F:/Projects/CRYENGINE/HeartsOfOakSDK/Sounds/cannonball/cannonball.h
+SUCCESS: cannonball_bank00.fsb
+Debug: "11:42:21 c:\anthill_jobs\job534797\fmod4\tools\fmod_designer\src\eventform.ui.h:1428 BY: Add Event" 
+Debug: "11:43:05 c:\anthill_jobs\job534797\fmod4\tools\fmod_designer\src\sounddefform.ui.h:1213 FI: Add Sound Def" 
+Debug: "11:43:11 c:\anthill_jobs\job534797\fmod4\tools\fmod_designer\src\sounddefform.ui.h:1337 FK: Add Sound File" 
+Debug: "11:44:14 ..\..\src\eventlayerstackwidget.cpp:1334 CV: Add Sound" 
+Warning: QColor::setHsv: HSV parameters out of range
+Debug: "11:44:21 ..\..\src\parameterstackwidget.cpp:274 EK: Add Parameter" 
+Warning: QColor::setHsv: HSV parameters out of range
+Warning: QColor::setHsv: HSV parameters out of range
+Warning: QColor::setHsv: HSV parameters out of range
+Warning: QColor::setHsv: HSV parameters out of range
+Debug: "11:44:31 c:\anthill_jobs\job534797\fmod4\tools\fmod_designer\src\parameterpropertiesdialog.ui.h:116 EJ: Change Parameter Properties" 
+Debug: "11:44:41 ..\..\src\propertyeditor.cpp:4234 ER: Set Mode" 
+Debug: 
+Building project 'cannonball'...
+Debug: Building project F:\Projects\CRYENGINE\HeartsOfOakSDK\Sounds\cannonball\cannonball.fev...
+Debug: Unique sound defs 2/7
+Debug: Retrieving sound file info...
+Debug: Retrieving reverb info...
+Debug: FEV file written ok
+Debug: Unique Envelope Points: 10 of 13
+Debug: Unique Strings: 325 characters of 345
+Debug: Building header file F:\Projects\CRYENGINE\HeartsOfOakSDK\Sounds\cannonball\cannonball.h...
+Debug: Caching sound file details for ''...
+Debug: cannonball_whiz_2.ogg
+Debug: cannonball_whiz_3.ogg
+Debug: cannonball_whiz_4.ogg
+Debug: cannonball_whiz_5.ogg
+Debug: files\9lb_fire.ogg
+Debug: files\9lb_fire_heavybass.ogg
+Debug: files\9lb_fire_modebass.ogg
+Debug: files\9lb_fire_modebass_2.ogg
+Debug: files\Cannon_9pdr_01.wav
+Debug: Building 'cannonball_bank00.fsb'
+Debug: Encoded F:\Projects\CRYENGINE\HeartsOfOakSDK\Sounds\cannonball\cannonball_whiz_3.ogg
+Debug: Encoded F:\Projects\CRYENGINE\HeartsOfOakSDK\Sounds\cannonball\cannonball_whiz_2.ogg
+Debug: Encoded F:\Projects\CRYENGINE\HeartsOfOakSDK\Sounds\cannonball\cannonball_whiz_4.ogg
+Debug: Encoded F:\Projects\CRYENGINE\HeartsOfOakSDK\Sounds\cannonball\cannonball_whiz_5.ogg
+Debug: Encoded F:\Projects\CRYENGINE\HeartsOfOakSDK\Sounds\cannonball\files\9lb_fire.ogg
+Debug: Encoded F:\Projects\CRYENGINE\HeartsOfOakSDK\Sounds\cannonball\files\9lb_fire_heavybass.ogg
+Debug: Encoded F:\Projects\CRYENGINE\HeartsOfOakSDK\Sounds\cannonball\files\9lb_fire_modebass.ogg
+Debug: Encoded F:\Projects\CRYENGINE\HeartsOfOakSDK\Sounds\cannonball\files\9lb_fire_modebass_2.ogg
+Debug: Encoded F:\Projects\CRYENGINE\HeartsOfOakSDK\Sounds\cannonball\files\Cannon_9pdr_01.wav
+Debug: Writing FSB...
+Debug: Finished building FSB
+Debug: 
+Debug: 
+Summary of build:
+SUCCESS: F:/Projects/CRYENGINE/HeartsOfOakSDK/Sounds/cannonball/cannonball.fev
+SUCCESS: F:/Projects/CRYENGINE/HeartsOfOakSDK/Sounds/cannonball/cannonball.h
+SUCCESS: cannonball_bank00.fsb
+Warning: QColor::setHsv: HSV parameters out of range
+Debug: 
+Building project 'cannonball'...
+Debug: Building project F:\Projects\CRYENGINE\HeartsOfOakSDK\Sounds\cannonball\cannonball.fev...
+Debug: Unique sound defs 2/7
+Debug: Retrieving sound file info...
+Debug: Retrieving reverb info...
+Debug: FEV file written ok
+Debug: Unique Envelope Points: 10 of 13
+Debug: Unique Strings: 325 characters of 345
+Debug: Building header file F:\Projects\CRYENGINE\HeartsOfOakSDK\Sounds\cannonball\cannonball.h...
+Debug: Caching sound file details for ''...
+Debug: cannonball_whiz_2.ogg
+Debug: cannonball_whiz_3.ogg
+Debug: cannonball_whiz_4.ogg
+Debug: cannonball_whiz_5.ogg
+Debug: files\9lb_fire.ogg
+Debug: files\9lb_fire_heavybass.ogg
+Debug: files\9lb_fire_modebass.ogg
+Debug: files\9lb_fire_modebass_2.ogg
+Debug: files\Cannon_9pdr_01.wav
+Debug: Building 'cannonball_bank00.fsb'
+Debug: Encoded F:\Projects\CRYENGINE\HeartsOfOakSDK\Sounds\cannonball\cannonball_whiz_3.ogg
+Debug: Encoded F:\Projects\CRYENGINE\HeartsOfOakSDK\Sounds\cannonball\cannonball_whiz_2.ogg
+Debug: Encoded F:\Projects\CRYENGINE\HeartsOfOakSDK\Sounds\cannonball\cannonball_whiz_4.ogg
+Debug: Encoded F:\Projects\CRYENGINE\HeartsOfOakSDK\Sounds\cannonball\cannonball_whiz_5.ogg
+Debug: Encoded F:\Projects\CRYENGINE\HeartsOfOakSDK\Sounds\cannonball\files\9lb_fire.ogg
+Debug: Encoded F:\Projects\CRYENGINE\HeartsOfOakSDK\Sounds\cannonball\files\9lb_fire_heavybass.ogg
+Debug: Encoded F:\Projects\CRYENGINE\HeartsOfOakSDK\Sounds\cannonball\files\9lb_fire_modebass.ogg
+Debug: Encoded F:\Projects\CRYENGINE\HeartsOfOakSDK\Sounds\cannonball\files\9lb_fire_modebass_2.ogg
+Debug: Encoded F:\Projects\CRYENGINE\HeartsOfOakSDK\Sounds\cannonball\files\Cannon_9pdr_01.wav
+Debug: Writing FSB...
+Debug: Finished building FSB
+Debug: 
+Debug: 
+Summary of build:
+SUCCESS: F:/Projects/CRYENGINE/HeartsOfOakSDK/Sounds/cannonball/cannonball.fev
+SUCCESS: F:/Projects/CRYENGINE/HeartsOfOakSDK/Sounds/cannonball/cannonball.h
+SUCCESS: cannonball_bank00.fsb
+Debug: "12:03:32 ..\..\src\propertyeditor.cpp:2619 EO: Set x 2D Speaker C" 
+Debug: "12:03:34 ..\..\src\propertyeditor.cpp:2619 EO: Set x 2D Speaker LR" 
+Debug: "12:03:35 ..\..\src\propertyeditor.cpp:2619 EO: Set x 2D Speaker RR" 
+Debug: "12:03:37 ..\..\src\propertyeditor.cpp:2619 EO: Set x 2D Speaker LS" 
+Debug: "12:03:38 ..\..\src\propertyeditor.cpp:2619 EO: Set x 2D Speaker RS" 
+Debug: "12:03:39 ..\..\src\propertyeditor.cpp:2619 EO: Set x Speaker LFE" 
+Debug: "12:03:46 ..\..\src\propertyeditor.cpp:2619 EO: Set x Speaker LFE" 
+Debug: "12:03:50 ..\..\src\propertyslider.cpp:315 EV: Set x Speaker LFE" 
+Debug: "12:03:55 ..\..\src\propertyslider.cpp:315 EV: Set x Speaker LFE" 
+Debug: 
+Building project 'cannonball'...
+Debug: Building project F:\Projects\CRYENGINE\HeartsOfOakSDK\Sounds\cannonball\cannonball.fev...
+Debug: Unique sound defs 2/7
+Debug: Retrieving sound file info...
+Debug: Retrieving reverb info...
+Debug: FEV file written ok
+Debug: Unique Envelope Points: 10 of 13
+Debug: Unique Strings: 325 characters of 345
+Debug: Building header file F:\Projects\CRYENGINE\HeartsOfOakSDK\Sounds\cannonball\cannonball.h...
+Debug: Caching sound file details for ''...
+Debug: cannonball_whiz_2.ogg
+Debug: cannonball_whiz_3.ogg
+Debug: cannonball_whiz_4.ogg
+Debug: cannonball_whiz_5.ogg
+Debug: files\9lb_fire.ogg
+Debug: files\9lb_fire_heavybass.ogg
+Debug: files\9lb_fire_modebass.ogg
+Debug: files\9lb_fire_modebass_2.ogg
+Debug: files\Cannon_9pdr_01.wav
+Debug: Building 'cannonball_bank00.fsb'
+Debug: Encoded F:\Projects\CRYENGINE\HeartsOfOakSDK\Sounds\cannonball\cannonball_whiz_3.ogg
+Debug: Encoded F:\Projects\CRYENGINE\HeartsOfOakSDK\Sounds\cannonball\cannonball_whiz_2.ogg
+Debug: Encoded F:\Projects\CRYENGINE\HeartsOfOakSDK\Sounds\cannonball\cannonball_whiz_4.ogg
+Debug: Encoded F:\Projects\CRYENGINE\HeartsOfOakSDK\Sounds\cannonball\cannonball_whiz_5.ogg
+Debug: Encoded F:\Projects\CRYENGINE\HeartsOfOakSDK\Sounds\cannonball\files\9lb_fire.ogg
+Debug: Encoded F:\Projects\CRYENGINE\HeartsOfOakSDK\Sounds\cannonball\files\9lb_fire_heavybass.ogg
+Debug: Encoded F:\Projects\CRYENGINE\HeartsOfOakSDK\Sounds\cannonball\files\9lb_fire_modebass.ogg
+Debug: Encoded F:\Projects\CRYENGINE\HeartsOfOakSDK\Sounds\cannonball\files\9lb_fire_modebass_2.ogg
+Debug: Encoded F:\Projects\CRYENGINE\HeartsOfOakSDK\Sounds\cannonball\files\Cannon_9pdr_01.wav
+Debug: Writing FSB...
+Debug: Finished building FSB
+Debug: 
+Debug: 
+Summary of build:
+SUCCESS: F:/Projects/CRYENGINE/HeartsOfOakSDK/Sounds/cannonball/cannonball.fev
+SUCCESS: F:/Projects/CRYENGINE/HeartsOfOakSDK/Sounds/cannonball/cannonball.h
+SUCCESS: cannonball_bank00.fsb
+Debug: "12:04:53 ..\..\src\propertyeditor.cpp:3444 EQ: Set Priority" 
+Debug: "12:04:53 ..\..\src\propertyeditor.cpp:3444 EQ: Set Priority" 
+Debug: "12:04:53 ..\..\src\propertyeditor.cpp:3444 EQ: Set Priority" 
+Debug: "12:04:57 ..\..\src\propertyeditor.cpp:3444 EQ: Set Max Playbacks" 
+Debug: "12:04:57 ..\..\src\propertyeditor.cpp:3444 EQ: Set Max Playbacks" 
+Debug: "12:04:57 ..\..\src\propertyeditor.cpp:3444 EQ: Set Max Playbacks" 
+Debug: "12:05:05 ..\..\src\propertyeditor.cpp:2619 EO: Set Spawn Intensity" 
+Debug: 
+Building project 'cannonball'...
+Debug: Building project F:\Projects\CRYENGINE\HeartsOfOakSDK\Sounds\cannonball\cannonball.fev...
+Debug: Unique sound defs 2/7
+Debug: Retrieving sound file info...
+Debug: Retrieving reverb info...
+Debug: FEV file written ok
+Debug: Unique Envelope Points: 10 of 13
+Debug: Unique Strings: 325 characters of 345
+Debug: Building header file F:\Projects\CRYENGINE\HeartsOfOakSDK\Sounds\cannonball\cannonball.h...
+Debug: Caching sound file details for ''...
+Debug: cannonball_whiz_2.ogg
+Debug: cannonball_whiz_3.ogg
+Debug: cannonball_whiz_4.ogg
+Debug: cannonball_whiz_5.ogg
+Debug: files\9lb_fire.ogg
+Debug: files\9lb_fire_heavybass.ogg
+Debug: files\9lb_fire_modebass.ogg
+Debug: files\9lb_fire_modebass_2.ogg
+Debug: files\Cannon_9pdr_01.wav
+Debug: Building 'cannonball_bank00.fsb'
+Debug: Encoded F:\Projects\CRYENGINE\HeartsOfOakSDK\Sounds\cannonball\cannonball_whiz_2.ogg
+Debug: Encoded F:\Projects\CRYENGINE\HeartsOfOakSDK\Sounds\cannonball\cannonball_whiz_3.ogg
+Debug: Encoded F:\Projects\CRYENGINE\HeartsOfOakSDK\Sounds\cannonball\cannonball_whiz_5.ogg
+Debug: Encoded F:\Projects\CRYENGINE\HeartsOfOakSDK\Sounds\cannonball\cannonball_whiz_4.ogg
+Debug: Encoded F:\Projects\CRYENGINE\HeartsOfOakSDK\Sounds\cannonball\files\9lb_fire.ogg
+Debug: Encoded F:\Projects\CRYENGINE\HeartsOfOakSDK\Sounds\cannonball\files\9lb_fire_heavybass.ogg
+Debug: Encoded F:\Projects\CRYENGINE\HeartsOfOakSDK\Sounds\cannonball\files\9lb_fire_modebass.ogg
+Debug: Encoded F:\Projects\CRYENGINE\HeartsOfOakSDK\Sounds\cannonball\files\9lb_fire_modebass_2.ogg
+Debug: Encoded F:\Projects\CRYENGINE\HeartsOfOakSDK\Sounds\cannonball\files\Cannon_9pdr_01.wav
+Debug: Writing FSB...
+Debug: Finished building FSB
+Debug: 
+Debug: 
+Summary of build:
+SUCCESS: F:/Projects/CRYENGINE/HeartsOfOakSDK/Sounds/cannonball/cannonball.fev
+SUCCESS: F:/Projects/CRYENGINE/HeartsOfOakSDK/Sounds/cannonball/cannonball.h
+SUCCESS: cannonball_bank00.fsb

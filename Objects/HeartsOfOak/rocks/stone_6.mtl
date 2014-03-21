@@ -1,0 +1,16 @@
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Name="m_stone" MtlFlags="524416" Shader="Illum" GenMask="8002201" StringGenMask="%ALLOW_SILHOUETTE_POM%BUMP_MAP%DETAIL_MAPPING%PARALLAX_OCCLUSION_MAPPING" SurfaceType="mat_rock" MatTemplate="" Diffuse="0.17013837,0.17013837,0.17013837" Specular="0,0,0" Emissive="0,0,0" Shininess="50" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/heartsofoak/textures/cliff_1_diff.dds">
+     <TexMod TileU="2" TileV="2"/>
+    </Texture>
+    <Texture Map="Bumpmap" File="objects/heartsofoak/textures/cliff_1_ddn.dds"/>
+    <Texture Map="Heightmap" File="objects/heartsofoak/textures/cliff_1_displ.dds"/>
+    <Texture Map="Detail" File="objects/heartsofoak/textures/decal_3c_diff.tif"/>
+   </Textures>
+   <PublicParams GlossFromDiffuseContrast="1" PomDisplacement="0.023" FresnelScale="1" GlossFromDiffuseOffset="0" DetailDiffuseScale="1" FresnelBias="1" GlossFromDiffuseAmount="0" DetailBumpScale="0.5" GlossFromDiffuseBrightness="0.333" SelfShadowStrength="5" HeightBias="1" DetailGlossScale="0.5" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams GlossFromDiffuseContrast="1" FresnelScale="1" GlossFromDiffuseOffset="0" FresnelBias="1" GlossFromDiffuseAmount="0" GlossFromDiffuseBrightness="0.333" IndirectColor="0.25,0.25,0.25"/>
+</Material>

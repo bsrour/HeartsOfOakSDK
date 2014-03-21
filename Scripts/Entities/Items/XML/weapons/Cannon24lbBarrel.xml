@@ -9,6 +9,7 @@
 		<param name="stat_recoil" value="300" />
 		<param name="actionController" value="itemControllerDef.xml" />
 		<param name="mass" value="2000" />
+		<param name="usable_under_water" value="0" />
 		<mount>
 			<param name="pivot" value="" />
 			<param name="min_pitch" value="-22" />
@@ -24,15 +25,12 @@
 			<param name="rotate_sound_fp" value="Sounds/w_hmg_mp:hmg_handling:move_stationary_fp" GAME="MP" />
 			<param name="rotate_sound_tp" value="Sounds/w_hmg:hmg_handling:move_stationary_3p" GAME="SP" />
 			<param name="rotate_sound_tp" value="Sounds/w_hmg_mp:hmg_handling:move_stationary_3p" GAME="MP" />
-			<param name="shoot_sound_fp" value="Sounds/weapons:tank_main_cannon:fire_3p" />
-			<param name="shoot_sound_tp" value="Sounds/weapons:tank_main_cannon:fire_3p" />
+			<param name="shoot_sound_fp" value="Sounds/cannonball:cannon_fire:9lb_bass" />
+			<param name="shoot_sound_tp" value="Sounds/cannonball:cannon_fire:9lb_bass" />
 			<param name="shoot_recoil_anim" value="24pdr_9ft6in_bronze_tall_recoil" />
 			<param name="shoot_sound_override" value="true" />
 		</mount>
 	</params>
-	<ammos>
-		<ammo name="CannonBall" extra="0" amount="0" />
-	</ammos>
 	<spread>
 		<param name="min" value=".25" />
 		<param name="max" value="50" />
@@ -86,7 +84,12 @@
 		<defaultAccessoires>
 			<accessory name="cannonball_24pdr" GAME="SP" />
 		</defaultAccessoires>
-
+		<!--
+		<initialsetup>
+			<accessory name="24lbcarriage" GAME="SP" />
+		</initialsetup>
+		-->
+		
 		<accessory name="24lbcarriage">
 			<attach helper="barrel_24pdr_9ft6in_bronze" />
 			<detach />

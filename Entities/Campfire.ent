@@ -1,0 +1,4 @@
+<Entity
+Name="Campfire"
+Script="Scripts/Entities/Props/Campfire.lua"
+/>

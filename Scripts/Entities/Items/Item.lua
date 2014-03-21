@@ -95,18 +95,6 @@ function Item:OnFreeze(shooterId, weaponId, value)
 end
 
 
-
-
-
-function Item:Recoil()
-	--self:SetLocalPos({0,3,0});
-	--self.LocalVars.totalDistance = self.Properties.fRecoilDistance;
-	--self.LocalVars.recoiling = 1;
-	--self.LocalVars.recovering = 0;
-	--self.SetTimer(RECOIL_TIMER,100);
-end
--- End HoO
-
 ----------------------------------------------------------------------------------------------------
 function Item.Server:OnHit(hit)
 	local explosionOnly=tonumber(self.Properties.bExplosionOnly or 0)~=0;
