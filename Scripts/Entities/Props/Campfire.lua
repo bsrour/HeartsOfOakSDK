@@ -1,7 +1,7 @@
 Campfire = {
 	Properties = {
 		soclasses_SmartObjectClass = "",
-		ParticleEffect="smoke_and_fire.campfire.small",
+		ParticleEffect="smoke_and_fire.lantern.small_fire",
 		Comment="",
 		object_Model = "objects/props/campfire/campfire.cgf",
 		vectorModelPosition = { x=0, y=0, z=-0.4},
@@ -20,7 +20,35 @@ Campfire = {
 		PulsePeriod=0,          -- Restart continually at this period.
 		NetworkSync=0,          -- Do I want to be bound to the network?
 		bRegisterByBBox=0,      -- Register In VisArea by BoundingBox, not by Position
-	
+		
+		
+	Trigger = {
+		DimX = 20,				------Added
+		DimY = 10,				------Added
+		DimZ = 20,				------Added
+		UsableMessage = "",		------Added
+		bEnabled = 1,	------Added
+		EnterDelay = 0,	------Added
+		ExitDelay = 0,	------Added
+
+		bOnlyPlayer = 1,	------Added
+		bOnlyMyPlayer = 0,	------Added
+		bOnlyAI = 0,	------Added
+		bOnlySpecialAI = 0,	------Added
+		esFactionFilter = "",	------Added
+
+		OnlySelectedEntity = "None",	------Added
+
+		bKillOnTrigger = 0,	------Added
+		bTriggerOnce = 0,	------Added
+		ScriptCommand = "Scripts/Entities/Items/HealthPack.lua",	------Added
+		PlaySequence = "",	------Added
+		bInVehicleOnly = 0,	------Added
+		bOnlyOneEntity = 0,	------Added
+
+		UsableMessage = "",	------Added
+		bActivateWithUseButton = 0,	------Added
+	},
 	
 	Light =
 	{
@@ -94,6 +122,12 @@ Campfire = {
 			vFadeDimensionsTop =0,
 			vFadeDimensionsBottom =0,
 		},
+		
+		MultiplayerOptions =
+		{
+			bNetworked = 0,
+			bPerPlayer = 0,
+		},
 	},
 
 },
@@ -102,6 +136,9 @@ Campfire = {
 	Editor = {
 		Model="Editor/Objects/Particles.cgf",
 		Icon="Particles.bmp",
+		ShowBounds = 1,
+		IsScalable = false;
+		IsRotatable = false;
 	},
 	
 	States = { "Active","Idle" },
@@ -124,6 +161,21 @@ Net.Expose {
 	ServerProperties = {
 	},
 };
+
+Net.Expose
+{
+	Class = ProximityTrigger,
+	ClientMethods = 
+	{
+		ClEnter = { RELIABLE_ORDERED, PRE_ATTACH, ENTITYID, INT8},
+		ClLeave = { RELIABLE_ORDERED, PRE_ATTACH, ENTITYID, INT8},
+	},
+	ServerMethods = 
+	{
+		SvRequestUse = { RELIABLE_ORDERED, PRE_ATTACH, ENTITYID },
+	},
+	ServerProperties = {}
+}
 
 -------------------------------------------------------
 function Campfire:OnSpawn()
@@ -150,11 +202,20 @@ function Campfire:OnLoad(table)
 		self:GotoState("Active");
 	end
 	self:DrawObjects();
+	
+	self:OnReset();			------Added
+	self.enabled = tbl.enabled;
+	self.triggered = tbl.triggered;
+	self.triggeredOnce = tbl.triggeredOnce;
 end
 
 -------------------------------------------------------
 function Campfire:OnSave(table)
 	table.nParticleSlot = self.nParticleSlot;
+	
+	tbl.enabled = self.enabled;		------Added
+	tbl.triggered = self.triggered;
+	tbl.triggeredOnce = self.triggeredOnce;
 end
 
 -------------------------------------------------------
@@ -166,6 +227,7 @@ function Campfire:OnPropertyChange()
 		self:GotoState( "Idle" );
 	end
 	self:DrawObjects();
+	self:OnReset()
 end
 
 function Campfire:LoadLightToSlot( nSlot )
@@ -268,17 +330,73 @@ function Campfire:OnReset()
 		self:GotoState( "Active" );
 	end
 	self:DrawObjects();
+	
+	self.bUsesExactSelectedEntity = false;
+	self.bUsesWildcardSelectedEntity = false;
+
+	if (self.Properties.OnlySelectedEntity~="None" and self.Properties.OnlySelectedEntity~="") then
+		local indexChar = string.find( self.Properties.OnlySelectedEntity, "*" );
+		if (indexChar and indexChar>1) then
+			if (indexChar<5) then
+				LogWarning( "proximity trigger: '%s' is using a too much generic name for 'selectedEntity' field", self:GetName() );
+			end
+			self.bUsesWildcardSelectedEntity = true;
+			self.stringRootSelectedEntity = string.sub( self.Properties.Trigger.OnlySelectedEntity, 1, indexChar - 1 );
+		else
+			self.bUsesExactSelectedEntity = true;
+		end
+	end
+
+	if (self.timers) then
+		for i,v in pairs(self.timers) do
+			self:KillTimer(i);
+		end
+	end
+	self.timerId = 0;
+
+	self.enabled = nil;
+	self.usable = tonumber(self.Properties.Trigger.bActivateWithUseButton)~=0;
+	self.triggerOnce = tonumber(self.Properties.Trigger.bTriggerOnce)~=0;
+	self.localOnly = self.Properties.MultiplayerOptions.bNetworked==0;
+	self.perPlayer = tonumber(self.Properties.MultiplayerOptions.bPerPlayer)~=0;
+
+	self.isServer=CryAction.IsServer();
+	self.isClient=CryAction.IsClient();
+
+	self.inside={};
+	self.timers={};
+
+	if (not self.localOnly) then
+		self.triggeredPP={};
+		self.triggeredOncePP={};
+	else
+		self:SetFlags(ENTITY_FLAG_CLIENT_ONLY,0);
+	end
+
+	self.triggeredOnce=nil;
+	self.triggered=nil;
+
+	self.insideCount=0;
+
+
+	local min = { x=-self.Properties.Trigger.DimX/2, y=-self.Properties.Trigger.DimY/2, z=-self.Properties.Trigger.DimZ/2 };
+	local max = { x=self.Properties.Trigger.DimX/2, y=self.Properties.Trigger.DimY/2, z=self.Properties.Trigger.DimZ/2 };
+
+	self:SetUpdatePolicy( ENTITY_UPDATE_PHYSICS );
+
+	self:SetTriggerBBox( min, max );
+
+	self:Enable(tonumber(self.Properties.Trigger.bEnabled)~=0);
+
+	self:InvalidateTrigger();
+
+	self:ActivateOutput("IsInside", 0);
 end
 
 ------------------------------------------------------------------------------------------------------
-function Campfire:Event_Enable()
-	self:GotoState( "Active" );
-	self:ActivateOutput( "Enable", true );
-
-	if CryAction.IsServer() and self.allClients then
-		self.allClients:ClEvent_Enable();
-	end
-end
+--function Campfire:Event_Enable()
+	
+--end
 
 function Campfire:Event_Disable()
 	self:GotoState( "Idle" );
@@ -287,7 +405,9 @@ function Campfire:Event_Disable()
 	if CryAction.IsServer() and self.allClients then
 		self.allClients:ClEvent_Disable();
 	end
-
+	
+	self:Enable(false);		------Added
+	BroadcastEvent(self, "Disable");
 end
 
 function Campfire:Event_Restart()
@@ -310,6 +430,7 @@ function Campfire:Event_Spawn()
 		self.allClients:ClEvent_Spawn();
 	end
 
+		self:OnReset();		--------Added
 end
 
 
@@ -337,6 +458,228 @@ function Campfire:Disable()
 		self.allClients:ClEvent_Disable();
 	end
 end
+
+function Campfire:Enable(enable)	--------Added
+	self.enabled=enable;
+	self:RegisterForAreaEvents(enable and 1 or 0);
+end
+
+function Campfire:Event_Enter(entityId)	--------Added
+
+self:GotoState( "Active" );
+	self:ActivateOutput( "Enable", true );
+
+	if CryAction.IsServer() and self.allClients then
+		self.allClients:ClEvent_Enable();
+	end
+	
+	self:Enable(true);		------Added
+
+	local entityIdInside = next(self.inside);
+	if (entityIdInside) then
+		self:Event_Enter( entityIdInside );
+	end;
+
+	self:ActivateOutput("IsInside", self.insideCount);
+	BroadcastEvent(self, "Enable");
+
+
+	if (not self.enabled) then return; end; -- TODO: might need a self.active here
+	if (self.triggerOnce) then
+		if (self.localOnly) then
+			if (self.triggeredOnce) then
+				return;
+			end
+		elseif (self.perPlayer and self.triggeredOncePP[entityId]) then -- TODO: will need to skip this for non-player entities
+			return;
+		elseif (not self.perPlayer and self.triggeredOnce) then
+			return;
+		end
+	end
+
+	self.triggered=true;
+	self.triggeredOnce=true;
+
+	if (not self.localOnly and entityId) then
+		self.triggeredPP[entityId]=true;
+		self.triggeredOncePP[entityId]=true;
+	end
+
+	Log(" ProximityTrigger: %s:Event_Enter(%s) inside: %d", self:GetName(), EntityName(entityId), self.insideCount);
+
+	self:Trigger(entityId, self.insideCount);
+
+	BroadcastEvent(self, "Enter");
+	self:ActivateOutput("Enter", entityId or NULL_ENTITY);
+
+	if (not self.localOnly and self.isServer) then
+		self.otherClients:ClEnter(g_localChannelId, entityId or NULL_ENTITY, self.insideCount);
+	end
+end
+
+function Campfire:Event_Leave(entityId)	--------Added
+	if (not self.enabled) then return; end;
+	if (self.localOnly and not self.triggered) then return; end;
+
+	if (self.perPlayer) then
+		if (not self.localOnly and entityId) then
+			if (not self.triggeredPP[entityId]) then
+				return;
+			end;
+		end
+	else
+		if (not self.triggered) then
+			return;
+		end;
+	end
+
+	--only disable triggered when all players are gone
+	if(self.insideCount == 0) then
+		self.triggered=nil;
+	end
+
+	if (not self.localOnly and entityId and self.insideCount == 0) then
+		self.triggeredPP[entityId]=nil;
+	end
+
+	--Log("%s:Event_Leave(%s)", self:GetName(), EntityName(entityId));
+
+	self:ActivateOutput("Sender", entityId or NULL_ENTITY);
+	self:ActivateOutput("IsInside", self.insideCount);
+
+	--BroadcastEvent(self, "Leave");
+	self:ActivateOutput("Leave", entityId or NULL_ENTITY);
+
+	if (not self.localOnly and self.isServer) then
+		self.otherClients:ClLeave(g_localChannelId, entityId or NULL_ENTITY, self.insideCount);
+	end
+end
+
+function Campfire:CreateTimer(entityId, time, leave)
+	local timerId=self.timerId;
+	if (timerId>1023) then
+		timerId=0;
+	end
+	timerId=timerId+1;
+	self.timerId=timerId;
+
+	if (leave) then
+		timerId=timerId+1024;
+	end
+	self.timers[timerId]=entityId;
+	self:SetTimer(timerId, time);
+end
+
+function Campfire:OnTimer(timerId, msec)	------Added
+	if (timerId==2048) then
+		self:CheckAIDeaths()
+		return;
+	end
+
+	local entityId=self.timers[timerId];
+	if (not entityId) then return; end;
+
+	if (timerId>1023) then
+		self:Event_Leave(entityId);
+	else
+		self:Event_Enter(entityId);
+	end
+end
+
+function Campfire:OnUsed(user)		------Added
+	if (not self:CanTrigger(user)) then return; end;
+
+	Log("%s:OnUsed(%s)", self:GetName(), EntityName(user));
+
+	self:LockUsability();
+
+	if (self.localOnly or self.isServer) then
+		self:CreateTimer(user.id, self.Properties.EnterDelay*1000);
+	else
+		self.server:SvRequestUse(user.id);
+	end
+end
+
+function Campfire:Trigger(entityId, inside)	------Added
+	self:ActivateOutput("IsInside", inside);
+
+	if(self.Properties.ScriptCommand and self.Properties.ScriptCommand~="")then
+		local f = loadstring(self.Properties.ScriptCommand);
+		if (f~=nil) then
+			f();
+		end
+	end
+
+	if(self.Properties.PlaySequence~="")then
+		Movie.PlaySequence(self.Properties.PlaySequence);
+	end
+
+	self:ActivateOutput("Sender", entityId or NULL_ENTITY);
+
+	if(AI ~= nil) then
+		self:ActivateOutput("Faction", AI.GetFactionOf(entityId or NULL_ENTITY) or "");
+	end
+end
+
+function Campfire:EnteredArea(entity, areaId)	------Added
+	if (not self:CanTrigger(entity, areaId)) then
+		return;
+	end
+
+	if (tonumber(self.Properties.bOnlyOneEntity)~=0 and self.insideCount>0) then
+		return;
+	end
+
+	self.inside[entity.id]=true;
+	self.insideCount=self.insideCount+1;
+
+	if (not entity.ai) then
+		if (self.Properties.bActivateWithUseButton~=0) then
+			return;
+		end
+	end
+
+	self:CreateTimer(entity.id, self.Properties.EnterDelay*1000);
+	if (entity.ai and self.timers[2048]~=true) then  -- 2048 is the special timer id used to check the deaths of AIs
+		self:CreateAIDeathsCheckTrigger();
+	end
+end
+
+function Campfire:LeftArea(entity, areaId)	------Added
+	if (not self:CanTrigger(entity, areaId)) then
+		return;
+	end
+
+	self.inside[entity.id]=nil;
+	self.insideCount=self.insideCount-1;
+
+	if(self.Properties.ExitDelay==0) then
+		self.Properties.ExitDelay=0.01;
+	end
+
+	self:CreateTimer(entity.id, self.Properties.ExitDelay*1000, true);
+end
+
+function Campfire:IsUsable(user)		------Added
+	return self.usable and self.enabled;
+end
+
+function Campfire:LockUsability(lock)	------Added
+	local player=g_localActor;
+	if (player) then
+		if (lock) then
+			player.actor:SetExtensionParams("Interactor", {locker = self.id, lockId = self.id, lockIdx = 1});
+		else
+			player.actor:SetExtensionParams("Interactor", {locker = self.id, lockId = NULL_ENTITY, lockIdx = 0});
+		end
+	end
+end
+
+
+function Campfire:GetUsableMessage()	------Added
+	return self.Properties.UsableMessage or "";
+end
+
 
 -------------------------------------------------------------------------------
 -------------------------------------------------------------------------------
@@ -400,6 +743,8 @@ Campfire.FlowEvents =
 		Restart = { Campfire.Event_Restart, "bool" },
 		Spawn = { Campfire.Event_Spawn, "bool" },
 		Kill = { Campfire.Event_Kill, "bool" },
+		Enter = { Campfire.Event_Enter, "bool" },
+		Leave = { Campfire.Event_Leave, "bool" },
 	},
 	Outputs =
 	{
@@ -407,6 +752,11 @@ Campfire.FlowEvents =
 		Enable = "bool",
 		Restart = "bool",
 		Spawn = "bool",
+		IsInside = "int",
+		Sender = "entity",
+		Faction = "string",
+		Enter = "entity",
+		Leave = "entity",
 	},
 }
 

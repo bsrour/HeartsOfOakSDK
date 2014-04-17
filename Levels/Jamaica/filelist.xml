@@ -1,6 +1,6 @@
 <download name="Jamaica" type="Map">
  <index src="filelist.xml" dest="filelist.xml"/>
  <files>
-  <file src="level.pak" dest="level.pak" size="11268419" md5="5b9456687fae840a4a14baf94caf6958"/>
+  <file src="level.pak" dest="level.pak" size="12074391" md5="2fbffd3b30748f46c52ddeb91415f1d6"/>
  </files>
 </download>

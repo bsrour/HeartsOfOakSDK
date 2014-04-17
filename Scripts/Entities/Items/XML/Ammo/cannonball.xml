@@ -20,26 +20,30 @@
 		<param name="mass" value="10.8" />
 		<param name="speed" value="120" GAME="SP"/>
 		<param name="speed" value="120" GAME="MP"/>
-		<param name="air_resistance" value="1" />
-		<param name="water_resistance" value="0.5" />
+		<param name="air_resistance" value=".5" />
+		<param name="water_resistance" value="0" />
 		<param name="gravity" value="0, 0, -9.8" />
-		<param name="water_gravity" value="0, 0, -1" />
-		<param name="thrust" value="500" />
+		<param name="water_gravity" value="0, 0, 0" />
 		<param name="material" value="mat_metal" />
-		<param name="pierceability" value="8" />
+		<param name="pierceability" value="1" />
 		<param name="single_contact" value="0" />
-<!-- 		<pierceabilityLevels>
+		<param name="spin_random" value="720, 720, 720" />
+		<param name="rollAxis" value="1, 0, 0" />
+		<param name="min_bounce_speed" value="0.25" GAME="SP" />
+		<param name="min_bounce_speed" value="0.5" GAME="MP" />
+		<param name="bounceableBullet" value="0" />
+		<pierceabilityLevels>
 			<param name="level3" value="0" />
 			<param name="level2" value="60" />
 			<param name="level1" value="85" />
 			<param name="maxPenetrationThickness" value="1" />
-		</pierceabilityLevels> -->
+		</pierceabilityLevels>
 	</physics>
 	<params>
 <!-- 		<param name="display_name" value="@mp_eCannonBall" />
 		<param name="ammo_category" value="Regular" /> -->
-		<param name="lifetime" value="4" GAME="SP" />
-		<param name="lifetime" value="1" GAME="MP" />
+		<param name="lifetime" value="10" GAME="SP" />
+		<param name="lifetime" value="10" GAME="MP" />
 		<param name="showtime" value="0" />
 		<!--<param name="bulletType" value="2" />  Bullet Type 2 - Assault rifle bullet 
  		<param name="hitRecoil" value="Level3" GAME="SP"/>
@@ -47,6 +51,9 @@
 		<param name="hitRecoilArmorMode" value="Level2" GAME="SP"/>
 		<param name="hitRecoilArmorMode" value="Level2_mp" GAME="MP"/>-->
 	</params>
+	<trail>
+		<param name="effect" value="cannonball.trail" />
+	</trail>
 	<trailUnderWater>
 		<param name="effect" value="" />
 		<param name="scale" value="" />

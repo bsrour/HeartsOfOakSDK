@@ -82,3 +82,137 @@
 12:04:57 ..\..\src\propertyeditor.cpp:3444 EQ: Set Max Playbacks
 12:04:57 ..\..\src\propertyeditor.cpp:3444 EQ: Set Max Playbacks
 12:05:05 ..\..\src\propertyeditor.cpp:2619 EO: Set Spawn Intensity
+00:29:35 ..\..\src\parameterstackwidget.cpp:274 EK: Add Parameter
+18:37:55 c:\anthill_jobs\job534797\fmod4\tools\fmod_designer\src\eventform.ui.h:1983 CG: Paste Event
+18:38:21 ..\..\src\eventlayerstackwidget.cpp:1402 CW: Replace sound
+18:38:27 ..\..\src\eventlayerstackwidget.cpp:1402 CW: Replace sound
+18:38:34 ..\..\src\eventlayerstackwidget.cpp:1179 CT: Delete Layer
+18:39:19 ..\..\src\parameterstackwidget.cpp:351 EL: Delete Parameter
+18:39:30 c:\anthill_jobs\job534797\fmod4\tools\fmod_designer\src\parameterpropertiesdialog.ui.h:116 EJ: Change Parameter Properties
+18:39:52 ..\..\src\eventlayerstackwidget.cpp:1574 CY: Add Effect
+18:39:59 ..\..\src\eventlayercontrolwidget.cpp:375 CK: Resize Layer
+18:39:59 ..\..\src\eventlayercontrolwidget.cpp:375 CK: Resize Layer
+18:39:59 ..\..\src\eventlayercontrolwidget.cpp:375 CK: Resize Layer
+18:39:59 ..\..\src\eventlayercontrolwidget.cpp:375 CK: Resize Layer
+18:39:59 ..\..\src\eventlayercontrolwidget.cpp:375 CK: Resize Layer
+18:39:59 ..\..\src\eventlayercontrolwidget.cpp:375 CK: Resize Layer
+18:39:59 ..\..\src\eventlayercontrolwidget.cpp:375 CK: Resize Layer
+18:39:59 ..\..\src\eventlayercontrolwidget.cpp:375 CK: Resize Layer
+18:39:59 ..\..\src\eventlayercontrolwidget.cpp:375 CK: Resize Layer
+18:39:59 ..\..\src\eventlayercontrolwidget.cpp:375 CK: Resize Layer
+18:39:59 ..\..\src\eventlayercontrolwidget.cpp:375 CK: Resize Layer
+18:39:59 ..\..\src\eventlayercontrolwidget.cpp:375 CK: Resize Layer
+18:39:59 ..\..\src\eventlayercontrolwidget.cpp:375 CK: Resize Layer
+18:39:59 ..\..\src\eventlayercontrolwidget.cpp:375 CK: Resize Layer
+18:39:59 ..\..\src\eventlayercontrolwidget.cpp:375 CK: Resize Layer
+18:39:59 ..\..\src\eventlayercontrolwidget.cpp:375 CK: Resize Layer
+18:39:59 ..\..\src\eventlayercontrolwidget.cpp:375 CK: Resize Layer
+18:39:59 ..\..\src\eventlayercontrolwidget.cpp:375 CK: Resize Layer
+18:39:59 ..\..\src\eventlayercontrolwidget.cpp:375 CK: Resize Layer
+18:39:59 ..\..\src\eventlayercontrolwidget.cpp:375 CK: Resize Layer
+18:39:59 ..\..\src\eventlayercontrolwidget.cpp:375 CK: Resize Layer
+18:39:59 ..\..\src\eventlayercontrolwidget.cpp:375 CK: Resize Layer
+18:39:59 ..\..\src\eventlayercontrolwidget.cpp:375 CK: Resize Layer
+18:39:59 ..\..\src\eventlayercontrolwidget.cpp:375 CK: Resize Layer
+18:39:59 ..\..\src\eventlayercontrolwidget.cpp:375 CK: Resize Layer
+18:39:59 ..\..\src\eventlayercontrolwidget.cpp:375 CK: Resize Layer
+18:39:59 ..\..\src\eventlayercontrolwidget.cpp:375 CK: Resize Layer
+18:39:59 ..\..\src\eventlayercontrolwidget.cpp:375 CK: Resize Layer
+18:39:59 ..\..\src\eventlayercontrolwidget.cpp:375 CK: Resize Layer
+18:39:59 ..\..\src\eventlayercontrolwidget.cpp:375 CK: Resize Layer
+18:39:59 ..\..\src\eventlayercontrolwidget.cpp:375 CK: Resize Layer
+18:39:59 ..\..\src\eventlayercontrolwidget.cpp:375 CK: Resize Layer
+18:39:59 ..\..\src\eventlayercontrolwidget.cpp:375 CK: Resize Layer
+18:39:59 ..\..\src\eventlayercontrolwidget.cpp:375 CK: Resize Layer
+18:39:59 ..\..\src\eventlayercontrolwidget.cpp:375 CK: Resize Layer
+18:39:59 ..\..\src\eventlayercontrolwidget.cpp:375 CK: Resize Layer
+18:39:59 ..\..\src\eventlayercontrolwidget.cpp:375 CK: Resize Layer
+18:39:59 ..\..\src\eventlayercontrolwidget.cpp:375 CK: Resize Layer
+18:39:59 ..\..\src\eventlayercontrolwidget.cpp:375 CK: Resize Layer
+18:39:59 ..\..\src\eventlayercontrolwidget.cpp:375 CK: Resize Layer
+18:39:59 ..\..\src\eventlayercontrolwidget.cpp:375 CK: Resize Layer
+18:39:59 ..\..\src\eventlayercontrolwidget.cpp:375 CK: Resize Layer
+18:39:59 ..\..\src\eventlayercontrolwidget.cpp:375 CK: Resize Layer
+18:40:04 ..\..\src\eventlayerstackwidget.cpp:1705 CZ: Delete Effect
+18:40:09 ..\..\src\eventlayerstackwidget.cpp:1959 DA: Add Envelope Point
+18:40:10 ..\..\src\envelopewidget.cpp:1139 BT: Move Envelope Point
+18:40:10 ..\..\src\envelopewidget.cpp:1139 BT: Move Envelope Point
+18:40:10 ..\..\src\envelopewidget.cpp:1139 BT: Move Envelope Point
+18:40:10 ..\..\src\envelopewidget.cpp:1139 BT: Move Envelope Point
+18:40:10 ..\..\src\envelopewidget.cpp:1139 BT: Move Envelope Point
+18:40:10 ..\..\src\envelopewidget.cpp:1139 BT: Move Envelope Point
+18:40:10 ..\..\src\envelopewidget.cpp:1139 BT: Move Envelope Point
+18:40:10 ..\..\src\envelopewidget.cpp:1139 BT: Move Envelope Point
+18:40:10 ..\..\src\envelopewidget.cpp:1139 BT: Move Envelope Point
+18:40:10 ..\..\src\envelopewidget.cpp:1139 BT: Move Envelope Point
+18:40:10 ..\..\src\envelopewidget.cpp:1139 BT: Move Envelope Point
+18:40:10 ..\..\src\envelopewidget.cpp:1139 BT: Move Envelope Point
+18:40:10 ..\..\src\envelopewidget.cpp:1139 BT: Move Envelope Point
+18:40:10 ..\..\src\envelopewidget.cpp:1139 BT: Move Envelope Point
+18:40:10 ..\..\src\envelopewidget.cpp:1139 BT: Move Envelope Point
+18:40:10 ..\..\src\envelopewidget.cpp:1139 BT: Move Envelope Point
+18:40:10 ..\..\src\envelopewidget.cpp:1139 BT: Move Envelope Point
+18:40:10 ..\..\src\envelopewidget.cpp:1139 BT: Move Envelope Point
+18:40:10 ..\..\src\envelopewidget.cpp:1139 BT: Move Envelope Point
+18:40:10 ..\..\src\envelopewidget.cpp:1139 BT: Move Envelope Point
+18:40:10 ..\..\src\envelopewidget.cpp:1139 BT: Move Envelope Point
+18:40:10 ..\..\src\envelopewidget.cpp:1139 BT: Move Envelope Point
+18:40:10 ..\..\src\envelopewidget.cpp:1139 BT: Move Envelope Point
+18:40:10 ..\..\src\envelopewidget.cpp:1139 BT: Move Envelope Point
+18:40:10 ..\..\src\envelopewidget.cpp:1139 BT: Move Envelope Point
+18:40:10 ..\..\src\envelopewidget.cpp:1139 BT: Move Envelope Point
+18:40:10 ..\..\src\envelopewidget.cpp:1139 BT: Move Envelope Point
+18:40:10 ..\..\src\envelopewidget.cpp:1139 BT: Move Envelope Point
+18:40:10 ..\..\src\envelopewidget.cpp:1139 BT: Move Envelope Point
+18:40:10 ..\..\src\envelopewidget.cpp:1139 BT: Move Envelope Point
+18:40:10 ..\..\src\envelopewidget.cpp:1139 BT: Move Envelope Point
+18:40:10 ..\..\src\envelopewidget.cpp:1139 BT: Move Envelope Point
+18:40:10 ..\..\src\envelopewidget.cpp:1139 BT: Move Envelope Point
+18:40:10 ..\..\src\envelopewidget.cpp:1139 BT: Move Envelope Point
+18:40:10 ..\..\src\envelopewidget.cpp:1139 BT: Move Envelope Point
+18:40:10 ..\..\src\envelopewidget.cpp:1139 BT: Move Envelope Point
+18:40:10 ..\..\src\envelopewidget.cpp:1139 BT: Move Envelope Point
+18:40:10 ..\..\src\envelopewidget.cpp:1139 BT: Move Envelope Point
+18:40:11 ..\..\src\envelopewidget.cpp:1139 BT: Move Envelope Point
+18:40:11 ..\..\src\envelopewidget.cpp:1139 BT: Move Envelope Point
+18:40:11 ..\..\src\envelopewidget.cpp:1139 BT: Move Envelope Point
+18:40:11 ..\..\src\envelopewidget.cpp:1139 BT: Move Envelope Point
+18:40:11 ..\..\src\envelopewidget.cpp:1139 BT: Move Envelope Point
+18:40:11 ..\..\src\envelopewidget.cpp:1139 BT: Move Envelope Point
+18:40:11 ..\..\src\envelopewidget.cpp:1139 BT: Move Envelope Point
+18:40:11 ..\..\src\envelopewidget.cpp:1139 BT: Move Envelope Point
+18:40:11 ..\..\src\envelopewidget.cpp:1139 BT: Move Envelope Point
+18:40:11 ..\..\src\envelopewidget.cpp:1139 BT: Move Envelope Point
+18:40:11 ..\..\src\envelopewidget.cpp:1139 BT: Move Envelope Point
+18:40:11 ..\..\src\envelopewidget.cpp:1139 BT: Move Envelope Point
+18:40:11 ..\..\src\envelopewidget.cpp:1139 BT: Move Envelope Point
+18:40:11 ..\..\src\envelopewidget.cpp:1139 BT: Move Envelope Point
+18:40:11 ..\..\src\envelopewidget.cpp:1139 BT: Move Envelope Point
+18:40:11 ..\..\src\envelopewidget.cpp:1139 BT: Move Envelope Point
+18:40:11 ..\..\src\envelopewidget.cpp:1139 BT: Move Envelope Point
+18:40:11 ..\..\src\envelopewidget.cpp:1139 BT: Move Envelope Point
+18:40:11 ..\..\src\envelopewidget.cpp:1139 BT: Move Envelope Point
+18:40:11 ..\..\src\envelopewidget.cpp:1139 BT: Move Envelope Point
+18:40:11 ..\..\src\envelopewidget.cpp:1139 BT: Move Envelope Point
+18:40:11 ..\..\src\envelopewidget.cpp:1139 BT: Move Envelope Point
+18:40:11 ..\..\src\envelopewidget.cpp:1139 BT: Move Envelope Point
+18:40:11 ..\..\src\envelopewidget.cpp:1139 BT: Move Envelope Point
+18:40:11 ..\..\src\envelopewidget.cpp:1139 BT: Move Envelope Point
+18:40:11 ..\..\src\envelopewidget.cpp:1139 BT: Move Envelope Point
+18:40:11 ..\..\src\envelopewidget.cpp:1139 BT: Move Envelope Point
+18:40:11 ..\..\src\envelopewidget.cpp:1139 BT: Move Envelope Point
+18:40:11 ..\..\src\envelopewidget.cpp:1139 BT: Move Envelope Point
+18:40:11 ..\..\src\envelopewidget.cpp:1139 BT: Move Envelope Point
+18:40:11 ..\..\src\envelopewidget.cpp:1139 BT: Move Envelope Point
+18:40:11 ..\..\src\envelopewidget.cpp:1139 BT: Move Envelope Point
+18:40:11 ..\..\src\envelopewidget.cpp:1139 BT: Move Envelope Point
+18:40:11 ..\..\src\envelopewidget.cpp:1139 BT: Move Envelope Point
+18:40:11 ..\..\src\envelopewidget.cpp:1139 BT: Move Envelope Point
+18:40:11 ..\..\src\envelopewidget.cpp:1139 BT: Move Envelope Point
+18:40:11 ..\..\src\envelopewidget.cpp:1139 BT: Move Envelope Point
+18:40:11 ..\..\src\envelopewidget.cpp:1139 BT: Move Envelope Point
+18:40:11 ..\..\src\envelopewidget.cpp:1139 BT: Move Envelope Point
+18:40:11 ..\..\src\envelopewidget.cpp:1139 BT: Move Envelope Point
+18:40:11 ..\..\src\envelopewidget.cpp:1139 BT: Move Envelope Point
+18:40:11 ..\..\src\envelopewidget.cpp:1139 BT: Move Envelope Point
+18:41:07 c:\anthill_jobs\job534797\fmod4\tools\fmod_designer\src\sounddefform.ui.h:2159 FR: Delete Sound Def Item

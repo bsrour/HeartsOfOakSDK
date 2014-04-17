@@ -498,3 +498,180 @@ Summary of build:
 SUCCESS: F:/Projects/CRYENGINE/HeartsOfOakSDK/Sounds/cannonball/cannonball.fev
 SUCCESS: F:/Projects/CRYENGINE/HeartsOfOakSDK/Sounds/cannonball/cannonball.h
 SUCCESS: cannonball_bank00.fsb
+Debug: "00:29:35 ..\..\src\parameterstackwidget.cpp:274 EK: Add Parameter" 
+Debug: "18:37:55 c:\anthill_jobs\job534797\fmod4\tools\fmod_designer\src\eventform.ui.h:1983 CG: Paste Event" 
+Warning: QColor::setHsv: HSV parameters out of range
+Debug: "18:38:21 ..\..\src\eventlayerstackwidget.cpp:1402 CW: Replace sound" 
+Warning: QColor::setHsv: HSV parameters out of range
+Warning: QColor::setHsv: HSV parameters out of range
+Debug: "18:38:27 ..\..\src\eventlayerstackwidget.cpp:1402 CW: Replace sound" 
+Warning: QColor::setHsv: HSV parameters out of range
+Warning: QColor::setHsv: HSV parameters out of range
+Debug: "18:38:34 ..\..\src\eventlayerstackwidget.cpp:1179 CT: Delete Layer" 
+Debug: "18:39:19 ..\..\src\parameterstackwidget.cpp:351 EL: Delete Parameter" 
+Debug: "18:39:30 c:\anthill_jobs\job534797\fmod4\tools\fmod_designer\src\parameterpropertiesdialog.ui.h:116 EJ: Change Parameter Properties" 
+Debug: "18:39:52 ..\..\src\eventlayerstackwidget.cpp:1574 CY: Add Effect" 
+Debug: "18:39:59 ..\..\src\eventlayercontrolwidget.cpp:375 CK: Resize Layer" 
+Debug: "18:39:59 ..\..\src\eventlayercontrolwidget.cpp:375 CK: Resize Layer" 
+Debug: "18:39:59 ..\..\src\eventlayercontrolwidget.cpp:375 CK: Resize Layer" 
+Debug: "18:39:59 ..\..\src\eventlayercontrolwidget.cpp:375 CK: Resize Layer" 
+Debug: "18:39:59 ..\..\src\eventlayercontrolwidget.cpp:375 CK: Resize Layer" 
+Debug: "18:39:59 ..\..\src\eventlayercontrolwidget.cpp:375 CK: Resize Layer" 
+Debug: "18:39:59 ..\..\src\eventlayercontrolwidget.cpp:375 CK: Resize Layer" 
+Debug: "18:39:59 ..\..\src\eventlayercontrolwidget.cpp:375 CK: Resize Layer" 
+Debug: "18:39:59 ..\..\src\eventlayercontrolwidget.cpp:375 CK: Resize Layer" 
+Debug: "18:39:59 ..\..\src\eventlayercontrolwidget.cpp:375 CK: Resize Layer" 
+Debug: "18:39:59 ..\..\src\eventlayercontrolwidget.cpp:375 CK: Resize Layer" 
+Debug: "18:39:59 ..\..\src\eventlayercontrolwidget.cpp:375 CK: Resize Layer" 
+Debug: "18:39:59 ..\..\src\eventlayercontrolwidget.cpp:375 CK: Resize Layer" 
+Debug: "18:39:59 ..\..\src\eventlayercontrolwidget.cpp:375 CK: Resize Layer" 
+Debug: "18:39:59 ..\..\src\eventlayercontrolwidget.cpp:375 CK: Resize Layer" 
+Debug: "18:39:59 ..\..\src\eventlayercontrolwidget.cpp:375 CK: Resize Layer" 
+Debug: "18:39:59 ..\..\src\eventlayercontrolwidget.cpp:375 CK: Resize Layer" 
+Debug: "18:39:59 ..\..\src\eventlayercontrolwidget.cpp:375 CK: Resize Layer" 
+Debug: "18:39:59 ..\..\src\eventlayercontrolwidget.cpp:375 CK: Resize Layer" 
+Debug: "18:39:59 ..\..\src\eventlayercontrolwidget.cpp:375 CK: Resize Layer" 
+Debug: "18:39:59 ..\..\src\eventlayercontrolwidget.cpp:375 CK: Resize Layer" 
+Debug: "18:39:59 ..\..\src\eventlayercontrolwidget.cpp:375 CK: Resize Layer" 
+Debug: "18:39:59 ..\..\src\eventlayercontrolwidget.cpp:375 CK: Resize Layer" 
+Debug: "18:39:59 ..\..\src\eventlayercontrolwidget.cpp:375 CK: Resize Layer" 
+Debug: "18:39:59 ..\..\src\eventlayercontrolwidget.cpp:375 CK: Resize Layer" 
+Debug: "18:39:59 ..\..\src\eventlayercontrolwidget.cpp:375 CK: Resize Layer" 
+Debug: "18:39:59 ..\..\src\eventlayercontrolwidget.cpp:375 CK: Resize Layer" 
+Debug: "18:39:59 ..\..\src\eventlayercontrolwidget.cpp:375 CK: Resize Layer" 
+Debug: "18:39:59 ..\..\src\eventlayercontrolwidget.cpp:375 CK: Resize Layer" 
+Debug: "18:39:59 ..\..\src\eventlayercontrolwidget.cpp:375 CK: Resize Layer" 
+Debug: "18:39:59 ..\..\src\eventlayercontrolwidget.cpp:375 CK: Resize Layer" 
+Debug: "18:39:59 ..\..\src\eventlayercontrolwidget.cpp:375 CK: Resize Layer" 
+Debug: "18:39:59 ..\..\src\eventlayercontrolwidget.cpp:375 CK: Resize Layer" 
+Debug: "18:39:59 ..\..\src\eventlayercontrolwidget.cpp:375 CK: Resize Layer" 
+Debug: "18:39:59 ..\..\src\eventlayercontrolwidget.cpp:375 CK: Resize Layer" 
+Debug: "18:39:59 ..\..\src\eventlayercontrolwidget.cpp:375 CK: Resize Layer" 
+Debug: "18:39:59 ..\..\src\eventlayercontrolwidget.cpp:375 CK: Resize Layer" 
+Debug: "18:39:59 ..\..\src\eventlayercontrolwidget.cpp:375 CK: Resize Layer" 
+Debug: "18:39:59 ..\..\src\eventlayercontrolwidget.cpp:375 CK: Resize Layer" 
+Debug: "18:39:59 ..\..\src\eventlayercontrolwidget.cpp:375 CK: Resize Layer" 
+Debug: "18:39:59 ..\..\src\eventlayercontrolwidget.cpp:375 CK: Resize Layer" 
+Debug: "18:39:59 ..\..\src\eventlayercontrolwidget.cpp:375 CK: Resize Layer" 
+Debug: "18:39:59 ..\..\src\eventlayercontrolwidget.cpp:375 CK: Resize Layer" 
+Debug: "18:40:04 ..\..\src\eventlayerstackwidget.cpp:1705 CZ: Delete Effect" 
+Debug: "18:40:09 ..\..\src\eventlayerstackwidget.cpp:1959 DA: Add Envelope Point" 
+Debug: "18:40:10 ..\..\src\envelopewidget.cpp:1139 BT: Move Envelope Point" 
+Debug: "18:40:10 ..\..\src\envelopewidget.cpp:1139 BT: Move Envelope Point" 
+Debug: "18:40:10 ..\..\src\envelopewidget.cpp:1139 BT: Move Envelope Point" 
+Debug: "18:40:10 ..\..\src\envelopewidget.cpp:1139 BT: Move Envelope Point" 
+Debug: "18:40:10 ..\..\src\envelopewidget.cpp:1139 BT: Move Envelope Point" 
+Debug: "18:40:10 ..\..\src\envelopewidget.cpp:1139 BT: Move Envelope Point" 
+Debug: "18:40:10 ..\..\src\envelopewidget.cpp:1139 BT: Move Envelope Point" 
+Debug: "18:40:10 ..\..\src\envelopewidget.cpp:1139 BT: Move Envelope Point" 
+Debug: "18:40:10 ..\..\src\envelopewidget.cpp:1139 BT: Move Envelope Point" 
+Debug: "18:40:10 ..\..\src\envelopewidget.cpp:1139 BT: Move Envelope Point" 
+Debug: "18:40:10 ..\..\src\envelopewidget.cpp:1139 BT: Move Envelope Point" 
+Debug: "18:40:10 ..\..\src\envelopewidget.cpp:1139 BT: Move Envelope Point" 
+Debug: "18:40:10 ..\..\src\envelopewidget.cpp:1139 BT: Move Envelope Point" 
+Debug: "18:40:10 ..\..\src\envelopewidget.cpp:1139 BT: Move Envelope Point" 
+Debug: "18:40:10 ..\..\src\envelopewidget.cpp:1139 BT: Move Envelope Point" 
+Debug: "18:40:10 ..\..\src\envelopewidget.cpp:1139 BT: Move Envelope Point" 
+Debug: "18:40:10 ..\..\src\envelopewidget.cpp:1139 BT: Move Envelope Point" 
+Debug: "18:40:10 ..\..\src\envelopewidget.cpp:1139 BT: Move Envelope Point" 
+Debug: "18:40:10 ..\..\src\envelopewidget.cpp:1139 BT: Move Envelope Point" 
+Debug: "18:40:10 ..\..\src\envelopewidget.cpp:1139 BT: Move Envelope Point" 
+Debug: "18:40:10 ..\..\src\envelopewidget.cpp:1139 BT: Move Envelope Point" 
+Debug: "18:40:10 ..\..\src\envelopewidget.cpp:1139 BT: Move Envelope Point" 
+Debug: "18:40:10 ..\..\src\envelopewidget.cpp:1139 BT: Move Envelope Point" 
+Debug: "18:40:10 ..\..\src\envelopewidget.cpp:1139 BT: Move Envelope Point" 
+Debug: "18:40:10 ..\..\src\envelopewidget.cpp:1139 BT: Move Envelope Point" 
+Debug: "18:40:10 ..\..\src\envelopewidget.cpp:1139 BT: Move Envelope Point" 
+Debug: "18:40:10 ..\..\src\envelopewidget.cpp:1139 BT: Move Envelope Point" 
+Debug: "18:40:10 ..\..\src\envelopewidget.cpp:1139 BT: Move Envelope Point" 
+Debug: "18:40:10 ..\..\src\envelopewidget.cpp:1139 BT: Move Envelope Point" 
+Debug: "18:40:10 ..\..\src\envelopewidget.cpp:1139 BT: Move Envelope Point" 
+Debug: "18:40:10 ..\..\src\envelopewidget.cpp:1139 BT: Move Envelope Point" 
+Debug: "18:40:10 ..\..\src\envelopewidget.cpp:1139 BT: Move Envelope Point" 
+Debug: "18:40:10 ..\..\src\envelopewidget.cpp:1139 BT: Move Envelope Point" 
+Debug: "18:40:10 ..\..\src\envelopewidget.cpp:1139 BT: Move Envelope Point" 
+Debug: "18:40:10 ..\..\src\envelopewidget.cpp:1139 BT: Move Envelope Point" 
+Debug: "18:40:10 ..\..\src\envelopewidget.cpp:1139 BT: Move Envelope Point" 
+Debug: "18:40:10 ..\..\src\envelopewidget.cpp:1139 BT: Move Envelope Point" 
+Debug: "18:40:10 ..\..\src\envelopewidget.cpp:1139 BT: Move Envelope Point" 
+Debug: "18:40:11 ..\..\src\envelopewidget.cpp:1139 BT: Move Envelope Point" 
+Debug: "18:40:11 ..\..\src\envelopewidget.cpp:1139 BT: Move Envelope Point" 
+Debug: "18:40:11 ..\..\src\envelopewidget.cpp:1139 BT: Move Envelope Point" 
+Debug: "18:40:11 ..\..\src\envelopewidget.cpp:1139 BT: Move Envelope Point" 
+Debug: "18:40:11 ..\..\src\envelopewidget.cpp:1139 BT: Move Envelope Point" 
+Debug: "18:40:11 ..\..\src\envelopewidget.cpp:1139 BT: Move Envelope Point" 
+Debug: "18:40:11 ..\..\src\envelopewidget.cpp:1139 BT: Move Envelope Point" 
+Debug: "18:40:11 ..\..\src\envelopewidget.cpp:1139 BT: Move Envelope Point" 
+Debug: "18:40:11 ..\..\src\envelopewidget.cpp:1139 BT: Move Envelope Point" 
+Debug: "18:40:11 ..\..\src\envelopewidget.cpp:1139 BT: Move Envelope Point" 
+Debug: "18:40:11 ..\..\src\envelopewidget.cpp:1139 BT: Move Envelope Point" 
+Debug: "18:40:11 ..\..\src\envelopewidget.cpp:1139 BT: Move Envelope Point" 
+Debug: "18:40:11 ..\..\src\envelopewidget.cpp:1139 BT: Move Envelope Point" 
+Debug: "18:40:11 ..\..\src\envelopewidget.cpp:1139 BT: Move Envelope Point" 
+Debug: "18:40:11 ..\..\src\envelopewidget.cpp:1139 BT: Move Envelope Point" 
+Debug: "18:40:11 ..\..\src\envelopewidget.cpp:1139 BT: Move Envelope Point" 
+Debug: "18:40:11 ..\..\src\envelopewidget.cpp:1139 BT: Move Envelope Point" 
+Debug: "18:40:11 ..\..\src\envelopewidget.cpp:1139 BT: Move Envelope Point" 
+Debug: "18:40:11 ..\..\src\envelopewidget.cpp:1139 BT: Move Envelope Point" 
+Debug: "18:40:11 ..\..\src\envelopewidget.cpp:1139 BT: Move Envelope Point" 
+Debug: "18:40:11 ..\..\src\envelopewidget.cpp:1139 BT: Move Envelope Point" 
+Debug: "18:40:11 ..\..\src\envelopewidget.cpp:1139 BT: Move Envelope Point" 
+Debug: "18:40:11 ..\..\src\envelopewidget.cpp:1139 BT: Move Envelope Point" 
+Debug: "18:40:11 ..\..\src\envelopewidget.cpp:1139 BT: Move Envelope Point" 
+Debug: "18:40:11 ..\..\src\envelopewidget.cpp:1139 BT: Move Envelope Point" 
+Debug: "18:40:11 ..\..\src\envelopewidget.cpp:1139 BT: Move Envelope Point" 
+Debug: "18:40:11 ..\..\src\envelopewidget.cpp:1139 BT: Move Envelope Point" 
+Debug: "18:40:11 ..\..\src\envelopewidget.cpp:1139 BT: Move Envelope Point" 
+Debug: "18:40:11 ..\..\src\envelopewidget.cpp:1139 BT: Move Envelope Point" 
+Debug: "18:40:11 ..\..\src\envelopewidget.cpp:1139 BT: Move Envelope Point" 
+Debug: "18:40:11 ..\..\src\envelopewidget.cpp:1139 BT: Move Envelope Point" 
+Debug: "18:40:11 ..\..\src\envelopewidget.cpp:1139 BT: Move Envelope Point" 
+Debug: "18:40:11 ..\..\src\envelopewidget.cpp:1139 BT: Move Envelope Point" 
+Debug: "18:40:11 ..\..\src\envelopewidget.cpp:1139 BT: Move Envelope Point" 
+Debug: "18:40:11 ..\..\src\envelopewidget.cpp:1139 BT: Move Envelope Point" 
+Debug: "18:40:11 ..\..\src\envelopewidget.cpp:1139 BT: Move Envelope Point" 
+Debug: "18:40:11 ..\..\src\envelopewidget.cpp:1139 BT: Move Envelope Point" 
+Debug: "18:40:11 ..\..\src\envelopewidget.cpp:1139 BT: Move Envelope Point" 
+Debug: "18:40:11 ..\..\src\envelopewidget.cpp:1139 BT: Move Envelope Point" 
+Debug: "18:40:11 ..\..\src\envelopewidget.cpp:1139 BT: Move Envelope Point" 
+Debug: "18:40:11 ..\..\src\envelopewidget.cpp:1139 BT: Move Envelope Point" 
+Debug: "18:40:11 ..\..\src\envelopewidget.cpp:1139 BT: Move Envelope Point" 
+Debug: "18:41:07 c:\anthill_jobs\job534797\fmod4\tools\fmod_designer\src\sounddefform.ui.h:2159 FR: Delete Sound Def Item" 
+Debug: 
+Building project 'cannonball'...
+Debug: Building project F:\Projects\CRYENGINE\HeartsOfOakSDK\Sounds\cannonball\cannonball.fev...
+Debug: Unique sound defs 2/7
+Debug: Retrieving sound file info...
+Debug: Retrieving reverb info...
+Debug: FEV file written ok
+Debug: Unique Envelope Points: 25 of 34
+Debug: Unique Strings: 340 characters of 380
+Debug: Building header file F:\Projects\CRYENGINE\HeartsOfOakSDK\Sounds\cannonball\cannonball.h...
+Debug: Caching sound file details for ''...
+Debug: cannonball_whiz_2.ogg
+Debug: cannonball_whiz_3.ogg
+Debug: cannonball_whiz_4.ogg
+Debug: cannonball_whiz_5.ogg
+Debug: files\9lb_fire.ogg
+Debug: files\9lb_fire_heavybass.ogg
+Debug: files\9lb_fire_modebass.ogg
+Debug: files\9lb_fire_modebass_2.ogg
+Debug: files\Cannon_9pdr_01.wav
+Debug: Building 'cannonball_bank00.fsb'
+Debug: Encoded F:\Projects\CRYENGINE\HeartsOfOakSDK\Sounds\cannonball\cannonball_whiz_3.ogg
+Debug: Encoded F:\Projects\CRYENGINE\HeartsOfOakSDK\Sounds\cannonball\cannonball_whiz_2.ogg
+Debug: Encoded F:\Projects\CRYENGINE\HeartsOfOakSDK\Sounds\cannonball\cannonball_whiz_4.ogg
+Debug: Encoded F:\Projects\CRYENGINE\HeartsOfOakSDK\Sounds\cannonball\cannonball_whiz_5.ogg
+Debug: Encoded F:\Projects\CRYENGINE\HeartsOfOakSDK\Sounds\cannonball\files\9lb_fire.ogg
+Debug: Encoded F:\Projects\CRYENGINE\HeartsOfOakSDK\Sounds\cannonball\files\9lb_fire_heavybass.ogg
+Debug: Encoded F:\Projects\CRYENGINE\HeartsOfOakSDK\Sounds\cannonball\files\9lb_fire_modebass.ogg
+Debug: Encoded F:\Projects\CRYENGINE\HeartsOfOakSDK\Sounds\cannonball\files\9lb_fire_modebass_2.ogg
+Debug: Encoded F:\Projects\CRYENGINE\HeartsOfOakSDK\Sounds\cannonball\files\Cannon_9pdr_01.wav
+Debug: Writing FSB...
+Debug: Finished building FSB
+Debug: 
+Debug: 
+Summary of build:
+SUCCESS: F:/Projects/CRYENGINE/HeartsOfOakSDK/Sounds/cannonball/cannonball.fev
+SUCCESS: F:/Projects/CRYENGINE/HeartsOfOakSDK/Sounds/cannonball/cannonball.h
+SUCCESS: cannonball_bank00.fsb

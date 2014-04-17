@@ -321,7 +321,7 @@
 		</RandEffect>
 
 		<Sound bIgnoreDistMult="1">
-			<Name>Sounds/physics:particles/debris:debris_wood</Name>
+			<Name>Sounds/ships:hit:cannonball_single</Name>
 		</Sound>
 	</Effect>
 

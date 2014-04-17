@@ -4,7 +4,7 @@
  <EnvState WindVector="4,4,0" BreezeGeneration="0" BreezeStrength="1" BreezeMovementSpeed="8" BreezeVariation="1" BreezeLifeTime="15" BreezeCount="4" BreezeSpawnRadius="25" BreezeSpread="0.f" BreezeRadius="5" ConsoleMergedMeshesPool="2750" ShowTerrainSurface="1" SunShadowsMinSpec="1" SunShadowsAdditionalCascadeMinSpec="0" SunShadowsClipPlaneRange="256" UseLayersActivation="0" SunLinkedToTOD="1"/>
  <VolFogShadows Enable="1" EnableForClouds="1"/>
  <CloudShadows CloudShadowTexture="" CloudShadowSpeed="0,0,0" CloudShadowTiling="1" CloudShadowBrightness="1" CloudShadowInvert="0"/>
- <ParticleLighting AmbientMul="0.5" LightsMul="0.5" SunMul="1"/>
+ <ParticleLighting AmbientMul="0.5" LightsMul="0.5" SunMul="2"/>
  <SkyBox Material="Materials/Sky/Sky" MaterialLowSpec="Materials/Sky/Sky" Angle="0" Stretching="0.5"/>
  <Ocean Material="EngineAssets/Materials/Water/Ocean_default" CausticDepth="50" CausticIntensity="0.02" CausticsTilling="0.5"/>
  <OceanAnimation WindDirection="1" WindSpeed="10" WavesSpeed="0.1" WavesAmount="0.5" WavesSize="0.25"/>

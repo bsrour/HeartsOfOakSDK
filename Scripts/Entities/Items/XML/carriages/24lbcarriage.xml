@@ -4,7 +4,7 @@
 	<param name="mass" value="500" />
   </params>
   <geometry>
-    <firstperson name="Objects/heartsofoak/weapons/cannons/carriage_tall_24pdr.cga" />
-    <thirdperson name="Objects/heartsofoak/weapons/cannons/carriage_tall_24pdr.cga" />
+    <firstperson name="Objects/heartsofoak/weapons/cannons/cannon_carriage_24pdr_9ft6in_bronze_tall.cgf" />
+    <thirdperson name="Objects/heartsofoak/weapons/cannons/cannon_carriage_24pdr_9ft6in_bronze_tall.cgf" />
   </geometry>
 </item>
