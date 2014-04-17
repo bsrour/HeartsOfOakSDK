@@ -1,0 +1,72 @@
+<GameTokens>
+ <GameTokensLibrary>
+  <LevelLibrary Name="Level">
+   <GameToken Name="AB0.Player_InSide" Type="Bool" Value="true" Description="Check if Player still in the player - End Mission" LocalOnly="0"/>
+   <GameToken Name="AB3.MusicHawkerKidknapped" Type="Bool" Value="false" Description="This trigger music for when hawker is kidknapped" LocalOnly="0"/>
+   <GameToken Name="AB0.Tray_Opening" Type="Bool" Value="false" Description="Triggers music when the tray in the C17 is opening" LocalOnly="0"/>
+   <GameToken Name="Dialogue.Running" Type="Bool" Value="false" Description="Dialog overlapping issue" LocalOnly="0"/>
+   <GameToken Name="AB3.Group3010_Houses_Alerted" Type="Bool" Value="false" Description="Alert state" LocalOnly="0"/>
+   <GameToken Name="AB3.Group3009_Patrol_Alerted" Type="Bool" Value="false" Description="Alert state" LocalOnly="0"/>
+   <GameToken Name="AB3.Group3007_Beach_Alerted" Type="Bool" Value="false" Description="Alert state" LocalOnly="0"/>
+   <GameToken Name="AB3.Group3008_Beach_Alerted" Type="Bool" Value="false" Description="Alert state" LocalOnly="0"/>
+   <GameToken Name="AB3.Group3012_Outpost_Alerted" Type="Bool" Value="false" Description="Alert state" LocalOnly="0"/>
+   <GameToken Name="AB3.Group3013_Outpost_Alerted" Type="Bool" Value="false" Description="Alert state" LocalOnly="0"/>
+   <GameToken Name="AB4.Antenna_Done" Type="Bool" Value="false" LocalOnly="0"/>
+   <GameToken Name="AB3.Outpost_Objective_Done" Type="Bool" Value="false" LocalOnly="0"/>
+   <GameToken Name="Tutorial.Player_in_water" Type="Int" Value="0" LocalOnly="0"/>
+   <GameToken Name="Tutorial.1st_encounter_dead" Type="Int" Value="0" LocalOnly="0"/>
+   <GameToken Name="Tutorial.Reached_vista" Type="Int" Value="0" LocalOnly="0"/>
+   <GameToken Name="Tutorial.Passengers_in_LTV_settlement" Type="Int" Value="0" LocalOnly="0"/>
+   <GameToken Name="Tutorial.Flare_fired" Type="Int" Value="0" LocalOnly="0"/>
+   <GameToken Name="Tutorial.Passengers_in_LTV_sandpit" Type="Int" Value="0" LocalOnly="0"/>
+   <GameToken Name="Tutorial.Passengers_in_LTV_houses" Type="Int" Value="0" LocalOnly="0"/>
+   <GameToken Name="Tutorial.Passengers_in_LTV_cool" Type="Int" Value="0" LocalOnly="0"/>
+   <GameToken Name="Tutorial.Passengers_in_LTV_chokepoint" Type="Int" Value="0" LocalOnly="0"/>
+   <GameToken Name="Tutorial.LTV_chokepoint_destroyed" Type="Int" Value="0" LocalOnly="0"/>
+   <GameToken Name="Tutorial.LTV_cool_destroyed" Type="Int" Value="0" LocalOnly="0"/>
+   <GameToken Name="Tutorial.LTV_houses_destroyed" Type="Int" Value="0" LocalOnly="0"/>
+   <GameToken Name="Tutorial.LTV_sandpit_destroyed" Type="Int" Value="0" LocalOnly="0"/>
+   <GameToken Name="Tutorial.LTV_settlement_destroyed" Type="Int" Value="0" LocalOnly="0"/>
+   <GameToken Name="Tutorial.Player_is_in_vehicle" Type="Int" Value="0" LocalOnly="0"/>
+   <GameToken Name="Tutorial.Player_in_sandpit" Type="Int" Value="0" LocalOnly="0"/>
+   <GameToken Name="Tutorial.Player_in_AB4" Type="Int" Value="0" LocalOnly="0"/>
+   <GameToken Name="Tutorial.2nd_encounter_rounded_corner" Type="Int" Value="0" LocalOnly="0"/>
+   <GameToken Name="Tutorial.Player_is_in_vehicle_with_mounted_gun" Type="Int" Value="0" LocalOnly="0"/>
+   <GameToken Name="Tutorial.Seat_change_msg_played" Type="Int" Value="0" LocalOnly="0"/>
+   <GameToken Name="Tutorial.Camera_change_msg_played" Type="Int" Value="0" LocalOnly="0"/>
+   <GameToken Name="Tutorial.Civ_car1_destroyed" Type="Int" Value="0" LocalOnly="0"/>
+   <GameToken Name="Tutorial.Civ_car2_destroyed" Type="Int" Value="0" LocalOnly="0"/>
+   <GameToken Name="Tutorial.Civ_car3_destroyed" Type="Int" Value="0" LocalOnly="0"/>
+   <GameToken Name="Tutorial.Civ_car4_destroyed" Type="Int" Value="0" LocalOnly="0"/>
+   <GameToken Name="Tutorial.Civ_car5_destroyed" Type="Int" Value="0" LocalOnly="0"/>
+   <GameToken Name="AB0.Cut_scene_playing" Type="Int" Value="0" LocalOnly="0"/>
+   <GameToken Name="Tutorial.Passengers_in_Boat_Cove_1" Type="Int" Value="0" LocalOnly="0"/>
+   <GameToken Name="Tutorial.Boat_Cove_4_destroyed" Type="Int" Value="0" LocalOnly="0"/>
+   <GameToken Name="Tutorial.Passengers_in_Boat_Cove_2" Type="Int" Value="0" LocalOnly="0"/>
+   <GameToken Name="Tutorial.Passengers_in_Boat_Cove_3" Type="Int" Value="0" LocalOnly="0"/>
+   <GameToken Name="Tutorial.Boat_Cove_1_destroyed" Type="Int" Value="0" LocalOnly="0"/>
+   <GameToken Name="Tutorial.Boat_Cove_2_destroyed" Type="Int" Value="0" LocalOnly="0"/>
+   <GameToken Name="Tutorial.Boat_Cove_3_destroyed" Type="Int" Value="0" LocalOnly="0"/>
+   <GameToken Name="AB2.Player_at_Beach" Type="Bool" Value="false" LocalOnly="0"/>
+   <GameToken Name="AB1.Jammer_destroyed" Type="Int" Value="0" LocalOnly="0"/>
+   <GameToken Name="Tutorial.Player_in_driver_seat" Type="Int" Value="0" LocalOnly="0"/>
+   <GameToken Name="Tutorial.Mounted_gun_msg_played" Type="Int" Value="0" LocalOnly="0"/>
+   <GameToken Name="Tutorial.Passengers_in_LTV_oldpier" Type="Int" Value="0" LocalOnly="0"/>
+   <GameToken Name="Tutorial.LTV_oldpier_destroyed" Type="Int" Value="0" LocalOnly="0"/>
+   <GameToken Name="Tutorial.Map_open" Type="Int" Value="0" LocalOnly="0"/>
+   <GameToken Name="Tutorial.Objectives_hint_displayed" Type="Int" Value="0" LocalOnly="0"/>
+   <GameToken Name="AB1.Jammer_failed" Type="Int" Value="0" LocalOnly="0"/>
+   <GameToken Name="Tutorial.Player_at_oldpier" Type="Int" Value="0" LocalOnly="0"/>
+   <GameToken Name="AB0.Player_out_of_bounds" Type="Int" Value="0" LocalOnly="0"/>
+   <GameToken Name="AB3.LTV_Houses_reinforcement" Type="Int" Value="0" LocalOnly="0"/>
+   <GameToken Name="AB0.Available_Boat_Cove_1" Type="Int" Value="1" LocalOnly="0"/>
+   <GameToken Name="AB0.Available_Boat_Cove_2" Type="Int" Value="1" LocalOnly="0"/>
+   <GameToken Name="AB0.Available_Boat_Cove_4" Type="Int" Value="1" LocalOnly="0"/>
+   <GameToken Name="Tutorial.LTV_cool_enabled" Type="Int" Value="0" LocalOnly="0"/>
+   <GameToken Name="Tutorial.Passengers_in_Boat_Cove_4" Type="Int" Value="0" LocalOnly="0"/>
+   <GameToken Name="Tutorial.Sea.Asian_Speedboat2_destroyed" Type="Int" Value="0" LocalOnly="0"/>
+   <GameToken Name="Tutorial.Boat_OldPier1_destroyed" Type="Int" Value="0" LocalOnly="0"/>
+   <GameToken Name="Tutorial.Suit_modes_enabled" Type="Int" Value="0" LocalOnly="0"/>
+  </LevelLibrary>
+ </GameTokensLibrary>
+</GameTokens>

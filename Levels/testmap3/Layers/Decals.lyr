@@ -1,0 +1,5 @@
+<ObjectLayer>
+ <Layer Name="Decals" GUID="{C623BB94-B2EC-41B4-916D-5E7CAF008D91}" FullName="Decals" Hidden="0" Frozen="0" External="1" Exportable="1" ExportLayerPak="1" DefaultLoaded="0" HavePhysics="1" Expanded="0" IsDefaultColor="1" ID="0">
+  <LayerObjects />
+ </Layer>
+</ObjectLayer>

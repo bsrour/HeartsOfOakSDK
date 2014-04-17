@@ -1,0 +1,5 @@
+<ObjectLayer>
+ <Layer Name="AB4_Stranded_Ship" GUID="{62EEB96D-C2D2-4F49-8EA6-CF0B5EAA8CE5}" FullName="AB4_Stranded_Ship" Hidden="0" Frozen="0" External="1" Exportable="1" ExportLayerPak="1" DefaultLoaded="0" HavePhysics="1" Expanded="0" IsDefaultColor="1" ID="0">
+  <LayerObjects />
+ </Layer>
+</ObjectLayer>

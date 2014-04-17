@@ -1,0 +1,457 @@
+<ObjectLayer>
+ <Layer Name="AB0_Island" GUID="{4B8233EA-FE8E-4676-8EFB-F6998C725646}" FullName="AB0_Island" Hidden="0" Frozen="0" External="1" Exportable="1" ExportLayerPak="1" DefaultLoaded="0" HavePhysics="1" Expanded="0" IsDefaultColor="1" ID="0">
+  <LayerObjects>
+   <Object Type="GeomEntity" Layer="AB0_Island" Id="{78097B0A-B6DB-442D-A24C-0A619C3888EA}" Name="GeomEntity3" Pos="1409.6283,2721.0005,99.960274" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" Geometry="objects/heartsofoak/rocks/stone_1.cgf" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" GlobalInSegmentedWorld="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="GeomEntity">
+    <Properties esFaction="">
+     <Health bInvulnerable="0" MaxHealth="500" bOnlyEnemyFire="1"/>
+     <RenderProxyOptions bAnimateOffScreenShadow="0"/>
+    </Properties>
+   </Object>
+   <Object Type="Entity" Layer="AB0_Island" Id="{7343EA0B-FC9B-44C5-BE37-7619C3F3B178}" Name="Ship2" Pos="1237.6665,2122.6384,101.55824" FloorNumber="-1" Rotate="0.56640625,0,0,-0.82412612" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" GlobalInSegmentedWorld="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="Ship">
+    <Properties bCanTriggerAreas="0" bDamagesPlayerOnCollisionSP="0" DmgFactorWhenCollidingAI="1" bExcludeCover="0" esFaction="" bHeavyObject="0" bInteractLargeObject="0" bMissionCritical="0" object_Model="objects/default/primitive_sphere.cgf" bPickable="0" bSerialize="0" fSinking="0" soclasses_SmartObjectClass="" bUsable="0" UseMessage="">
+     <AI bUsedAsDynamicObstacle="1"/>
+     <Cloth accuracy="0.05" air_resistance="1" attach_radius="0" bCollideWithPhysical="1" bCollideWithPlayers="1" bCollideWithStatics="1" bCollideWithTerrain="0" collision_impulse_scale="1" damping="0.3" density="200" explosion_scale="0.003" friction="0" hardness="20" impulse_scale="0.02" mass="5" mass_decay="0" max_collision_impulse="160" max_iters="20" max_safe_step="0.2" max_time_step="0.02" bRigidCore="0" sleep_speed="0.01" thickness="0.06" water_resistance="600" wind_variance="0.2">
+      <gravity x="0" y="0" z="-9.8"/>
+      <MultiplayerOptions bNetworked="0"/>
+      <wind x="0" y="0" z="0"/>
+      <wind_event x="0" y="10" z="0"/>
+     </Cloth>
+     <Gunports>
+      <port01 object_CGA="" sCloseAnim="" bOpen="0" sOpenAnim="" iSlot="0"/>
+      <port02 object_CGA="" sCloseAnim="" bOpen="0" sOpenAnim="" iSlot="0"/>
+      <port03 object_CGA="" sCloseAnim="" bOpen="0" sOpenAnim="" iSlot="0"/>
+      <port04 object_CGA="" sCloseAnim="" bOpen="0" sOpenAnim="" iSlot="0"/>
+      <port05 object_CGA="" sCloseAnim="" bOpen="0" sOpenAnim="" iSlot="0"/>
+      <port06 object_CGA="" sCloseAnim="" bOpen="0" sOpenAnim="" iSlot="0"/>
+      <port07 object_CGA="" sCloseAnim="" bOpen="0" sOpenAnim="" iSlot="0"/>
+      <port08 object_CGA="" sCloseAnim="" bOpen="0" sOpenAnim="" iSlot="0"/>
+      <port09 object_CGA="" sCloseAnim="" bOpen="0" sOpenAnim="" iSlot="0"/>
+      <port10 object_CGA="" sCloseAnim="" bOpen="0" sOpenAnim="" iSlot="0"/>
+      <port11 object_CGA="" sCloseAnim="" bOpen="0" sOpenAnim="" iSlot="0"/>
+      <port12 object_CGA="" sCloseAnim="" bOpen="0" sOpenAnim="" iSlot="0"/>
+      <port13 object_CGA="" sCloseAnim="" bOpen="0" sOpenAnim="" iSlot="0"/>
+      <port14 object_CGA="" sCloseAnim="" bOpen="0" sOpenAnim="" iSlot="0"/>
+      <port15 object_CGA="" sCloseAnim="" bOpen="0" sOpenAnim="" iSlot="0"/>
+      <port16 object_CGA="" sCloseAnim="" bOpen="0" sOpenAnim="" iSlot="0"/>
+      <port17 object_CGA="" sCloseAnim="" bOpen="0" sOpenAnim="" iSlot="0"/>
+      <port18 object_CGA="" sCloseAnim="" bOpen="0" sOpenAnim="" iSlot="0"/>
+      <port19 object_CGA="" sCloseAnim="" bOpen="0" sOpenAnim="" iSlot="0"/>
+      <port20 object_CGA="" sCloseAnim="" bOpen="0" sOpenAnim="" iSlot="0"/>
+      <port21 object_CGA="" sCloseAnim="" bOpen="0" sOpenAnim="" iSlot="0"/>
+      <port22 object_CGA="" sCloseAnim="" bOpen="0" sOpenAnim="" iSlot="0"/>
+      <port23 object_CGA="" sCloseAnim="" bOpen="0" sOpenAnim="" iSlot="0"/>
+      <port24 object_CGA="" sCloseAnim="" bOpen="0" sOpenAnim="" iSlot="0"/>
+      <port25 object_CGA="" sCloseAnim="" bOpen="0" sOpenAnim="" iSlot="0"/>
+      <port26 object_CGA="" sCloseAnim="" bOpen="0" sOpenAnim="" iSlot="0"/>
+      <port27 object_CGA="" sCloseAnim="" bOpen="0" sOpenAnim="" iSlot="0"/>
+      <port28 object_CGA="" sCloseAnim="" bOpen="0" sOpenAnim="" iSlot="0"/>
+      <port29 object_CGA="" sCloseAnim="" bOpen="0" sOpenAnim="" iSlot="0"/>
+      <port30 object_CGA="" sCloseAnim="" bOpen="0" sOpenAnim="" iSlot="0"/>
+      <port31 object_CGA="" sCloseAnim="" bOpen="0" sOpenAnim="" iSlot="0"/>
+      <port32 object_CGA="" sCloseAnim="" bOpen="0" sOpenAnim="" iSlot="0"/>
+      <port33 object_CGA="" sCloseAnim="" bOpen="0" sOpenAnim="" iSlot="0"/>
+      <port34 object_CGA="" sCloseAnim="" bOpen="0" sOpenAnim="" iSlot="0"/>
+      <port35 object_CGA="" sCloseAnim="" bOpen="0" sOpenAnim="" iSlot="0"/>
+      <port36 object_CGA="" sCloseAnim="" bOpen="0" sOpenAnim="" iSlot="0"/>
+      <port37 object_CGA="" sCloseAnim="" bOpen="0" sOpenAnim="" iSlot="0"/>
+      <port38 object_CGA="" sCloseAnim="" bOpen="0" sOpenAnim="" iSlot="0"/>
+      <port39 object_CGA="" sCloseAnim="" bOpen="0" sOpenAnim="" iSlot="0"/>
+      <port40 object_CGA="" sCloseAnim="" bOpen="0" sOpenAnim="" iSlot="0"/>
+      <port41 object_CGA="" sCloseAnim="" bOpen="0" sOpenAnim="" iSlot="0"/>
+      <port42 object_CGA="" sCloseAnim="" bOpen="0" sOpenAnim="" iSlot="0"/>
+      <port43 object_CGA="" sCloseAnim="" bOpen="0" sOpenAnim="" iSlot="0"/>
+      <port44 object_CGA="" sCloseAnim="" bOpen="0" sOpenAnim="" iSlot="0"/>
+      <port45 object_CGA="" sCloseAnim="" bOpen="0" sOpenAnim="" iSlot="0"/>
+      <port46 object_CGA="" sCloseAnim="" bOpen="0" sOpenAnim="" iSlot="0"/>
+      <port47 object_CGA="" sCloseAnim="" bOpen="0" sOpenAnim="" iSlot="0"/>
+      <port48 object_CGA="" sCloseAnim="" bOpen="0" sOpenAnim="" iSlot="0"/>
+      <port49 object_CGA="" sCloseAnim="" bOpen="0" sOpenAnim="" iSlot="0"/>
+      <port50 object_CGA="" sCloseAnim="" bOpen="0" sOpenAnim="" iSlot="0"/>
+     </Gunports>
+     <Health bInvulnerable="0" MaxHealth="500" bOnlyEnemyFire="1"/>
+     <MassObjects>
+      <Cargo bDraw="0" fMass="1" object_Model="objects/default/primitive_cube.cgf" vectorOffsetPosition="0,0,0" fScale="1"/>
+      <Damage bDraw="0" fMass="1" object_Model="objects/default/primitive_cube.cgf" vectorOffsetPosition="0,0,0" fScale="1" bVerboseDamage="0"/>
+      <Hull bDraw="0" iLength="1" fMass="95000" object_Model="objects/default/primitive_cube.cgf" vectorOffsetPosition="0,0,0" fScale="1"/>
+     </MassObjects>
+     <Mast1 fMass="1" object_Model="" vectorOffsetPosition="0,0,0" vectorOffsetRotation="0,0,0" iSlot="0" vectorYardOffsetRotation="0,0,0">
+      <Spanker fMass="1" object_Model="" vectorOffsetPosition="0,0,0" vectorOffsetRotation="0,0,0" iSlot="0"/>
+      <Yard1 fMass="1" object_Model="" vectorOffsetPosition="0,0,0" iSlot="0"/>
+      <Yard2 fMass="1" object_Model="" vectorOffsetPosition="0,0,0" iSlot="0"/>
+      <Yard3 fMass="1" object_Model="" vectorOffsetPosition="0,0,0" iSlot="0"/>
+      <Yard4 fMass="1" object_Model="" vectorOffsetPosition="0,0,0" iSlot="0"/>
+      <Yard5 fMass="1" object_Model="" vectorOffsetPosition="0,0,0" iSlot="0"/>
+     </Mast1>
+     <Mast2 fMass="1" object_Model="" vectorOffsetPosition="0,0,0" vectorOffsetRotation="0,0,0" iSlot="0" vectorYardOffsetRotation="0,0,0">
+      <Spanker fMass="1" object_Model="" vectorOffsetPosition="0,0,0" vectorOffsetRotation="0,0,0" iSlot="0"/>
+      <Yard1 fMass="1" object_Model="" vectorOffsetPosition="0,0,0" iSlot="0"/>
+      <Yard2 fMass="1" object_Model="" vectorOffsetPosition="0,0,0" iSlot="0"/>
+      <Yard3 fMass="1" object_Model="" vectorOffsetPosition="0,0,0" iSlot="0"/>
+      <Yard4 fMass="1" object_Model="" vectorOffsetPosition="0,0,0" iSlot="0"/>
+      <Yard5 fMass="1" object_Model="" vectorOffsetPosition="0,0,0" iSlot="0"/>
+     </Mast2>
+     <Mast3 fMass="1" object_Model="" vectorOffsetPosition="0,0,0" vectorOffsetRotation="0,0,0" iSlot="0" vectorYardOffsetRotation="0,0,0">
+      <Spanker fMass="1" object_Model="" vectorOffsetPosition="0,0,0" vectorOffsetRotation="0,0,0" iSlot="0"/>
+      <Yard1 fMass="1" object_Model="" vectorOffsetPosition="0,0,0" iSlot="0"/>
+      <Yard2 fMass="1" object_Model="" vectorOffsetPosition="0,0,0" iSlot="0"/>
+      <Yard3 fMass="1" object_Model="" vectorOffsetPosition="0,0,0" iSlot="0"/>
+      <Yard4 fMass="1" object_Model="" vectorOffsetPosition="0,0,0" iSlot="0"/>
+      <Yard5 fMass="1" object_Model="" vectorOffsetPosition="0,0,0" iSlot="0"/>
+     </Mast3>
+     <Models>
+      <Hull01 fMass="1" object_Model="objects/heartsofoak/ships/lyonhoy/lyonhoy1.cga" vectorOffsetPosition="0,0,0" vectorOffsetRotation="0,0,0" iSlot="0"/>
+      <Hull02 fMass="1" object_Model="objects/heartsofoak/ships/lyonhoy/lyonhoy2.cgf" vectorOffsetPosition="0,0,0" vectorOffsetRotation="0,0,0" iSlot="0"/>
+      <Hull03 fMass="1" object_Model="" vectorOffsetPosition="0,0,0" vectorOffsetRotation="0,0,0" iSlot="0"/>
+      <Hull04 fMass="1" object_Model="" vectorOffsetPosition="0,0,0" vectorOffsetRotation="0,0,0" iSlot="0"/>
+      <Hull05 fMass="1" object_Model="" vectorOffsetPosition="0,0,0" vectorOffsetRotation="0,0,0" iSlot="0"/>
+      <Hull06 fMass="1" object_Model="" vectorOffsetPosition="0,0,0" vectorOffsetRotation="0,0,0" iSlot="0"/>
+      <Hull07 fMass="1" object_Model="" vectorOffsetPosition="0,0,0" vectorOffsetRotation="0,0,0" iSlot="0"/>
+      <Hull08 fMass="1" object_Model="" vectorOffsetPosition="0,0,0" vectorOffsetRotation="0,0,0" iSlot="0"/>
+      <Hull09 fMass="1" object_Model="" vectorOffsetPosition="0,0,0" vectorOffsetRotation="0,0,0" iSlot="0"/>
+      <Hull10 fMass="1" object_Model="" vectorOffsetPosition="0,0,0" vectorOffsetRotation="0,0,0" iSlot="0"/>
+      <Hull11 fMass="1" object_Model="" vectorOffsetPosition="0,0,0" vectorOffsetRotation="0,0,0" iSlot="0"/>
+      <Hull12 fMass="1" object_Model="" vectorOffsetPosition="0,0,0" vectorOffsetRotation="0,0,0" iSlot="0"/>
+      <Hull13 fMass="1" object_Model="" vectorOffsetPosition="0,0,0" vectorOffsetRotation="0,0,0" iSlot="0"/>
+      <Hull14 fMass="1" object_Model="" vectorOffsetPosition="0,0,0" vectorOffsetRotation="0,0,0" iSlot="0"/>
+      <Hull15 fMass="1" object_Model="" vectorOffsetPosition="0,0,0" vectorOffsetRotation="0,0,0" iSlot="0"/>
+      <Hull16 fMass="1" object_Model="" vectorOffsetPosition="0,0,0" vectorOffsetRotation="0,0,0" iSlot="0"/>
+      <Hull17 fMass="1" object_Model="" vectorOffsetPosition="0,0,0" vectorOffsetRotation="0,0,0" iSlot="0"/>
+      <Hull18 fMass="1" object_Model="" vectorOffsetPosition="0,0,0" vectorOffsetRotation="0,0,0" iSlot="0"/>
+      <Hull19 fMass="1" object_Model="" vectorOffsetPosition="0,0,0" vectorOffsetRotation="0,0,0" iSlot="0"/>
+      <Hull20 fMass="1" object_Model="" vectorOffsetPosition="0,0,0" vectorOffsetRotation="0,0,0" iSlot="0"/>
+      <Hull21 fMass="1" object_Model="" vectorOffsetPosition="0,0,0" vectorOffsetRotation="0,0,0" iSlot="0"/>
+      <Hull22 fMass="1" object_Model="" vectorOffsetPosition="0,0,0" vectorOffsetRotation="0,0,0" iSlot="0"/>
+      <Hull23 fMass="1" object_Model="" vectorOffsetPosition="0,0,0" vectorOffsetRotation="0,0,0" iSlot="0"/>
+      <Hull24 fMass="1" object_Model="" vectorOffsetPosition="0,0,0" vectorOffsetRotation="0,0,0" iSlot="0"/>
+      <Hull25 fMass="1" object_Model="" vectorOffsetPosition="0,0,0" vectorOffsetRotation="0,0,0" iSlot="0"/>
+      <Hull26 fMass="1" object_Model="" vectorOffsetPosition="0,0,0" vectorOffsetRotation="0,0,0" iSlot="0"/>
+     </Models>
+     <MultiplayerOptions bNetworked="0"/>
+     <Physics bActivateOnDamage="0" air_resistance="0" bCanBreakOthers="0" Density="-1" Mass="95000" bPhysicalize="1" bPushableByPlayers="1" bResting="0" bRigidBody="1" bRigidBodyActive="1">
+      <Buoyancy water_damping="0" water_density="1000" water_resistance="1000"/>
+      <CGFPropsOverride player_can_break="">
+       <Constraint constraint_collides="" constraint_damping="" constraint_limit="" constraint_maxang="" constraint_minang=""/>
+       <Deformable explosion_scale="" hardness="" max_impulse="" max_stretch="" skin_dist="" stiffness="" thickness=""/>
+       <Joint bend="" limit="" pull="" push="" shift="" twist=""/>
+      </CGFPropsOverride>
+      <CollisionFiltering>
+       <collisionIgnore bT_collision_class_articulated="0" bT_collision_class_living="0" bT_collision_class_particle="0" bT_collision_class_soft="0" bT_collision_class_terrain="0" bT_collision_class_wheeled="0" bT_gcc_ai="0" bT_gcc_large_kickable="0" bT_gcc_player_body="0" bT_gcc_player_capsule="0" bT_gcc_ragdoll="0" bT_gcc_rigid="0" bT_gcc_vehicle="0" bT_gcc_vtol="0"/>
+       <collisionType bT_collision_class_articulated="0" bT_collision_class_living="0" bT_collision_class_particle="0" bT_collision_class_soft="0" bT_collision_class_terrain="0" bT_collision_class_wheeled="0" bT_gcc_ai="0" bT_gcc_large_kickable="0" bT_gcc_player_body="0" bT_gcc_player_capsule="0" bT_gcc_ragdoll="0" bT_gcc_rigid="0" bT_gcc_vehicle="0" bT_gcc_vtol="0"/>
+      </CollisionFiltering>
+      <ForeignData bMovingPlatform="0"/>
+      <Simulation damping="0" bFixedDamping="0" max_time_step="0.02" sleep_speed="0.04" bUseSimpleSolver="0"/>
+     </Physics>
+     <Sails>
+      <sail01 object_Model="" iSlot="0"/>
+      <sail02 object_Model="" iSlot="0"/>
+     </Sails>
+     <Steering iDegrees="0">
+      <Helm fMass="1" object_Model="" vectorOffsetPosition="0,0,0" vectorOffsetRotation="0,0,0" iSlot="0"/>
+      <Rudder vectorHelperOffsetPosition="0,0,0" vectorHelperOffsetRotation="0,0,0" fMass="1" object_Model="" iSlot="0"/>
+      <Tiller fMass="1" object_Model="" vectorOffsetPosition="0,0,0" vectorOffsetRotation="0,0,0" iSlot="0"/>
+     </Steering>
+    </Properties>
+   </Object>
+   <Object Type="Brush" Layer="AB0_Island" Id="{D3E17A0C-4807-4B9B-99A7-DE28585AEE38}" Name="Tavern1" Pos="4352.5552,3584.6367,105.76429" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="16777215" MatLayersMask="0" Prefab="objects/architecture/buildings/tavern/tavern.cgf" OutdoorOnly="0" CastShadowMaps="1" RainOccluder="1" SupportSecondVisarea="0" Hideable="0" LodRatio="100" ViewDistRatio="100" NotTriangulate="0" AIRadius="-1" NoStaticDecals="0" NoAmnbShadowCaster="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" RndFlags="1610612744">
+    <CollisionFiltering>
+     <Type collision_class_terrain="0" collision_class_wheeled="0" collision_class_living="0" collision_class_articulated="0" collision_class_soft="0" collision_class_particle="0" gcc_player_capsule="0" gcc_player_body="0" gcc_vehicle="0" gcc_large_kickable="0" gcc_ragdoll="0" gcc_rigid="0" gcc_vtol="0" gcc_ai="0"/>
+     <Ignore collision_class_terrain="0" collision_class_wheeled="0" collision_class_living="0" collision_class_articulated="0" collision_class_soft="0" collision_class_particle="0" gcc_player_capsule="0" gcc_player_body="0" gcc_vehicle="0" gcc_large_kickable="0" gcc_ragdoll="0" gcc_rigid="0" gcc_vtol="0" gcc_ai="0"/>
+    </CollisionFiltering>
+   </Object>
+   <Object Type="Entity" Layer="AB0_Island" Id="{C5E4600E-9112-425E-839C-D8B9E2E33A6B}" Name="RigidBodyEx7" Pos="1484.9681,2713.2463,100.95541" FloorNumber="-1" Rotate="0.5,0,0,0.86602539" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="255" ViewDistRatio="100" HiddenInGame="0" GlobalInSegmentedWorld="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="RigidBodyEx">
+    <Properties bCanTriggerAreas="0" bDamagesPlayerOnCollisionSP="0" DmgFactorWhenCollidingAI="1" bExcludeCover="0" esFaction="" bHeavyObject="0" bInteractLargeObject="0" bMissionCritical="0" object_Model="objects/heartsofoak/storage/barrel_06.cgf" bPickable="1" bSerialize="0" soclasses_SmartObjectClass="" bUsable="0" UseMessage="">
+     <AI bUsedAsDynamicObstacle="1"/>
+     <Health bInvulnerable="0" MaxHealth="500" bOnlyEnemyFire="1"/>
+     <MultiplayerOptions bNetworked="0"/>
+     <Physics bActivateOnDamage="0" bCanBreakOthers="1" Density="100" Mass="-1" bPhysicalize="1" bPushableByPlayers="1" bResting="1" bRigidBody="1" bRigidBodyActive="1">
+      <Buoyancy water_damping="0" water_density="150" water_resistance="200"/>
+      <CGFPropsOverride player_can_break="">
+       <Constraint constraint_collides="" constraint_damping="" constraint_limit="" constraint_maxang="" constraint_minang=""/>
+       <Deformable explosion_scale="" hardness="" max_impulse="" max_stretch="" skin_dist="" stiffness="" thickness=""/>
+       <Joint bend="" limit="" pull="" push="" shift="" twist=""/>
+      </CGFPropsOverride>
+      <CollisionFiltering>
+       <collisionIgnore bT_collision_class_articulated="0" bT_collision_class_living="0" bT_collision_class_particle="0" bT_collision_class_soft="0" bT_collision_class_terrain="0" bT_collision_class_wheeled="0" bT_gcc_ai="0" bT_gcc_large_kickable="0" bT_gcc_player_body="0" bT_gcc_player_capsule="0" bT_gcc_ragdoll="0" bT_gcc_rigid="0" bT_gcc_vehicle="0" bT_gcc_vtol="0"/>
+       <collisionType bT_collision_class_articulated="0" bT_collision_class_living="0" bT_collision_class_particle="0" bT_collision_class_soft="0" bT_collision_class_terrain="0" bT_collision_class_wheeled="0" bT_gcc_ai="0" bT_gcc_large_kickable="0" bT_gcc_player_body="0" bT_gcc_player_capsule="0" bT_gcc_ragdoll="0" bT_gcc_rigid="0" bT_gcc_vehicle="0" bT_gcc_vtol="0"/>
+      </CollisionFiltering>
+      <ForeignData bMovingPlatform="0"/>
+      <Simulation damping="0" bFixedDamping="0" max_time_step="0.02" sleep_speed="0.04" bUseSimpleSolver="0"/>
+     </Physics>
+    </Properties>
+   </Object>
+   <Object Type="Entity" Layer="AB0_Island" Id="{FA01581E-4257-436F-A251-55C08AFE2998}" Name="RigidBodyEx8" Pos="1485.3693,2714.176,100.93658" FloorNumber="-1" Rotate="0.5,0,0,0.86602539" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="255" ViewDistRatio="100" HiddenInGame="0" GlobalInSegmentedWorld="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="RigidBodyEx">
+    <Properties bCanTriggerAreas="0" bDamagesPlayerOnCollisionSP="0" DmgFactorWhenCollidingAI="1" bExcludeCover="0" esFaction="" bHeavyObject="0" bInteractLargeObject="0" bMissionCritical="0" object_Model="objects/heartsofoak/storage/barrel_07.cgf" bPickable="1" bSerialize="0" soclasses_SmartObjectClass="" bUsable="0" UseMessage="">
+     <AI bUsedAsDynamicObstacle="1"/>
+     <Health bInvulnerable="0" MaxHealth="500" bOnlyEnemyFire="1"/>
+     <MultiplayerOptions bNetworked="0"/>
+     <Physics bActivateOnDamage="0" bCanBreakOthers="1" Density="100" Mass="-1" bPhysicalize="1" bPushableByPlayers="1" bResting="1" bRigidBody="1" bRigidBodyActive="1">
+      <Buoyancy water_damping="0" water_density="150" water_resistance="200"/>
+      <CGFPropsOverride player_can_break="">
+       <Constraint constraint_collides="" constraint_damping="" constraint_limit="" constraint_maxang="" constraint_minang=""/>
+       <Deformable explosion_scale="" hardness="" max_impulse="" max_stretch="" skin_dist="" stiffness="" thickness=""/>
+       <Joint bend="" limit="" pull="" push="" shift="" twist=""/>
+      </CGFPropsOverride>
+      <CollisionFiltering>
+       <collisionIgnore bT_collision_class_articulated="0" bT_collision_class_living="0" bT_collision_class_particle="0" bT_collision_class_soft="0" bT_collision_class_terrain="0" bT_collision_class_wheeled="0" bT_gcc_ai="0" bT_gcc_large_kickable="0" bT_gcc_player_body="0" bT_gcc_player_capsule="0" bT_gcc_ragdoll="0" bT_gcc_rigid="0" bT_gcc_vehicle="0" bT_gcc_vtol="0"/>
+       <collisionType bT_collision_class_articulated="0" bT_collision_class_living="0" bT_collision_class_particle="0" bT_collision_class_soft="0" bT_collision_class_terrain="0" bT_collision_class_wheeled="0" bT_gcc_ai="0" bT_gcc_large_kickable="0" bT_gcc_player_body="0" bT_gcc_player_capsule="0" bT_gcc_ragdoll="0" bT_gcc_rigid="0" bT_gcc_vehicle="0" bT_gcc_vtol="0"/>
+      </CollisionFiltering>
+      <ForeignData bMovingPlatform="0"/>
+      <Simulation damping="0" bFixedDamping="0" max_time_step="0.02" sleep_speed="0.04" bUseSimpleSolver="0"/>
+     </Physics>
+    </Properties>
+   </Object>
+   <Object Type="Entity" Layer="AB0_Island" Id="{51241B23-ED18-4D52-861A-9AC0662740F3}" Name="SpeedBoat1" Pos="1258.8597,2133.9712,98.840202" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" GlobalInSegmentedWorld="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="SpeedBoat">
+    <Properties accuracy="1" attackrange="100" bAutoGenAIHidePts="0" bCanUsePrimaryWeapon="1" bCanUseSecondaryWeapon="0" aicharacter_character="PatrolBoat" commrange="100" bDisableEngine="0" esFaction="" bFactionHostility="1" followDistance="5" bFrozen="0" FrozenModel="" bHeavyObject="0" bInteractLargeObject="0" leaderName="" Modification="" esNavigationType="VehicleMedium" Paint="" bProvideAICover="1" soclasses_SmartObjectClass="" bSyncPhysics="1" teamName="">
+     <AIPressureAOE bFriendlyEnable="0" friendlyPressureDec="0" friendlyRadius="0" bHostileEnable="0" hostilePressureInc="0" hostileRadius="0"/>
+     <Perception camoScale="1" FOVPrimary="-1" FOVSecondary="-1" sightrange="100" sightrangeVehicle="-1" stanceScale="1" velBase="1" velScale="0.5"/>
+     <Physics>
+      <CollisionFiltering>
+       <collisionIgnore bT_collision_class_articulated="0" bT_collision_class_living="0" bT_collision_class_particle="0" bT_collision_class_soft="0" bT_collision_class_terrain="0" bT_collision_class_wheeled="0" bT_gcc_ai="0" bT_gcc_large_kickable="0" bT_gcc_player_body="0" bT_gcc_player_capsule="0" bT_gcc_ragdoll="0" bT_gcc_rigid="0" bT_gcc_vehicle="0" bT_gcc_vtol="0"/>
+       <collisionType bT_collision_class_articulated="0" bT_collision_class_living="0" bT_collision_class_particle="0" bT_collision_class_soft="0" bT_collision_class_terrain="0" bT_collision_class_wheeled="0" bT_gcc_ai="0" bT_gcc_large_kickable="0" bT_gcc_player_body="0" bT_gcc_player_capsule="0" bT_gcc_ragdoll="0" bT_gcc_rigid="0" bT_gcc_vehicle="0" bT_gcc_vtol="0"/>
+      </CollisionFiltering>
+     </Physics>
+     <Respawn bAbandon="1" nAbandonTimer="90" bRespawn="0" nTimer="30" bUnique="0"/>
+    </Properties>
+    <Properties2 bAutoDisable="1" aibehavior_behaviour="BoatIdle" bCircularPath="0" FormationType="" groupid="173" PathName="" bProvideAICover="1"/>
+   </Object>
+   <Object Type="GeomEntity" Layer="AB0_Island" Id="{A58EC432-E43B-4B65-9D57-7BF3CD4852F4}" Name="GeomEntity9" Pos="1436.0692,2718.6128,101.79932" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" Geometry="objects/heartsofoak/rocks/stone_7.cgf" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" GlobalInSegmentedWorld="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="GeomEntity">
+    <Properties esFaction="">
+     <Health bInvulnerable="0" MaxHealth="500" bOnlyEnemyFire="1"/>
+     <RenderProxyOptions bAnimateOffScreenShadow="0"/>
+    </Properties>
+   </Object>
+   <Object Type="GeomEntity" Layer="AB0_Island" Id="{6D380934-AD43-4341-B662-9D7375FAF6C6}" Name="GeomEntity5" Pos="1384.7295,2753.4912,99.066177" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" Geometry="objects/heartsofoak/rocks/stone_3.cgf" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" GlobalInSegmentedWorld="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="GeomEntity">
+    <Properties esFaction="">
+     <Health bInvulnerable="0" MaxHealth="500" bOnlyEnemyFire="1"/>
+     <RenderProxyOptions bAnimateOffScreenShadow="0"/>
+    </Properties>
+   </Object>
+   <Object Type="GeomEntity" Layer="AB0_Island" Id="{8D792A3E-A411-4F70-A3E1-CB2ABAA4AEAE}" Name="GeomEntity7" Pos="1390.9824,2720.9089,101.4191" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" Geometry="objects/heartsofoak/rocks/stone_5.cgf" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" GlobalInSegmentedWorld="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="GeomEntity">
+    <Properties esFaction="">
+     <Health bInvulnerable="0" MaxHealth="500" bOnlyEnemyFire="1"/>
+     <RenderProxyOptions bAnimateOffScreenShadow="0"/>
+    </Properties>
+   </Object>
+   <Object Type="GeomEntity" Layer="AB0_Island" Id="{391DB34A-58D5-4068-8C5A-5C217620E926}" Name="GeomEntity6" Pos="1401.0125,2766.3975,96.062668" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" Geometry="objects/heartsofoak/rocks/stone_4.cgf" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" GlobalInSegmentedWorld="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="GeomEntity">
+    <Properties esFaction="">
+     <Health bInvulnerable="0" MaxHealth="500" bOnlyEnemyFire="1"/>
+     <RenderProxyOptions bAnimateOffScreenShadow="0"/>
+    </Properties>
+   </Object>
+   <Object Type="GeomEntity" Layer="AB0_Island" Id="{B7DBDF62-6501-468D-9238-A39A81839AEC}" Name="GeomEntity4" Pos="1419.1769,2719.8982,97.275581" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" Geometry="objects/heartsofoak/rocks/stone_2.cgf" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" GlobalInSegmentedWorld="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="GeomEntity">
+    <Properties esFaction="">
+     <Health bInvulnerable="0" MaxHealth="500" bOnlyEnemyFire="1"/>
+     <RenderProxyOptions bAnimateOffScreenShadow="0"/>
+    </Properties>
+   </Object>
+   <Object Type="Entity" Layer="AB0_Island" Id="{CDCC4F79-FAA2-4978-BA24-56CB37E700F8}" Name="RigidBodyEx4" Pos="1484.4772,2714.0027,100.96754" FloorNumber="-1" Rotate="0.5,0,0,0.86602539" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="255" ViewDistRatio="100" HiddenInGame="0" GlobalInSegmentedWorld="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="RigidBodyEx">
+    <Properties bCanTriggerAreas="0" bDamagesPlayerOnCollisionSP="0" DmgFactorWhenCollidingAI="1" bExcludeCover="0" esFaction="" bHeavyObject="0" bInteractLargeObject="0" bMissionCritical="0" object_Model="objects/heartsofoak/storage/barrel_04.cgf" bPickable="1" bSerialize="0" soclasses_SmartObjectClass="" bUsable="0" UseMessage="">
+     <AI bUsedAsDynamicObstacle="1"/>
+     <Health bInvulnerable="0" MaxHealth="500" bOnlyEnemyFire="1"/>
+     <MultiplayerOptions bNetworked="0"/>
+     <Physics bActivateOnDamage="0" bCanBreakOthers="1" Density="100" Mass="-1" bPhysicalize="1" bPushableByPlayers="1" bResting="1" bRigidBody="1" bRigidBodyActive="1">
+      <Buoyancy water_damping="0" water_density="150" water_resistance="200"/>
+      <CGFPropsOverride player_can_break="">
+       <Constraint constraint_collides="" constraint_damping="" constraint_limit="" constraint_maxang="" constraint_minang=""/>
+       <Deformable explosion_scale="" hardness="" max_impulse="" max_stretch="" skin_dist="" stiffness="" thickness=""/>
+       <Joint bend="" limit="" pull="" push="" shift="" twist=""/>
+      </CGFPropsOverride>
+      <CollisionFiltering>
+       <collisionIgnore bT_collision_class_articulated="0" bT_collision_class_living="0" bT_collision_class_particle="0" bT_collision_class_soft="0" bT_collision_class_terrain="0" bT_collision_class_wheeled="0" bT_gcc_ai="0" bT_gcc_large_kickable="0" bT_gcc_player_body="0" bT_gcc_player_capsule="0" bT_gcc_ragdoll="0" bT_gcc_rigid="0" bT_gcc_vehicle="0" bT_gcc_vtol="0"/>
+       <collisionType bT_collision_class_articulated="0" bT_collision_class_living="0" bT_collision_class_particle="0" bT_collision_class_soft="0" bT_collision_class_terrain="0" bT_collision_class_wheeled="0" bT_gcc_ai="0" bT_gcc_large_kickable="0" bT_gcc_player_body="0" bT_gcc_player_capsule="0" bT_gcc_ragdoll="0" bT_gcc_rigid="0" bT_gcc_vehicle="0" bT_gcc_vtol="0"/>
+      </CollisionFiltering>
+      <ForeignData bMovingPlatform="0"/>
+      <Simulation damping="0" bFixedDamping="0" max_time_step="0.02" sleep_speed="0.04" bUseSimpleSolver="0"/>
+     </Physics>
+    </Properties>
+   </Object>
+   <Object Type="Entity" Layer="AB0_Island" Id="{C38FAE8F-D4D8-4127-AF13-197949171827}" Name="RigidBodyEx6" Pos="1484.2119,2712.946,100.97431" FloorNumber="-1" Rotate="0.5,0,0,0.86602539" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="255" ViewDistRatio="100" HiddenInGame="0" GlobalInSegmentedWorld="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="RigidBodyEx">
+    <Properties bCanTriggerAreas="0" bDamagesPlayerOnCollisionSP="0" DmgFactorWhenCollidingAI="1" bExcludeCover="0" esFaction="" bHeavyObject="0" bInteractLargeObject="0" bMissionCritical="0" object_Model="objects/heartsofoak/storage/barrel_05.cgf" bPickable="1" bSerialize="0" soclasses_SmartObjectClass="" bUsable="0" UseMessage="">
+     <AI bUsedAsDynamicObstacle="1"/>
+     <Health bInvulnerable="0" MaxHealth="500" bOnlyEnemyFire="1"/>
+     <MultiplayerOptions bNetworked="0"/>
+     <Physics bActivateOnDamage="0" bCanBreakOthers="1" Density="100" Mass="-1" bPhysicalize="1" bPushableByPlayers="1" bResting="1" bRigidBody="1" bRigidBodyActive="1">
+      <Buoyancy water_damping="0" water_density="150" water_resistance="200"/>
+      <CGFPropsOverride player_can_break="">
+       <Constraint constraint_collides="" constraint_damping="" constraint_limit="" constraint_maxang="" constraint_minang=""/>
+       <Deformable explosion_scale="" hardness="" max_impulse="" max_stretch="" skin_dist="" stiffness="" thickness=""/>
+       <Joint bend="" limit="" pull="" push="" shift="" twist=""/>
+      </CGFPropsOverride>
+      <CollisionFiltering>
+       <collisionIgnore bT_collision_class_articulated="0" bT_collision_class_living="0" bT_collision_class_particle="0" bT_collision_class_soft="0" bT_collision_class_terrain="0" bT_collision_class_wheeled="0" bT_gcc_ai="0" bT_gcc_large_kickable="0" bT_gcc_player_body="0" bT_gcc_player_capsule="0" bT_gcc_ragdoll="0" bT_gcc_rigid="0" bT_gcc_vehicle="0" bT_gcc_vtol="0"/>
+       <collisionType bT_collision_class_articulated="0" bT_collision_class_living="0" bT_collision_class_particle="0" bT_collision_class_soft="0" bT_collision_class_terrain="0" bT_collision_class_wheeled="0" bT_gcc_ai="0" bT_gcc_large_kickable="0" bT_gcc_player_body="0" bT_gcc_player_capsule="0" bT_gcc_ragdoll="0" bT_gcc_rigid="0" bT_gcc_vehicle="0" bT_gcc_vtol="0"/>
+      </CollisionFiltering>
+      <ForeignData bMovingPlatform="0"/>
+      <Simulation damping="0" bFixedDamping="0" max_time_step="0.02" sleep_speed="0.04" bUseSimpleSolver="0"/>
+     </Physics>
+    </Properties>
+   </Object>
+   <Object Type="Entity" Layer="AB0_Island" Id="{E006479A-751B-4963-9E07-6125A3640EDA}" Name="RigidBodyEx2" Pos="1482.885,2713.8506,100.97961" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="255" ViewDistRatio="100" HiddenInGame="0" GlobalInSegmentedWorld="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="RigidBodyEx">
+    <Properties bCanTriggerAreas="0" bDamagesPlayerOnCollisionSP="0" DmgFactorWhenCollidingAI="1" bExcludeCover="0" esFaction="" bHeavyObject="0" bInteractLargeObject="0" bMissionCritical="0" object_Model="objects/heartsofoak/storage/barrel_02.cgf" bPickable="1" bSerialize="0" soclasses_SmartObjectClass="" bUsable="0" UseMessage="">
+     <AI bUsedAsDynamicObstacle="1"/>
+     <Health bInvulnerable="0" MaxHealth="500" bOnlyEnemyFire="1"/>
+     <MultiplayerOptions bNetworked="0"/>
+     <Physics bActivateOnDamage="0" bCanBreakOthers="1" Density="100" Mass="-1" bPhysicalize="1" bPushableByPlayers="1" bResting="1" bRigidBody="1" bRigidBodyActive="1">
+      <Buoyancy water_damping="0" water_density="150" water_resistance="200"/>
+      <CGFPropsOverride player_can_break="">
+       <Constraint constraint_collides="" constraint_damping="" constraint_limit="" constraint_maxang="" constraint_minang=""/>
+       <Deformable explosion_scale="" hardness="" max_impulse="" max_stretch="" skin_dist="" stiffness="" thickness=""/>
+       <Joint bend="" limit="" pull="" push="" shift="" twist=""/>
+      </CGFPropsOverride>
+      <CollisionFiltering>
+       <collisionIgnore bT_collision_class_articulated="0" bT_collision_class_living="0" bT_collision_class_particle="0" bT_collision_class_soft="0" bT_collision_class_terrain="0" bT_collision_class_wheeled="0" bT_gcc_ai="0" bT_gcc_large_kickable="0" bT_gcc_player_body="0" bT_gcc_player_capsule="0" bT_gcc_ragdoll="0" bT_gcc_rigid="0" bT_gcc_vehicle="0" bT_gcc_vtol="0"/>
+       <collisionType bT_collision_class_articulated="0" bT_collision_class_living="0" bT_collision_class_particle="0" bT_collision_class_soft="0" bT_collision_class_terrain="0" bT_collision_class_wheeled="0" bT_gcc_ai="0" bT_gcc_large_kickable="0" bT_gcc_player_body="0" bT_gcc_player_capsule="0" bT_gcc_ragdoll="0" bT_gcc_rigid="0" bT_gcc_vehicle="0" bT_gcc_vtol="0"/>
+      </CollisionFiltering>
+      <ForeignData bMovingPlatform="0"/>
+      <Simulation damping="0" bFixedDamping="0" max_time_step="0.02" sleep_speed="0.04" bUseSimpleSolver="0"/>
+     </Physics>
+    </Properties>
+   </Object>
+   <Object Type="GeomEntity" Layer="AB0_Island" Id="{37541BA3-0E43-40E3-920A-96F4B8556BD2}" Name="GeomEntity8" Pos="1398.0927,2735.4189,99.308235" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" Geometry="objects/heartsofoak/rocks/stone_6.cgf" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" GlobalInSegmentedWorld="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="GeomEntity">
+    <Properties esFaction="">
+     <Health bInvulnerable="0" MaxHealth="500" bOnlyEnemyFire="1"/>
+     <RenderProxyOptions bAnimateOffScreenShadow="0"/>
+    </Properties>
+   </Object>
+   <Object Type="Entity" Layer="AB0_Island" Id="{4A43BAAA-3A93-429B-83BB-99EE87789DCB}" Name="RigidBodyEx3" Pos="1483.7715,2713.7368,100.97961" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="255" ViewDistRatio="100" HiddenInGame="0" GlobalInSegmentedWorld="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="RigidBodyEx">
+    <Properties bCanTriggerAreas="0" bDamagesPlayerOnCollisionSP="0" DmgFactorWhenCollidingAI="1" bExcludeCover="0" esFaction="" bHeavyObject="0" bInteractLargeObject="0" bMissionCritical="0" object_Model="objects/heartsofoak/storage/barrel_03.cgf" bPickable="1" bSerialize="0" soclasses_SmartObjectClass="" bUsable="0" UseMessage="">
+     <AI bUsedAsDynamicObstacle="1"/>
+     <Health bInvulnerable="0" MaxHealth="500" bOnlyEnemyFire="1"/>
+     <MultiplayerOptions bNetworked="0"/>
+     <Physics bActivateOnDamage="0" bCanBreakOthers="1" Density="100" Mass="-1" bPhysicalize="1" bPushableByPlayers="1" bResting="1" bRigidBody="1" bRigidBodyActive="1">
+      <Buoyancy water_damping="0" water_density="150" water_resistance="200"/>
+      <CGFPropsOverride player_can_break="">
+       <Constraint constraint_collides="" constraint_damping="" constraint_limit="" constraint_maxang="" constraint_minang=""/>
+       <Deformable explosion_scale="" hardness="" max_impulse="" max_stretch="" skin_dist="" stiffness="" thickness=""/>
+       <Joint bend="" limit="" pull="" push="" shift="" twist=""/>
+      </CGFPropsOverride>
+      <CollisionFiltering>
+       <collisionIgnore bT_collision_class_articulated="0" bT_collision_class_living="0" bT_collision_class_particle="0" bT_collision_class_soft="0" bT_collision_class_terrain="0" bT_collision_class_wheeled="0" bT_gcc_ai="0" bT_gcc_large_kickable="0" bT_gcc_player_body="0" bT_gcc_player_capsule="0" bT_gcc_ragdoll="0" bT_gcc_rigid="0" bT_gcc_vehicle="0" bT_gcc_vtol="0"/>
+       <collisionType bT_collision_class_articulated="0" bT_collision_class_living="0" bT_collision_class_particle="0" bT_collision_class_soft="0" bT_collision_class_terrain="0" bT_collision_class_wheeled="0" bT_gcc_ai="0" bT_gcc_large_kickable="0" bT_gcc_player_body="0" bT_gcc_player_capsule="0" bT_gcc_ragdoll="0" bT_gcc_rigid="0" bT_gcc_vehicle="0" bT_gcc_vtol="0"/>
+      </CollisionFiltering>
+      <ForeignData bMovingPlatform="0"/>
+      <Simulation damping="0" bFixedDamping="0" max_time_step="0.02" sleep_speed="0.04" bUseSimpleSolver="0"/>
+     </Physics>
+    </Properties>
+   </Object>
+   <Object Type="Entity" Layer="AB0_Island" Id="{CED5A5B1-3074-4E91-A4DE-2DD66EA9D630}" Name="RigidBodyEx5" Pos="1483.3154,2713.0249,100.97961" FloorNumber="-1" Rotate="0.5,0,0,0.86602539" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="255" ViewDistRatio="100" HiddenInGame="0" GlobalInSegmentedWorld="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="RigidBodyEx">
+    <Properties bCanTriggerAreas="0" bDamagesPlayerOnCollisionSP="0" DmgFactorWhenCollidingAI="1" bExcludeCover="0" esFaction="" bHeavyObject="0" bInteractLargeObject="0" bMissionCritical="0" object_Model="objects/heartsofoak/storage/barrel_04b.cgf" bPickable="1" bSerialize="0" soclasses_SmartObjectClass="" bUsable="0" UseMessage="">
+     <AI bUsedAsDynamicObstacle="1"/>
+     <Health bInvulnerable="0" MaxHealth="500" bOnlyEnemyFire="1"/>
+     <MultiplayerOptions bNetworked="0"/>
+     <Physics bActivateOnDamage="0" bCanBreakOthers="1" Density="100" Mass="-1" bPhysicalize="1" bPushableByPlayers="1" bResting="1" bRigidBody="1" bRigidBodyActive="1">
+      <Buoyancy water_damping="0" water_density="150" water_resistance="200"/>
+      <CGFPropsOverride player_can_break="">
+       <Constraint constraint_collides="" constraint_damping="" constraint_limit="" constraint_maxang="" constraint_minang=""/>
+       <Deformable explosion_scale="" hardness="" max_impulse="" max_stretch="" skin_dist="" stiffness="" thickness=""/>
+       <Joint bend="" limit="" pull="" push="" shift="" twist=""/>
+      </CGFPropsOverride>
+      <CollisionFiltering>
+       <collisionIgnore bT_collision_class_articulated="0" bT_collision_class_living="0" bT_collision_class_particle="0" bT_collision_class_soft="0" bT_collision_class_terrain="0" bT_collision_class_wheeled="0" bT_gcc_ai="0" bT_gcc_large_kickable="0" bT_gcc_player_body="0" bT_gcc_player_capsule="0" bT_gcc_ragdoll="0" bT_gcc_rigid="0" bT_gcc_vehicle="0" bT_gcc_vtol="0"/>
+       <collisionType bT_collision_class_articulated="0" bT_collision_class_living="0" bT_collision_class_particle="0" bT_collision_class_soft="0" bT_collision_class_terrain="0" bT_collision_class_wheeled="0" bT_gcc_ai="0" bT_gcc_large_kickable="0" bT_gcc_player_body="0" bT_gcc_player_capsule="0" bT_gcc_ragdoll="0" bT_gcc_rigid="0" bT_gcc_vehicle="0" bT_gcc_vtol="0"/>
+      </CollisionFiltering>
+      <ForeignData bMovingPlatform="0"/>
+      <Simulation damping="0" bFixedDamping="0" max_time_step="0.02" sleep_speed="0.04" bUseSimpleSolver="0"/>
+     </Physics>
+    </Properties>
+   </Object>
+   <Object Type="Entity" Layer="AB0_Island" Id="{B68E36C6-9615-4644-8428-0470F0BC2D6A}" Name="RigidBodyEx1" Pos="1483.8121,2714.6887,100.93108" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="255" ViewDistRatio="100" HiddenInGame="0" GlobalInSegmentedWorld="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="RigidBodyEx">
+    <Properties bCanTriggerAreas="0" bDamagesPlayerOnCollisionSP="0" DmgFactorWhenCollidingAI="1" bExcludeCover="0" esFaction="" bHeavyObject="0" bInteractLargeObject="0" bMissionCritical="0" object_Model="objects/heartsofoak/storage/barrel_01.cgf" bPickable="1" bSerialize="0" soclasses_SmartObjectClass="" bUsable="0" UseMessage="">
+     <AI bUsedAsDynamicObstacle="1"/>
+     <Health bInvulnerable="0" MaxHealth="500" bOnlyEnemyFire="1"/>
+     <MultiplayerOptions bNetworked="0"/>
+     <Physics bActivateOnDamage="0" bCanBreakOthers="1" Density="100" Mass="-1" bPhysicalize="1" bPushableByPlayers="1" bResting="1" bRigidBody="1" bRigidBodyActive="1">
+      <Buoyancy water_damping="0" water_density="150" water_resistance="200"/>
+      <CGFPropsOverride player_can_break="">
+       <Constraint constraint_collides="" constraint_damping="" constraint_limit="" constraint_maxang="" constraint_minang=""/>
+       <Deformable explosion_scale="" hardness="" max_impulse="" max_stretch="" skin_dist="" stiffness="" thickness=""/>
+       <Joint bend="" limit="" pull="" push="" shift="" twist=""/>
+      </CGFPropsOverride>
+      <CollisionFiltering>
+       <collisionIgnore bT_collision_class_articulated="0" bT_collision_class_living="0" bT_collision_class_particle="0" bT_collision_class_soft="0" bT_collision_class_terrain="0" bT_collision_class_wheeled="0" bT_gcc_ai="0" bT_gcc_large_kickable="0" bT_gcc_player_body="0" bT_gcc_player_capsule="0" bT_gcc_ragdoll="0" bT_gcc_rigid="0" bT_gcc_vehicle="0" bT_gcc_vtol="0"/>
+       <collisionType bT_collision_class_articulated="0" bT_collision_class_living="0" bT_collision_class_particle="0" bT_collision_class_soft="0" bT_collision_class_terrain="0" bT_collision_class_wheeled="0" bT_gcc_ai="0" bT_gcc_large_kickable="0" bT_gcc_player_body="0" bT_gcc_player_capsule="0" bT_gcc_ragdoll="0" bT_gcc_rigid="0" bT_gcc_vehicle="0" bT_gcc_vtol="0"/>
+      </CollisionFiltering>
+      <ForeignData bMovingPlatform="0"/>
+      <Simulation damping="0" bFixedDamping="0" max_time_step="0.02" sleep_speed="0.04" bUseSimpleSolver="0"/>
+     </Physics>
+    </Properties>
+   </Object>
+   <Object Type="SequenceObject" Layer="AB0_Island" Id="{DD9540EB-122D-4B14-8332-CCB06AA204FE}" Name="HarborDemo" Pos="151.19351,41.138222,144.63849" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="16744319">
+    <Sequence SequenceVersion="2" Name="HarborDemo" Flags="312" StartTime="0" EndTime="15" ID="1">
+     <Nodes>
+      <Node Id="2" Type="2" Name="Director" Flags="7" ParamIdVersion="6">
+       <Track ParamId="6" Type="-1" Flags="0" StartTime="0" EndTime="15" HasCustomColor="0" ValueType="5">
+        <Key time="0" node="Camera1" BlendTime="0"/>
+       </Track>
+      </Node>
+      <Node Id="5" Type="3" Name="Camera1" Flags="3" ParentNode="2" ParamIdVersion="6" Pos="2173.7712,1206.4908,394.04251" Rotate="0.90061301,-0.031522065,0.015162699,-0.43321213" Scale="1,1,1" EntityGUID="4101EC2F9FDF240B" BoneLinkTransformEnabled="0" FOV="60.000134" NearZ="0.25" AmplitudeA="1,1,1" AmplitudeAMult="0" FrequencyA="1,1,1" FrequencyAMult="0" NoiseAAmpMult="0" NoiseAFreqMult="0" TimeOffsetA="0" AmplitudeB="1,1,1" AmplitudeBMult="0" FrequencyB="1,1,1" FrequencyBMult="0" NoiseBAmpMult="0" NoiseBFreqMult="0" TimeOffsetB="0">
+       <Track ParamId="0" Type="4" Flags="0" defaultValue="0,60.000134" HasCustomColor="0" ValueType="0"/>
+       <Track ParamId="1" Type="4" HasCustomColor="0" ValueType="1">
+        <NewSubTrack Flags="0" defaultValue="0,2173.7712" HasCustomColor="0">
+         <Key time="0" value="0,2173.7712" flags="73" ds="1,0" dd="1,0"/>
+         <Key time="8.5226192" value="8.5226192,3254.8247" flags="73" ds="3.1333332,0" dd="0.13953887,0"/>
+         <Key time="13.504089" value="13.504089,3322.5776" flags="73" ds="1.4650486,0" dd="1,0"/>
+         <Key time="15" value="15,3379.2705" flags="73" ds="0.33333334,0" dd="0.33333334,0"/>
+        </NewSubTrack>
+        <NewSubTrack Flags="0" defaultValue="0,1206.4908" HasCustomColor="0">
+         <Key time="0" value="0,1206.4908" flags="73" ds="1,0" dd="1,0"/>
+         <Key time="8.5226192" value="8.5226192,2359.7061" flags="73" ds="3.1333332,0" dd="0.13953887,0"/>
+         <Key time="13.504089" value="13.504089,2362.3254" flags="73" ds="1.4650486,0" dd="1,0"/>
+         <Key time="15" value="15,2327.8923" flags="73" ds="0.33333334,0" dd="0.33333334,0"/>
+        </NewSubTrack>
+        <NewSubTrack Flags="0" defaultValue="0,394.04251" HasCustomColor="0">
+         <Key time="0" value="0,394.04251" flags="73" ds="1,0" dd="1,0"/>
+         <Key time="8.5226192" value="8.5226192,110.54275" flags="73" ds="3.1333332,0" dd="0.13953887,0"/>
+         <Key time="13.504089" value="13.504089,108.71524" flags="73" ds="1.4650486,0" dd="1,0"/>
+         <Key time="15" value="15,119.49276" flags="73" ds="0.33333334,0" dd="0.33333334,0"/>
+        </NewSubTrack>
+       </Track>
+       <Track ParamId="2" Type="4" HasCustomColor="0" ValueType="2">
+        <NewSubTrack Flags="0" defaultValue="0,-164" HasCustomColor="0">
+         <Key time="8.5989132" value="8.5989132,-4.0091448" flags="73" ds="1,0" dd="0.11910375,0"/>
+         <Key time="13.61853" value="13.61853,-0.57140976" flags="73" ds="1.3507078,0" dd="1,0"/>
+         <Key time="15" value="15,-4.5821218" flags="73" ds="0.33333334,0" dd="0.33333334,0"/>
+        </NewSubTrack>
+        <NewSubTrack Flags="0" defaultValue="0,-4.2688683e-007" HasCustomColor="0">
+         <Key time="8.5989132" value="8.5989132,-2.0277125e-006" flags="73" ds="1,0" dd="0.11910375,0"/>
+         <Key time="13.61853" value="13.61853,1.1472583e-006" flags="73" ds="1.3507078,0" dd="1,0"/>
+         <Key time="15" value="15,2.3478776e-006" flags="73" ds="0.33333334,0" dd="0.33333334,0"/>
+        </NewSubTrack>
+        <NewSubTrack Flags="0" defaultValue="0,-28.000004" HasCustomColor="0">
+         <Key time="8.5989132" value="8.5989132,-51.376896" flags="73" ds="1,0" dd="0.11910375,0"/>
+         <Key time="13.61853" value="13.61853,51.297165" flags="73" ds="1.3507078,0" dd="1,0"/>
+         <Key time="15" value="15,57.943501" flags="73" ds="0.33333334,0" dd="0.33333334,0"/>
+        </NewSubTrack>
+       </Track>
+      </Node>
+      <Node Id="6" Type="19" Name="DepthOfField" Flags="3" ParentNode="2" ParamIdVersion="6">
+       <Track ParamId="100000" Type="-1" Flags="0" StartTime="0" EndTime="15" HasCustomColor="0" ValueType="3">
+        <Key time="15"/>
+       </Track>
+       <Track ParamId="100001" Type="4" Flags="0" defaultValue="0,3.5" HasCustomColor="0" ValueType="0">
+        <Key time="0" value="0,1000" flags="73" ds="1,0" dd="1,0"/>
+       </Track>
+       <Track ParamId="100002" Type="4" Flags="0" defaultValue="0,5" HasCustomColor="0" ValueType="0">
+        <Key time="-0.68664551" value="-0.68664551,5" flags="73" ds="1,0" dd="0.68664551,0"/>
+        <Key time="0" value="0,1000" flags="73" ds="0.22888184,0" dd="0,0"/>
+        <Key time="0" value="0,5" flags="73" ds="0,0" dd="0.40000004,0"/>
+       </Track>
+       <Track ParamId="100003" Type="4" Flags="0" defaultValue="0,1" HasCustomColor="0" ValueType="0">
+        <Key time="0" value="0,0.38" flags="73" ds="1,0" dd="1,0"/>
+       </Track>
+      </Node>
+      <Node Id="7" Type="20" Name="ScreenFader" Flags="3" ParentNode="2" ParamIdVersion="6">
+       <Track ParamId="71" Type="-1" Flags="0" StartTime="0" EndTime="15" HasCustomColor="0" ValueType="-1">
+        <Key time="0" fadeTime="1.25" fadeColor="0,0,0" fadeType="0" fadeChangeType="0" texture="" useCurColor="1"/>
+        <Key time="13.54115" fadeTime="1.5" fadeColor="0,0,0" fadeType="1" fadeChangeType="0" texture="" useCurColor="1"/>
+       </Track>
+      </Node>
+     </Nodes>
+     <Events />
+    </Sequence>
+    <ZoomScrollSettings dopeSheetZoom="26.214401" dopeSheetHScroll="-30" nodesListVScroll="0" curveEditorZoom="16,47.727272" curveEditorScroll="0,-1.1"/>
+    <ID value="1"/>
+   </Object>
+  </LayerObjects>
+ </Layer>
+</ObjectLayer>

@@ -1,0 +1,5 @@
+<ObjectLayer>
+ <Layer Name="AB3_Outpost" GUID="{C2EDED71-F4A7-4472-917D-0186E9AC83AD}" FullName="AB3_Outpost" Hidden="0" Frozen="0" External="1" Exportable="1" ExportLayerPak="1" DefaultLoaded="0" HavePhysics="1" Expanded="0" IsDefaultColor="1" ID="0">
+  <LayerObjects />
+ </Layer>
+</ObjectLayer>

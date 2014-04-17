@@ -1,0 +1,5 @@
+<ObjectLayer>
+ <Layer Name="particles" GUID="{BD7F7608-C07C-49C2-8F90-C37319F7E297}" FullName="particles" Hidden="0" Frozen="0" External="1" Exportable="1" ExportLayerPak="1" DefaultLoaded="0" HavePhysics="1" Expanded="0" IsDefaultColor="1" ID="0">
+  <LayerObjects />
+ </Layer>
+</ObjectLayer>

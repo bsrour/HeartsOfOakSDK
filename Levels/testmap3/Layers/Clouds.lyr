@@ -1,0 +1,5 @@
+<ObjectLayer>
+ <Layer Name="Clouds" GUID="{201FE5DB-4985-4551-B340-8DEC7BEA1678}" FullName="Clouds" Hidden="0" Frozen="0" External="1" Exportable="1" ExportLayerPak="1" DefaultLoaded="0" HavePhysics="1" Expanded="0" IsDefaultColor="1" ID="0">
+  <LayerObjects />
+ </Layer>
+</ObjectLayer>

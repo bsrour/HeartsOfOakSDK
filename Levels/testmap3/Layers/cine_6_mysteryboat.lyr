@@ -1,0 +1,5 @@
+<ObjectLayer>
+ <Layer Name="cine_6_mysteryboat" GUID="{1AF3EAF4-6DC5-40E7-8922-265B9465D89B}" FullName="cine_6_mysteryboat" Hidden="0" Frozen="0" External="1" Exportable="1" ExportLayerPak="1" DefaultLoaded="0" HavePhysics="1" Expanded="0" IsDefaultColor="1" ID="0">
+  <LayerObjects />
+ </Layer>
+</ObjectLayer>

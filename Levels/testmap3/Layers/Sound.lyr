@@ -1,0 +1,5 @@
+<ObjectLayer>
+ <Layer Name="Sound" GUID="{6BDF1C8A-FE8C-49C1-B74C-638A43D3B924}" FullName="Sound" Hidden="0" Frozen="0" External="1" Exportable="1" ExportLayerPak="1" DefaultLoaded="0" HavePhysics="1" Expanded="0" IsDefaultColor="1" ID="0">
+  <LayerObjects />
+ </Layer>
+</ObjectLayer>

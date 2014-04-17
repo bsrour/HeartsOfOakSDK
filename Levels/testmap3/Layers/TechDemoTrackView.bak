@@ -1,0 +1,15 @@
+<ObjectLayer>
+ <Layer Name="TechDemoTrackView" GUID="{041964E2-1EFD-47AD-8DA7-28918A8A0BEE}" FullName="TechDemoTrackView" Hidden="0" Frozen="0" External="1" Exportable="1" ExportLayerPak="1" DefaultLoaded="0" HavePhysics="1" Expanded="0" IsDefaultColor="0" ID="0" Color="142">
+  <LayerObjects>
+   <Object Type="Entity" Layer="TechDemoTrackView" Id="{4FC6D40A-5B03-4CB1-BEE6-150BF4D190BA}" Name="Cannon24lbBarrel1" Pos="3258.5024,2980.9829,107.01683" FloorNumber="-1" Rotate="0.069756478,0,0,0.99756408" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" GlobalInSegmentedWorld="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="Cannon24lbBarrel">
+    <Properties HitPoints="0" initialSetup="" fMass="0" bMounted="1" eiPhysicsType="0" bPickable="0" fRecoilDistance="3" fRecoilStep="0.1" fRecoverStep="0.005" soclasses_SmartObjectClass="" bSpecialSelect="0" bUsable="1">
+     <MountedLimits pitchMax="60" pitchMin="-22" yaw="70"/>
+     <Respawn bRespawn="0" nTimer="30" bUnique="0"/>
+    </Properties>
+   </Object>
+   <Object Type="Camera" Layer="TechDemoTrackView" Id="{9FDF240B-EC2F-4101-BBA8-237F355E7593}" Name="Camera1" Pos="2173.7712,1206.4908,394.04251" FloorNumber="-1" Rotate="0.95270568,-0.18518725,0.045975722,-0.23652457" ColorRGB="16776960" FOV="1.0472" NearZ="0.25" FarZ="5000" EntityClass="CameraSource">
+    <ShakeParams AmplitudeA="1,1,1" AmplitudeAMult="0" FrequencyA="1,1,1" FrequencyAMult="0" NoiseAAmpMult="0" NoiseAFreqMult="0" TimeOffsetA="0" AmplitudeB="1,1,1" AmplitudeBMult="0" FrequencyB="1,1,1" FrequencyBMult="0" NoiseBAmpMult="0" NoiseBFreqMult="0" TimeOffsetB="0"/>
+   </Object>
+  </LayerObjects>
+ </Layer>
+</ObjectLayer>

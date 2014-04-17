@@ -1,0 +1,5 @@
+<ObjectLayer>
+ <Layer Name="AB1_Harbor" GUID="{CD6CB66F-5AD9-4E25-9D04-E0111C14270D}" FullName="AB1_Harbor" Hidden="0" Frozen="0" External="1" Exportable="1" ExportLayerPak="1" DefaultLoaded="0" HavePhysics="1" Expanded="0" IsDefaultColor="1" ID="0">
+  <LayerObjects />
+ </Layer>
+</ObjectLayer>

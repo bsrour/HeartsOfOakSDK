@@ -1,0 +1,9 @@
+<ObjectLayer>
+ <Layer Name="TechDemoTrackView" GUID="{041964E2-1EFD-47AD-8DA7-28918A8A0BEE}" FullName="TechDemoTrackView" Hidden="0" Frozen="0" External="1" Exportable="1" ExportLayerPak="1" DefaultLoaded="0" HavePhysics="1" Expanded="0" IsDefaultColor="0" ID="0" Color="142">
+  <LayerObjects>
+   <Object Type="Camera" Layer="TechDemoTrackView" Id="{9FDF240B-EC2F-4101-BBA8-237F355E7593}" Name="Camera1" Pos="2173.7712,1206.4908,394.04251" FloorNumber="-1" Rotate="0.95270568,-0.18518725,0.045975722,-0.23652457" ColorRGB="16776960" FOV="1.0472" NearZ="0.25" FarZ="5000" EntityClass="CameraSource">
+    <ShakeParams AmplitudeA="1,1,1" AmplitudeAMult="0" FrequencyA="1,1,1" FrequencyAMult="0" NoiseAAmpMult="0" NoiseAFreqMult="0" TimeOffsetA="0" AmplitudeB="1,1,1" AmplitudeBMult="0" FrequencyB="1,1,1" FrequencyBMult="0" NoiseBAmpMult="0" NoiseBFreqMult="0" TimeOffsetB="0"/>
+   </Object>
+  </LayerObjects>
+ </Layer>
+</ObjectLayer>
