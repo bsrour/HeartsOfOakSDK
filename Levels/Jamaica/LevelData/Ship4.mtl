@@ -1,0 +1,617 @@
+# Material file exported by Sandbox
+
+newmtl m_hull_three_underwater
+Ka 0.645555 0.625345 0.573159
+Kd 0.645555 0.625345 0.573159
+Ks 0.151058 0.133209 0.091518
+d 1
+Tr 0
+Ns 0.000769
+map_Kd F:\Projects\CryENGINE\heartsofoaksdk\objects\heartsofoak\textures\wood_planks_1g_diff.dds
+map_Ns F:\Projects\CryENGINE\heartsofoaksdk\objects\heartsofoak\textures\wood_planks_1b_spec.dds
+bump F:\Projects\CryENGINE\heartsofoaksdk\objects\heartsofoak\textures\wood_planks_1b_ddn.dds
+
+newmtl m_hull_three_underwater
+Ka 0.645555 0.625345 0.573159
+Kd 0.645555 0.625345 0.573159
+Ks 0.151058 0.133209 0.091518
+d 1
+Tr 0
+Ns 0.000769
+map_Kd F:\Projects\CryENGINE\heartsofoaksdk\objects\heartsofoak\textures\wood_planks_1g_diff.dds
+map_Ns F:\Projects\CryENGINE\heartsofoaksdk\objects\heartsofoak\textures\wood_planks_1b_spec.dds
+bump F:\Projects\CryENGINE\heartsofoaksdk\objects\heartsofoak\textures\wood_planks_1b_ddn.dds
+
+newmtl m_hull_three_underwater
+Ka 0.645555 0.625345 0.573159
+Kd 0.645555 0.625345 0.573159
+Ks 0.151058 0.133209 0.091518
+d 1
+Tr 0
+Ns 0.000769
+map_Kd F:\Projects\CryENGINE\heartsofoaksdk\objects\heartsofoak\textures\wood_planks_1g_diff.dds
+map_Ns F:\Projects\CryENGINE\heartsofoaksdk\objects\heartsofoak\textures\wood_planks_1b_spec.dds
+bump F:\Projects\CryENGINE\heartsofoaksdk\objects\heartsofoak\textures\wood_planks_1b_ddn.dds
+
+newmtl Ship4
+Ka 0 0 0
+Kd 0 0 0
+Ks 0 0 0
+d 1
+Tr 0
+Ns 0
+
+newmtl Ship4
+Ka 0 0 0
+Kd 0 0 0
+Ks 0 0 0
+d 1
+Tr 0
+Ns 0
+
+newmtl Ship4
+Ka 0 0 0
+Kd 0 0 0
+Ks 0 0 0
+d 1
+Tr 0
+Ns 0
+
+newmtl Ship4
+Ka 0 0 0
+Kd 0 0 0
+Ks 0 0 0
+d 1
+Tr 0
+Ns 0
+
+newmtl Ship4
+Ka 0 0 0
+Kd 0 0 0
+Ks 0 0 0
+d 1
+Tr 0
+Ns 0
+
+newmtl Ship4
+Ka 0 0 0
+Kd 0 0 0
+Ks 0 0 0
+d 1
+Tr 0
+Ns 0
+
+newmtl m_hull_three_underwater
+Ka 0.645555 0.625345 0.573159
+Kd 0.645555 0.625345 0.573159
+Ks 0.151058 0.133209 0.091518
+d 1
+Tr 0
+Ns 0.000769
+map_Kd F:\Projects\CryENGINE\heartsofoaksdk\objects\heartsofoak\textures\wood_planks_1g_diff.dds
+map_Ns F:\Projects\CryENGINE\heartsofoaksdk\objects\heartsofoak\textures\wood_planks_1b_spec.dds
+bump F:\Projects\CryENGINE\heartsofoaksdk\objects\heartsofoak\textures\wood_planks_1b_ddn.dds
+
+newmtl m_hull_three_underwater
+Ka 0.645555 0.625345 0.573159
+Kd 0.645555 0.625345 0.573159
+Ks 0.151058 0.133209 0.091518
+d 1
+Tr 0
+Ns 0.000769
+map_Kd F:\Projects\CryENGINE\heartsofoaksdk\objects\heartsofoak\textures\wood_planks_1g_diff.dds
+map_Ns F:\Projects\CryENGINE\heartsofoaksdk\objects\heartsofoak\textures\wood_planks_1b_spec.dds
+bump F:\Projects\CryENGINE\heartsofoaksdk\objects\heartsofoak\textures\wood_planks_1b_ddn.dds
+
+newmtl m_hull_three_underwater
+Ka 0.645555 0.625345 0.573159
+Kd 0.645555 0.625345 0.573159
+Ks 0.151058 0.133209 0.091518
+d 1
+Tr 0
+Ns 0.000769
+map_Kd F:\Projects\CryENGINE\heartsofoaksdk\objects\heartsofoak\textures\wood_planks_1g_diff.dds
+map_Ns F:\Projects\CryENGINE\heartsofoaksdk\objects\heartsofoak\textures\wood_planks_1b_spec.dds
+bump F:\Projects\CryENGINE\heartsofoaksdk\objects\heartsofoak\textures\wood_planks_1b_ddn.dds
+
+newmtl proxy
+Ka 0.499505 0.499505 0.499505
+Kd 0.499505 0.499505 0.499505
+Ks 0 0 0
+d 1
+Tr 0
+Ns 0.000154
+
+newmtl Ship4
+Ka 0 0 0
+Kd 0 0 0
+Ks 0 0 0
+d 1
+Tr 0
+Ns 0
+
+newmtl Ship4
+Ka 0 0 0
+Kd 0 0 0
+Ks 0 0 0
+d 1
+Tr 0
+Ns 0
+
+newmtl Ship4
+Ka 0 0 0
+Kd 0 0 0
+Ks 0 0 0
+d 1
+Tr 0
+Ns 0
+
+newmtl Ship4
+Ka 0 0 0
+Kd 0 0 0
+Ks 0 0 0
+d 1
+Tr 0
+Ns 0
+
+newmtl Ship4
+Ka 0 0 0
+Kd 0 0 0
+Ks 0 0 0
+d 1
+Tr 0
+Ns 0
+
+newmtl m_hull_three_underwater
+Ka 0.645555 0.625345 0.573159
+Kd 0.645555 0.625345 0.573159
+Ks 0.151058 0.133209 0.091518
+d 1
+Tr 0
+Ns 0.000769
+map_Kd F:\Projects\CryENGINE\heartsofoaksdk\objects\heartsofoak\textures\wood_planks_1g_diff.dds
+map_Ns F:\Projects\CryENGINE\heartsofoaksdk\objects\heartsofoak\textures\wood_planks_1b_spec.dds
+bump F:\Projects\CryENGINE\heartsofoaksdk\objects\heartsofoak\textures\wood_planks_1b_ddn.dds
+
+newmtl m_hull_three_underwater
+Ka 0.645555 0.625345 0.573159
+Kd 0.645555 0.625345 0.573159
+Ks 0.151058 0.133209 0.091518
+d 1
+Tr 0
+Ns 0.000769
+map_Kd F:\Projects\CryENGINE\heartsofoaksdk\objects\heartsofoak\textures\wood_planks_1g_diff.dds
+map_Ns F:\Projects\CryENGINE\heartsofoaksdk\objects\heartsofoak\textures\wood_planks_1b_spec.dds
+bump F:\Projects\CryENGINE\heartsofoaksdk\objects\heartsofoak\textures\wood_planks_1b_ddn.dds
+
+newmtl proxy
+Ka 0.499505 0.499505 0.499505
+Kd 0.499505 0.499505 0.499505
+Ks 0 0 0
+d 1
+Tr 0
+Ns 0.000154
+
+newmtl Ship4
+Ka 0 0 0
+Kd 0 0 0
+Ks 0 0 0
+d 1
+Tr 0
+Ns 0
+
+newmtl m_hull_three_underwater
+Ka 0.645555 0.625345 0.573159
+Kd 0.645555 0.625345 0.573159
+Ks 0.151058 0.133209 0.091518
+d 1
+Tr 0
+Ns 0.000769
+map_Kd F:\Projects\CryENGINE\heartsofoaksdk\objects\heartsofoak\textures\wood_planks_1g_diff.dds
+map_Ns F:\Projects\CryENGINE\heartsofoaksdk\objects\heartsofoak\textures\wood_planks_1b_spec.dds
+bump F:\Projects\CryENGINE\heartsofoaksdk\objects\heartsofoak\textures\wood_planks_1b_ddn.dds
+
+newmtl proxy
+Ka 0.499505 0.499505 0.499505
+Kd 0.499505 0.499505 0.499505
+Ks 0 0 0
+d 1
+Tr 0
+Ns 0.000154
+
+newmtl Ship4
+Ka 0 0 0
+Kd 0 0 0
+Ks 0 0 0
+d 1
+Tr 0
+Ns 0
+
+newmtl m_hull_three_underwater
+Ka 0.645555 0.625345 0.573159
+Kd 0.645555 0.625345 0.573159
+Ks 0.151058 0.133209 0.091518
+d 1
+Tr 0
+Ns 0.000769
+map_Kd F:\Projects\CryENGINE\heartsofoaksdk\objects\heartsofoak\textures\wood_planks_1g_diff.dds
+map_Ns F:\Projects\CryENGINE\heartsofoaksdk\objects\heartsofoak\textures\wood_planks_1b_spec.dds
+bump F:\Projects\CryENGINE\heartsofoaksdk\objects\heartsofoak\textures\wood_planks_1b_ddn.dds
+
+newmtl proxy
+Ka 0.499505 0.499505 0.499505
+Kd 0.499505 0.499505 0.499505
+Ks 0 0 0
+d 1
+Tr 0
+Ns 0.000154
+
+newmtl Ship4
+Ka 0 0 0
+Kd 0 0 0
+Ks 0 0 0
+d 1
+Tr 0
+Ns 0
+
+newmtl m_hull_three_underwater
+Ka 0.645555 0.625345 0.573159
+Kd 0.645555 0.625345 0.573159
+Ks 0.151058 0.133209 0.091518
+d 1
+Tr 0
+Ns 0.000769
+map_Kd F:\Projects\CryENGINE\heartsofoaksdk\objects\heartsofoak\textures\wood_planks_1g_diff.dds
+map_Ns F:\Projects\CryENGINE\heartsofoaksdk\objects\heartsofoak\textures\wood_planks_1b_spec.dds
+bump F:\Projects\CryENGINE\heartsofoaksdk\objects\heartsofoak\textures\wood_planks_1b_ddn.dds
+
+newmtl proxy
+Ka 0.499505 0.499505 0.499505
+Kd 0.499505 0.499505 0.499505
+Ks 0 0 0
+d 1
+Tr 0
+Ns 0.000154
+
+newmtl Ship4
+Ka 0 0 0
+Kd 0 0 0
+Ks 0 0 0
+d 1
+Tr 0
+Ns 0
+
+newmtl m_hull_three_underwater
+Ka 0.645555 0.625345 0.573159
+Kd 0.645555 0.625345 0.573159
+Ks 0.151058 0.133209 0.091518
+d 1
+Tr 0
+Ns 0.000769
+map_Kd F:\Projects\CryENGINE\heartsofoaksdk\objects\heartsofoak\textures\wood_planks_1g_diff.dds
+map_Ns F:\Projects\CryENGINE\heartsofoaksdk\objects\heartsofoak\textures\wood_planks_1b_spec.dds
+bump F:\Projects\CryENGINE\heartsofoaksdk\objects\heartsofoak\textures\wood_planks_1b_ddn.dds
+
+newmtl proxy
+Ka 0.499505 0.499505 0.499505
+Kd 0.499505 0.499505 0.499505
+Ks 0 0 0
+d 1
+Tr 0
+Ns 0.000154
+
+newmtl Ship4
+Ka 0 0 0
+Kd 0 0 0
+Ks 0 0 0
+d 1
+Tr 0
+Ns 0
+
+newmtl m_hull_three_underwater
+Ka 0.645555 0.625345 0.573159
+Kd 0.645555 0.625345 0.573159
+Ks 0.151058 0.133209 0.091518
+d 1
+Tr 0
+Ns 0.000769
+map_Kd F:\Projects\CryENGINE\heartsofoaksdk\objects\heartsofoak\textures\wood_planks_1g_diff.dds
+map_Ns F:\Projects\CryENGINE\heartsofoaksdk\objects\heartsofoak\textures\wood_planks_1b_spec.dds
+bump F:\Projects\CryENGINE\heartsofoaksdk\objects\heartsofoak\textures\wood_planks_1b_ddn.dds
+
+newmtl m_hull_three_underwater
+Ka 0.645555 0.625345 0.573159
+Kd 0.645555 0.625345 0.573159
+Ks 0.151058 0.133209 0.091518
+d 1
+Tr 0
+Ns 0.000769
+map_Kd F:\Projects\CryENGINE\heartsofoaksdk\objects\heartsofoak\textures\wood_planks_1g_diff.dds
+map_Ns F:\Projects\CryENGINE\heartsofoaksdk\objects\heartsofoak\textures\wood_planks_1b_spec.dds
+bump F:\Projects\CryENGINE\heartsofoaksdk\objects\heartsofoak\textures\wood_planks_1b_ddn.dds
+
+newmtl proxy
+Ka 0.499505 0.499505 0.499505
+Kd 0.499505 0.499505 0.499505
+Ks 0 0 0
+d 1
+Tr 0
+Ns 0.000154
+
+newmtl Ship4
+Ka 0 0 0
+Kd 0 0 0
+Ks 0 0 0
+d 1
+Tr 0
+Ns 0
+
+newmtl m_hull_three_underwater
+Ka 0.645555 0.625345 0.573159
+Kd 0.645555 0.625345 0.573159
+Ks 0.151058 0.133209 0.091518
+d 1
+Tr 0
+Ns 0.000769
+map_Kd F:\Projects\CryENGINE\heartsofoaksdk\objects\heartsofoak\textures\wood_planks_1g_diff.dds
+map_Ns F:\Projects\CryENGINE\heartsofoaksdk\objects\heartsofoak\textures\wood_planks_1b_spec.dds
+bump F:\Projects\CryENGINE\heartsofoaksdk\objects\heartsofoak\textures\wood_planks_1b_ddn.dds
+
+newmtl proxy
+Ka 0.499505 0.499505 0.499505
+Kd 0.499505 0.499505 0.499505
+Ks 0 0 0
+d 1
+Tr 0
+Ns 0.000154
+
+newmtl Ship4
+Ka 0 0 0
+Kd 0 0 0
+Ks 0 0 0
+d 1
+Tr 0
+Ns 0
+
+newmtl m_hull_three_underwater
+Ka 0.645555 0.625345 0.573159
+Kd 0.645555 0.625345 0.573159
+Ks 0.151058 0.133209 0.091518
+d 1
+Tr 0
+Ns 0.000769
+map_Kd F:\Projects\CryENGINE\heartsofoaksdk\objects\heartsofoak\textures\wood_planks_1g_diff.dds
+map_Ns F:\Projects\CryENGINE\heartsofoaksdk\objects\heartsofoak\textures\wood_planks_1b_spec.dds
+bump F:\Projects\CryENGINE\heartsofoaksdk\objects\heartsofoak\textures\wood_planks_1b_ddn.dds
+
+newmtl proxy
+Ka 0.499505 0.499505 0.499505
+Kd 0.499505 0.499505 0.499505
+Ks 0 0 0
+d 1
+Tr 0
+Ns 0.000154
+
+newmtl Ship4
+Ka 0 0 0
+Kd 0 0 0
+Ks 0 0 0
+d 1
+Tr 0
+Ns 0
+
+newmtl m_hull_three_underwater
+Ka 0.645555 0.625345 0.573159
+Kd 0.645555 0.625345 0.573159
+Ks 0.151058 0.133209 0.091518
+d 1
+Tr 0
+Ns 0.000769
+map_Kd F:\Projects\CryENGINE\heartsofoaksdk\objects\heartsofoak\textures\wood_planks_1g_diff.dds
+map_Ns F:\Projects\CryENGINE\heartsofoaksdk\objects\heartsofoak\textures\wood_planks_1b_spec.dds
+bump F:\Projects\CryENGINE\heartsofoaksdk\objects\heartsofoak\textures\wood_planks_1b_ddn.dds
+
+newmtl proxy
+Ka 0.499505 0.499505 0.499505
+Kd 0.499505 0.499505 0.499505
+Ks 0 0 0
+d 1
+Tr 0
+Ns 0.000154
+
+newmtl Ship4
+Ka 0 0 0
+Kd 0 0 0
+Ks 0 0 0
+d 1
+Tr 0
+Ns 0
+
+newmtl m_hull_three_underwater
+Ka 0.645555 0.625345 0.573159
+Kd 0.645555 0.625345 0.573159
+Ks 0.151058 0.133209 0.091518
+d 1
+Tr 0
+Ns 0.000769
+map_Kd F:\Projects\CryENGINE\heartsofoaksdk\objects\heartsofoak\textures\wood_planks_1g_diff.dds
+map_Ns F:\Projects\CryENGINE\heartsofoaksdk\objects\heartsofoak\textures\wood_planks_1b_spec.dds
+bump F:\Projects\CryENGINE\heartsofoaksdk\objects\heartsofoak\textures\wood_planks_1b_ddn.dds
+
+newmtl m_hull_three_underwater
+Ka 0.645555 0.625345 0.573159
+Kd 0.645555 0.625345 0.573159
+Ks 0.151058 0.133209 0.091518
+d 1
+Tr 0
+Ns 0.000769
+map_Kd F:\Projects\CryENGINE\heartsofoaksdk\objects\heartsofoak\textures\wood_planks_1g_diff.dds
+map_Ns F:\Projects\CryENGINE\heartsofoaksdk\objects\heartsofoak\textures\wood_planks_1b_spec.dds
+bump F:\Projects\CryENGINE\heartsofoaksdk\objects\heartsofoak\textures\wood_planks_1b_ddn.dds
+
+newmtl proxy
+Ka 0.499505 0.499505 0.499505
+Kd 0.499505 0.499505 0.499505
+Ks 0 0 0
+d 1
+Tr 0
+Ns 0.000154
+
+newmtl Ship4
+Ka 0 0 0
+Kd 0 0 0
+Ks 0 0 0
+d 1
+Tr 0
+Ns 0
+
+newmtl m_hull_three_underwater
+Ka 0.645555 0.625345 0.573159
+Kd 0.645555 0.625345 0.573159
+Ks 0.151058 0.133209 0.091518
+d 1
+Tr 0
+Ns 0.000769
+map_Kd F:\Projects\CryENGINE\heartsofoaksdk\objects\heartsofoak\textures\wood_planks_1g_diff.dds
+map_Ns F:\Projects\CryENGINE\heartsofoaksdk\objects\heartsofoak\textures\wood_planks_1b_spec.dds
+bump F:\Projects\CryENGINE\heartsofoaksdk\objects\heartsofoak\textures\wood_planks_1b_ddn.dds
+
+newmtl proxy
+Ka 0.499505 0.499505 0.499505
+Kd 0.499505 0.499505 0.499505
+Ks 0 0 0
+d 1
+Tr 0
+Ns 0.000154
+
+newmtl Ship4
+Ka 0 0 0
+Kd 0 0 0
+Ks 0 0 0
+d 1
+Tr 0
+Ns 0
+
+newmtl m_hull_three_underwater
+Ka 0.645555 0.625345 0.573159
+Kd 0.645555 0.625345 0.573159
+Ks 0.151058 0.133209 0.091518
+d 1
+Tr 0
+Ns 0.000769
+map_Kd F:\Projects\CryENGINE\heartsofoaksdk\objects\heartsofoak\textures\wood_planks_1g_diff.dds
+map_Ns F:\Projects\CryENGINE\heartsofoaksdk\objects\heartsofoak\textures\wood_planks_1b_spec.dds
+bump F:\Projects\CryENGINE\heartsofoaksdk\objects\heartsofoak\textures\wood_planks_1b_ddn.dds
+
+newmtl proxy
+Ka 0.499505 0.499505 0.499505
+Kd 0.499505 0.499505 0.499505
+Ks 0 0 0
+d 1
+Tr 0
+Ns 0.000154
+
+newmtl m_hull_three_underwater
+Ka 0.645555 0.625345 0.573159
+Kd 0.645555 0.625345 0.573159
+Ks 0.151058 0.133209 0.091518
+d 1
+Tr 0
+Ns 0.000769
+map_Kd F:\Projects\CryENGINE\heartsofoaksdk\objects\heartsofoak\textures\wood_planks_1g_diff.dds
+map_Ns F:\Projects\CryENGINE\heartsofoaksdk\objects\heartsofoak\textures\wood_planks_1b_spec.dds
+bump F:\Projects\CryENGINE\heartsofoaksdk\objects\heartsofoak\textures\wood_planks_1b_ddn.dds
+
+newmtl m_hull_three_underwater
+Ka 0.645555 0.625345 0.573159
+Kd 0.645555 0.625345 0.573159
+Ks 0.151058 0.133209 0.091518
+d 1
+Tr 0
+Ns 0.000769
+map_Kd F:\Projects\CryENGINE\heartsofoaksdk\objects\heartsofoak\textures\wood_planks_1g_diff.dds
+map_Ns F:\Projects\CryENGINE\heartsofoaksdk\objects\heartsofoak\textures\wood_planks_1b_spec.dds
+bump F:\Projects\CryENGINE\heartsofoaksdk\objects\heartsofoak\textures\wood_planks_1b_ddn.dds
+
+newmtl m_hull_three_underwater
+Ka 0.645555 0.625345 0.573159
+Kd 0.645555 0.625345 0.573159
+Ks 0.151058 0.133209 0.091518
+d 1
+Tr 0
+Ns 0.000769
+map_Kd F:\Projects\CryENGINE\heartsofoaksdk\objects\heartsofoak\textures\wood_planks_1g_diff.dds
+map_Ns F:\Projects\CryENGINE\heartsofoaksdk\objects\heartsofoak\textures\wood_planks_1b_spec.dds
+bump F:\Projects\CryENGINE\heartsofoaksdk\objects\heartsofoak\textures\wood_planks_1b_ddn.dds
+
+newmtl m_hull_three_underwater
+Ka 0.645555 0.625345 0.573159
+Kd 0.645555 0.625345 0.573159
+Ks 0.151058 0.133209 0.091518
+d 1
+Tr 0
+Ns 0.000769
+map_Kd F:\Projects\CryENGINE\heartsofoaksdk\objects\heartsofoak\textures\wood_planks_1g_diff.dds
+map_Ns F:\Projects\CryENGINE\heartsofoaksdk\objects\heartsofoak\textures\wood_planks_1b_spec.dds
+bump F:\Projects\CryENGINE\heartsofoaksdk\objects\heartsofoak\textures\wood_planks_1b_ddn.dds
+
+newmtl proxy
+Ka 0.499505 0.499505 0.499505
+Kd 0.499505 0.499505 0.499505
+Ks 0 0 0
+d 1
+Tr 0
+Ns 0.000154
+
+newmtl Ship4
+Ka 0 0 0
+Kd 0 0 0
+Ks 0 0 0
+d 1
+Tr 0
+Ns 0
+
+newmtl m_hull_three_underwater
+Ka 0.645555 0.625345 0.573159
+Kd 0.645555 0.625345 0.573159
+Ks 0.151058 0.133209 0.091518
+d 1
+Tr 0
+Ns 0.000769
+map_Kd F:\Projects\CryENGINE\heartsofoaksdk\objects\heartsofoak\textures\wood_planks_1g_diff.dds
+map_Ns F:\Projects\CryENGINE\heartsofoaksdk\objects\heartsofoak\textures\wood_planks_1b_spec.dds
+bump F:\Projects\CryENGINE\heartsofoaksdk\objects\heartsofoak\textures\wood_planks_1b_ddn.dds
+
+newmtl m_hull_three_underwater
+Ka 0.645555 0.625345 0.573159
+Kd 0.645555 0.625345 0.573159
+Ks 0.151058 0.133209 0.091518
+d 1
+Tr 0
+Ns 0.000769
+map_Kd F:\Projects\CryENGINE\heartsofoaksdk\objects\heartsofoak\textures\wood_planks_1g_diff.dds
+map_Ns F:\Projects\CryENGINE\heartsofoaksdk\objects\heartsofoak\textures\wood_planks_1b_spec.dds
+bump F:\Projects\CryENGINE\heartsofoaksdk\objects\heartsofoak\textures\wood_planks_1b_ddn.dds
+
+newmtl m_hull_three_underwater
+Ka 0.645555 0.625345 0.573159
+Kd 0.645555 0.625345 0.573159
+Ks 0.151058 0.133209 0.091518
+d 1
+Tr 0
+Ns 0.000769
+map_Kd F:\Projects\CryENGINE\heartsofoaksdk\objects\heartsofoak\textures\wood_planks_1g_diff.dds
+map_Ns F:\Projects\CryENGINE\heartsofoaksdk\objects\heartsofoak\textures\wood_planks_1b_spec.dds
+bump F:\Projects\CryENGINE\heartsofoaksdk\objects\heartsofoak\textures\wood_planks_1b_ddn.dds
+
+newmtl m_hull_three_underwater
+Ka 0.645555 0.625345 0.573159
+Kd 0.645555 0.625345 0.573159
+Ks 0.151058 0.133209 0.091518
+d 1
+Tr 0
+Ns 0.000769
+map_Kd F:\Projects\CryENGINE\heartsofoaksdk\objects\heartsofoak\textures\wood_planks_1g_diff.dds
+map_Ns F:\Projects\CryENGINE\heartsofoaksdk\objects\heartsofoak\textures\wood_planks_1b_spec.dds
+bump F:\Projects\CryENGINE\heartsofoaksdk\objects\heartsofoak\textures\wood_planks_1b_ddn.dds
+
