@@ -222,6 +222,14 @@
  </SurfaceType>
  
  <SurfaceType name="mat_wood" type="wood">
+  <Physics friction="0.5" elasticity="0.05" pierceability="11" can_shatter="1" />
+  <BreakageParticles type="joint_break" effect="breakable_objects.joint_break.wood" />
+  <BreakageParticles type="joint_shatter" effect="breakable_objects.joint_break.wood" />
+  <BreakageParticles type="destroy" effect="breakable_objects.joint_break.wood" count_per_unit="1" count_scale="1" scale="1" />
+  <AI fImpactRadius="2.5" fImpactSoundRadius="30" fFootStepRadius="20" proneMult="0.2" crouchMult="0.5" movingMult="2.5" />
+ </SurfaceType>
+ 
+  <SurfaceType name="mat_wood_nonpiercable" type="wood">
   <Physics friction="0.5" elasticity="0.05" pierceability="8" can_shatter="1" />
   <BreakageParticles type="joint_break" effect="breakable_objects.joint_break.wood" />
   <BreakageParticles type="joint_shatter" effect="breakable_objects.joint_break.wood" />

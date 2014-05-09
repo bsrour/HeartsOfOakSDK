@@ -1,14 +1,42 @@
 <ObjectLayer>
  <Layer Name="TechDemoTrackView" GUID="{041964E2-1EFD-47AD-8DA7-28918A8A0BEE}" FullName="TechDemoTrackView" Hidden="0" Frozen="0" External="1" Exportable="1" ExportLayerPak="1" DefaultLoaded="0" HavePhysics="1" Expanded="0" IsDefaultColor="0" ID="0" Color="142">
   <LayerObjects>
-   <Object Type="Entity" Layer="TechDemoTrackView" Id="{4FC6D40A-5B03-4CB1-BEE6-150BF4D190BA}" Name="Cannon24lbBarrel1" Pos="3313.0908,2948.4233,110.42271" FloorNumber="-1" Rotate="0.069756478,0,0,0.99756408" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" GlobalInSegmentedWorld="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="Cannon24lbBarrel">
+   <Object Type="Entity" Layer="TechDemoTrackView" Id="{4FC6D40A-5B03-4CB1-BEE6-150BF4D190BA}" Name="Cannon24lbBarrel1" Pos="1798.1691,1450.7285,108.33369" FloorNumber="-1" Rotate="0.052333992,0.00045671174,0.0087145753,0.99859148" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" GlobalInSegmentedWorld="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="Cannon24lbBarrel">
     <Properties HitPoints="0" initialSetup="" fMass="0" bMounted="1" eiPhysicsType="0" bPickable="0" fRecoilDistance="3" fRecoilStep="0.1" fRecoverStep="0.005" soclasses_SmartObjectClass="" bSpecialSelect="0" bUsable="1">
      <MountedLimits pitchMax="60" pitchMin="-22" yaw="70"/>
      <Respawn bRespawn="0" nTimer="30" bUnique="0"/>
     </Properties>
+    <FlowGraph Description="" Group="Startup" enabled="1" MultiPlayer="ClientServer">
+     <Nodes>
+      <Node Id="1" Class="Module:Call_Cannon_Auto_Fire" pos="-130,-20,0" flags="0">
+       <Inputs Instanced="1" InstanceID="-1" EntityId="0"/>
+      </Node>
+      <Node Id="2" Class="Entity:EntityId" pos="-430,40,0" flags="0" GraphEntity="0">
+       <Inputs entityId="0"/>
+      </Node>
+      <Node Id="3" Class="Time:Timer" pos="-410,-100,0" flags="0">
+       <Inputs period="5" min="0" max="0" paused="0"/>
+      </Node>
+      <Node Id="4" Class="Debug:ConsoleVariable" pos="-130,-140,0" flags="0">
+       <Inputs CVar="t_Scale" Value=".01"/>
+      </Node>
+     </Nodes>
+     <Edges>
+      <Edge nodeIn="1" nodeOut="2" portIn="EntityId" portOut="Id" enabled="1"/>
+     </Edges>
+     <GraphTokens />
+    </FlowGraph>
    </Object>
    <Object Type="Camera" Layer="TechDemoTrackView" Id="{9FDF240B-EC2F-4101-BBA8-237F355E7593}" Name="Camera1" Pos="2173.7712,1206.4908,394.04251" FloorNumber="-1" Rotate="0.95270568,-0.18518725,0.045975722,-0.23652457" ColorRGB="16776960" FOV="1.0472" NearZ="0.25" FarZ="5000" EntityClass="CameraSource">
     <ShakeParams AmplitudeA="1,1,1" AmplitudeAMult="0" FrequencyA="1,1,1" FrequencyAMult="0" NoiseAAmpMult="0" NoiseAFreqMult="0" TimeOffsetA="0" AmplitudeB="1,1,1" AmplitudeBMult="0" FrequencyB="1,1,1" FrequencyBMult="0" NoiseBAmpMult="0" NoiseBFreqMult="0" TimeOffsetB="0"/>
+   </Object>
+   <Object Type="Entity" Layer="TechDemoTrackView" Id="{7B985F28-A3BF-4B97-8C06-1A5C3F4AC5DC}" Name="Cloth1" Pos="1730.9824,892.98364,111.63677" FloorNumber="-1" Rotate="0.99181253,0.11116444,-0.04054863,-0.048022591" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" GlobalInSegmentedWorld="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="Cloth">
+    <Properties accuracy="0.1" air_resistance="1" attach_radius="1" bCollideWithPhysical="1" bCollideWithPlayers="1" bCollideWithStatics="0" bCollideWithTerrain="0" collision_impulse_scale="1" damping="3" density="300" explosion_scale="0.003" friction="1" hardness="1" impulse_scale="0.1" mass="3" mass_decay="0" max_collision_impulse="80" max_iters="5" max_safe_step="1" max_time_step="0.008" fileModel="objects/heartsofoak/flags/flag_1.cgf" bRigidCore="1" sleep_speed="0.01" thickness="1" water_resistance="600" wind_variance="0.2">
+     <gravity x="0" y="0" z="-2"/>
+     <MultiplayerOptions bNetworked="0"/>
+     <wind x="0" y="0" z="0"/>
+     <wind_event x="0" y="10" z="0"/>
+    </Properties>
    </Object>
   </LayerObjects>
  </Layer>

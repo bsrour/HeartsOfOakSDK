@@ -5,9 +5,9 @@
  <VolFogShadows Enable="1" EnableForClouds="1"/>
  <CloudShadows CloudShadowTexture="" CloudShadowSpeed="0,0,0" CloudShadowTiling="1" CloudShadowBrightness="1" CloudShadowInvert="0"/>
  <ParticleLighting AmbientMul="0.5" LightsMul="0.5" SunMul="1"/>
- <SkyBox Material="Materials/sky/sky" MaterialLowSpec="Materials/sky/evening" Angle="180" Stretching="0.5"/>
+ <SkyBox Material="materials/sky/day" MaterialLowSpec="Materials/sky/evening" Angle="180" Stretching="0.5"/>
  <Ocean Material="ocean_new" CausticDepth="100" CausticIntensity="0.1" CausticsTilling="0.5"/>
- <OceanAnimation WindDirection="0" WindSpeed="0" WavesSpeed="10" WavesAmount="0.2" WavesSize="3"/>
+ <OceanAnimation WindDirection="0" WindSpeed="10" WavesSpeed="10" WavesAmount="0.1" WavesSize="1.5"/>
  <Moon Latitude="-45" Longitude="44.9" Size="0.5" Texture="textures/skys/night/half_moon.dds"/>
  <HDRSetup BloomColor="229,164,13" BloomMul="1"/>
  <DynTexSource Width="256" Height="256"/>

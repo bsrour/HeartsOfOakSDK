@@ -20,10 +20,10 @@
 		<param name="mass" value="10.8" />
 		<param name="speed" value="120" GAME="SP"/>
 		<param name="speed" value="120" GAME="MP"/>
-		<param name="air_resistance" value=".5" />
-		<param name="water_resistance" value="0" />
+		<param name="air_resistance" value=".05" />
+		<param name="water_resistance" value="3" />
 		<param name="gravity" value="0, 0, -9.8" />
-		<param name="water_gravity" value="0, 0, 0" />
+		<param name="water_gravity" value="0, 0, -9.8" />
 		<param name="material" value="mat_metal" />
 		<param name="pierceability" value="1" />
 		<param name="single_contact" value="0" />
@@ -33,10 +33,11 @@
 		<param name="min_bounce_speed" value="0.5" GAME="MP" />
 		<param name="bounceableBullet" value="0" />
 		<pierceabilityLevels>
-			<param name="level3" value="0" />
+			<param name="level3" value="20" />
 			<param name="level2" value="60" />
 			<param name="level1" value="85" />
-			<param name="maxPenetrationThickness" value="1" />
+			<param name="maxPenetrationThickness" value="5" />
+			<param name="DestroyOnWaterImpact" value="0" />
 		</pierceabilityLevels>
 	</physics>
 	<params>

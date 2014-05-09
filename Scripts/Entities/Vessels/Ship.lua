@@ -57,6 +57,38 @@ Ship = {
 				object_Model = "",
 				iSlot = 0,
 			},
+			sail03 = {
+				object_Model = "",
+				iSlot = 0,
+			},
+			sail04 = {
+				object_Model = "",
+				iSlot = 0,
+			},
+			sail05 = {
+				object_Model = "",
+				iSlot = 0,
+			},
+			sail06 = {
+				object_Model = "",
+				iSlot = 0,
+			},
+			sail07 = {
+				object_Model = "",
+				iSlot = 0,
+			},
+			sail08 = {
+				object_Model = "",
+				iSlot = 0,
+			},
+			sail09 = {
+				object_Model = "",
+				iSlot = 0,
+			},
+			sail01 = {
+				object_Model = "",
+				iSlot = 0,
+			},
 		},
 	
 		Gunports = {
@@ -1107,9 +1139,16 @@ function Ship:SetFromProperties()
 	
 	-- Sails
 	local sail = self.Properties.Sails.sail01;
-	for iS = 1, 2 do
+	for iS = 1, 9 do
 		if iS == 1 then sail = self.Properties.Sails.sail01
 		elseif iS == 2 then sail = self.Properties.Sails.sail02
+		elseif iS == 3 then sail = self.Properties.Sails.sail03
+		elseif iS == 4 then sail = self.Properties.Sails.sail04
+		elseif iS == 5 then sail = self.Properties.Sails.sail05
+		elseif iS == 6 then sail = self.Properties.Sails.sail06
+		elseif iS == 7 then sail = self.Properties.Sails.sail07
+		elseif iS == 8 then sail = self.Properties.Sails.sail08
+		elseif iS == 9 then sail = self.Properties.Sails.sail09
 		else sail = self.Properties.Sails.sail01
 		end
 		if (sail.object_Model ~= "") then
@@ -1181,9 +1220,16 @@ end
 function Ship:PhysicalizeThis()
 	-- Sails
 	local sail = self.Properties.Sails.sail01;
-	for iS = 1, 2 do
+	for iS = 1, 9 do
 		if iS == 1 then sail = self.Properties.Sails.sail01
 		elseif iS == 2 then sail = self.Properties.Sails.sail02
+		elseif iS == 3 then sail = self.Properties.Sails.sail03
+		elseif iS == 4 then sail = self.Properties.Sails.sail04
+		elseif iS == 5 then sail = self.Properties.Sails.sail05
+		elseif iS == 6 then sail = self.Properties.Sails.sail06
+		elseif iS == 7 then sail = self.Properties.Sails.sail07
+		elseif iS == 8 then sail = self.Properties.Sails.sail08
+		elseif iS == 9 then sail = self.Properties.Sails.sail09
 		else sail = self.Properties.Sails.sail01
 		end
 	if (sail.object_Model ~= "") then
