@@ -1,0 +1,135 @@
+<Objects>
+ <Object Type="Entity" Layer="Main" Id="{03598074-831C-44B7-8116-12B3F6C43D1D}" Name="Ship4" Pos="625.03882,1066.6079,17.774925" FloorNumber="-1" Rotate="0.70710683,0,0,0.70710677" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="255" ViewDistRatio="100" HiddenInGame="0" GlobalInSegmentedWorld="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="Ship">
+  <Properties bCanTriggerAreas="0" bDamagesPlayerOnCollisionSP="0" DmgFactorWhenCollidingAI="1" bExcludeCover="0" esFaction="" bHeavyObject="1" bInteractLargeObject="1" bMissionCritical="0" object_Model="objects/default/primitive_sphere.cgf" bPickable="0" bSerialize="0" fSinking="0" soclasses_SmartObjectClass="" bUsable="0" UseMessage="">
+   <AI bUsedAsDynamicObstacle="1"/>
+   <Gunports>
+    <port01 object_CGA="objects/heartsofoak/ships/stalbans/st_albans_lid_1l.cga" sCloseAnim="albans_lid_1l_close" bOpen="0" sOpenAnim="albans_lid_1l_open" iSlot="0"/>
+    <port02 object_CGA="objects/heartsofoak/ships/stalbans/st_albans_lid_2l.cga" sCloseAnim="albans_lid_2l_close" bOpen="0" sOpenAnim="albans_lid_2l_open" iSlot="0"/>
+    <port03 object_CGA="objects/heartsofoak/ships/stalbans/st_albans_lid_3l.cga" sCloseAnim="albans_lid_3l_close" bOpen="0" sOpenAnim="albans_lid_3l_open" iSlot="0"/>
+    <port04 object_CGA="objects/heartsofoak/ships/stalbans/st_albans_lid_4l.cga" sCloseAnim="albans_lid_4l_close" bOpen="0" sOpenAnim="albans_lid_4l_open" iSlot="0"/>
+    <port05 object_CGA="objects/heartsofoak/ships/stalbans/st_albans_lid_5l.cga" sCloseAnim="albans_lid_5l_close" bOpen="0" sOpenAnim="albans_lid_5l_open" iSlot="0"/>
+    <port06 object_CGA="objects/heartsofoak/ships/stalbans/st_albans_lid_6l.cga" sCloseAnim="albans_lid_6l_close" bOpen="0" sOpenAnim="albans_lid_6l_open" iSlot="0"/>
+    <port07 object_CGA="objects/heartsofoak/ships/stalbans/st_albans_lid_7l.cga" sCloseAnim="albans_lid_7l_close" bOpen="0" sOpenAnim="albans_lid_7l_open" iSlot="0"/>
+    <port08 object_CGA="objects/heartsofoak/ships/stalbans/st_albans_lid_8l.cga" sCloseAnim="albans_lid_8l_close" bOpen="0" sOpenAnim="albans_lid_8l_open" iSlot="0"/>
+    <port09 object_CGA="objects/heartsofoak/ships/stalbans/st_albans_lid_9l.cga" sCloseAnim="albans_lid_9l_close" bOpen="0" sOpenAnim="albans_lid_9l_open" iSlot="0"/>
+    <port10 object_CGA="objects/heartsofoak/ships/stalbans/st_albans_lid_10l.cga" sCloseAnim="albans_lid_10l_close" bOpen="0" sOpenAnim="albans_lid_10l_open" iSlot="0"/>
+    <port11 object_CGA="objects/heartsofoak/ships/stalbans/st_albans_lid_11l.cga" sCloseAnim="albans_lid_11l_close" bOpen="0" sOpenAnim="albans_lid_11l_open" iSlot="0"/>
+    <port12 object_CGA="objects/heartsofoak/ships/stalbans/st_albans_lid_12l.cga" sCloseAnim="albans_lid_12l_close" bOpen="0" sOpenAnim="albans_lid_12l_open" iSlot="0"/>
+    <port13 object_CGA="objects/heartsofoak/ships/stalbans/st_albans_lid_13l.cga" sCloseAnim="albans_lid_13l_close" bOpen="0" sOpenAnim="albans_lid_13l_open" iSlot="0"/>
+    <port14 object_CGA="objects/heartsofoak/ships/stalbans/st_albans_lid_14l.cga" sCloseAnim="albans_lid_14l_close" bOpen="0" sOpenAnim="albans_lid_14l_open" iSlot="0"/>
+    <port15 object_CGA="objects/heartsofoak/ships/stalbans/st_albans_lid_15l.cga" sCloseAnim="albans_lid_15l_close" bOpen="0" sOpenAnim="albans_lid_15l_open" iSlot="0"/>
+    <port16 object_CGA="objects/heartsofoak/ships/stalbans/st_albans_lid_16l.cga" sCloseAnim="albans_lid_16l_close" bOpen="0" sOpenAnim="albans_lid_16l_open" iSlot="0"/>
+    <port17 object_CGA="objects/heartsofoak/ships/stalbans/st_albans_lid_17l.cga" sCloseAnim="albans_lid_17l_close" bOpen="0" sOpenAnim="albans_lid_17l_open" iSlot="0"/>
+    <port18 object_CGA="objects/heartsofoak/ships/stalbans/st_albans_lid_18l.cga" sCloseAnim="albans_lid_18l_close" bOpen="0" sOpenAnim="albans_lid_18l_open" iSlot="0"/>
+    <port19 object_CGA="objects/heartsofoak/ships/stalbans/st_albans_lid_19l.cga" sCloseAnim="albans_lid_19l_close" bOpen="0" sOpenAnim="albans_lid_19l_open" iSlot="0"/>
+    <port20 object_CGA="" sCloseAnim="" bOpen="0" sOpenAnim="" iSlot="0"/>
+    <port21 object_CGA="" sCloseAnim="" bOpen="0" sOpenAnim="" iSlot="0"/>
+    <port22 object_CGA="" sCloseAnim="" bOpen="0" sOpenAnim="" iSlot="0"/>
+    <port23 object_CGA="" sCloseAnim="" bOpen="0" sOpenAnim="" iSlot="0"/>
+    <port24 object_CGA="" sCloseAnim="" bOpen="0" sOpenAnim="" iSlot="0"/>
+    <port25 object_CGA="" sCloseAnim="" bOpen="0" sOpenAnim="" iSlot="0"/>
+    <port26 object_CGA="" sCloseAnim="" bOpen="0" sOpenAnim="" iSlot="0"/>
+    <port27 object_CGA="" sCloseAnim="" bOpen="0" sOpenAnim="" iSlot="0"/>
+    <port28 object_CGA="" sCloseAnim="" bOpen="0" sOpenAnim="" iSlot="0"/>
+    <port29 object_CGA="" sCloseAnim="" bOpen="0" sOpenAnim="" iSlot="0"/>
+    <port30 object_CGA="" sCloseAnim="" bOpen="0" sOpenAnim="" iSlot="0"/>
+    <port31 object_CGA="" sCloseAnim="" bOpen="0" sOpenAnim="" iSlot="0"/>
+    <port32 object_CGA="" sCloseAnim="" bOpen="0" sOpenAnim="" iSlot="0"/>
+    <port33 object_CGA="" sCloseAnim="" bOpen="0" sOpenAnim="" iSlot="0"/>
+    <port34 object_CGA="" sCloseAnim="" bOpen="0" sOpenAnim="" iSlot="0"/>
+    <port35 object_CGA="" sCloseAnim="" bOpen="0" sOpenAnim="" iSlot="0"/>
+    <port36 object_CGA="" sCloseAnim="" bOpen="0" sOpenAnim="" iSlot="0"/>
+   </Gunports>
+   <Health bInvulnerable="0" MaxHealth="500" bOnlyEnemyFire="0"/>
+   <MassObjects>
+    <Cargo bDraw="0" fMass="500000" object_Model="objects/default/primitive_cube.cgf" vectorOffsetPosition="0,-2,0" fScale="1"/>
+    <Damage bDraw="0" fMass="0" object_Model="objects/default/primitive_cube.cgf" vectorOffsetPosition="-1,0,0" fScale="1" bVerboseDamage="0"/>
+    <Hull bDraw="1" iLength="25" fMass="300000" object_Model="objects/default/primitive_cube.cgf" vectorOffsetPosition="0,-20,-3" fScale="1"/>
+   </MassObjects>
+   <Mast1 fMass="1" object_Model="objects/heartsofoak/ships/stalbans/st_albans_10.cgf" vectorOffsetPosition="0,0,0" vectorOffsetRotation="0,0,0" iSlot="0" vectorYardOffsetRotation="0,0,0">
+    <Spanker fMass="1" object_Model="" vectorOffsetPosition="0,0,0" vectorOffsetRotation="0,0,0" iSlot="0"/>
+    <Yard1 fMass="1" object_Model="objects/heartsofoak/ships/stalbans/st_albans_12.cgf" vectorOffsetPosition="0,11,15.9" iSlot="0"/>
+    <Yard2 fMass="1" object_Model="objects/heartsofoak/ships/stalbans/st_albans_13.cgf" vectorOffsetPosition="0,11.5,28.6" iSlot="0"/>
+    <Yard3 fMass="1" object_Model="objects/heartsofoak/ships/stalbans/st_albans_14.cgf" vectorOffsetPosition="0,11.85,35" iSlot="0"/>
+    <Yard4 fMass="1" object_Model="" vectorOffsetPosition="0,0,0" iSlot="0"/>
+    <Yard5 fMass="1" object_Model="" vectorOffsetPosition="0,0,0" iSlot="0"/>
+   </Mast1>
+   <Mast2 fMass="1" object_Model="objects/heartsofoak/ships/stalbans/st_albans_21.cgf" vectorOffsetPosition="0,0,0" vectorOffsetRotation="0,0,0" iSlot="0" vectorYardOffsetRotation="0,0,0">
+    <Spanker fMass="1" object_Model="" vectorOffsetPosition="0,0,0" vectorOffsetRotation="0,0,0" iSlot="0"/>
+    <Yard1 fMass="1" object_Model="objects/heartsofoak/ships/stalbans/st_albans_17.cgf" vectorOffsetPosition="0,-6.8,16.3" iSlot="0"/>
+    <Yard2 fMass="1" object_Model="objects/heartsofoak/ships/stalbans/st_albans_18.cgf" vectorOffsetPosition="0,-6.5,31.1" iSlot="0"/>
+    <Yard3 fMass="1" object_Model="objects/heartsofoak/ships/stalbans/st_albans_19.cgf" vectorOffsetPosition="0,-6.3,38.1" iSlot="0"/>
+    <Yard4 fMass="1" object_Model="" vectorOffsetPosition="0,0,0" iSlot="0"/>
+    <Yard5 fMass="1" object_Model="" vectorOffsetPosition="0,0,0" iSlot="0"/>
+   </Mast2>
+   <Mast3 fMass="1" object_Model="" vectorOffsetPosition="0,0,0" vectorOffsetRotation="0,0,0" iSlot="0" vectorYardOffsetRotation="0,0,0">
+    <Spanker fMass="1" object_Model="objects/heartsofoak/ships/stalbans/st_albans_24.cgf" vectorOffsetPosition="0,-18.1,14.8" vectorOffsetRotation="0,0,0" iSlot="0"/>
+    <Yard1 fMass="1" object_Model="objects/heartsofoak/ships/stalbans/st_albans_22.cgf" vectorOffsetPosition="0,-18.1,15" iSlot="0"/>
+    <Yard2 fMass="1" object_Model="objects/heartsofoak/ships/stalbans/st_albans_23.cgf" vectorOffsetPosition="0,-18.3,25.1" iSlot="0"/>
+    <Yard3 fMass="1" object_Model="" vectorOffsetPosition="0,0,0" iSlot="0"/>
+    <Yard4 fMass="1" object_Model="" vectorOffsetPosition="0,0,0" iSlot="0"/>
+    <Yard5 fMass="1" object_Model="" vectorOffsetPosition="0,0,0" iSlot="0"/>
+   </Mast3>
+   <Models>
+    <Hull01 fMass="1" object_Model="objects/heartsofoak/ships/stalbans/st_albans_1.cga" vectorOffsetPosition="0,0,0" vectorOffsetRotation="0,0,0" iSlot="0"/>
+    <Hull02 fMass="1" object_Model="objects/heartsofoak/ships/stalbans/st_albans_2.cgf" vectorOffsetPosition="0,0,0" vectorOffsetRotation="0,0,0" iSlot="0"/>
+    <Hull03 fMass="1" object_Model="objects/heartsofoak/ships/stalbans/st_albans_3.cgf" vectorOffsetPosition="0,0,0" vectorOffsetRotation="0,0,0" iSlot="0"/>
+    <Hull04 fMass="1" object_Model="objects/heartsofoak/ships/stalbans/st_albans_4.cgf" vectorOffsetPosition="0,0,0" vectorOffsetRotation="0,0,0" iSlot="0"/>
+    <Hull05 fMass="1" object_Model="objects/heartsofoak/ships/stalbans/st_albans_5.cgf" vectorOffsetPosition="0,0,0" vectorOffsetRotation="0,0,0" iSlot="0"/>
+    <Hull06 fMass="1" object_Model="objects/heartsofoak/ships/stalbans/st_albans_6.cgf" vectorOffsetPosition="0,0,0" vectorOffsetRotation="0,0,0" iSlot="0"/>
+    <Hull07 fMass="1" object_Model="objects/heartsofoak/ships/stalbans/st_albans_7.cgf" vectorOffsetPosition="0,0,0" vectorOffsetRotation="0,0,0" iSlot="0"/>
+    <Hull08 fMass="1" object_Model="objects/heartsofoak/ships/stalbans/st_albans_8.cgf" vectorOffsetPosition="0,0,0" vectorOffsetRotation="0,0,0" iSlot="0"/>
+    <Hull09 fMass="1" object_Model="objects/heartsofoak/ships/stalbans/st_albans_9.cgf" vectorOffsetPosition="0,0,0" vectorOffsetRotation="0,0,0" iSlot="0"/>
+    <Hull10 fMass="1" object_Model="objects/heartsofoak/ships/stalbans/st_albans_11.cgf" vectorOffsetPosition="0,0,0" vectorOffsetRotation="0,0,0" iSlot="0"/>
+    <Hull11 fMass="1" object_Model="objects/heartsofoak/ships/stalbans/st_albans_15.cgf" vectorOffsetPosition="0,0,0" vectorOffsetRotation="0,0,0" iSlot="0"/>
+    <Hull12 fMass="1" object_Model="objects/heartsofoak/ships/stalbans/st_albans_16.cgf" vectorOffsetPosition="0,0,0" vectorOffsetRotation="0,0,0" iSlot="0"/>
+    <Hull13 fMass="1" object_Model="objects/heartsofoak/ships/stalbans/st_albans_20.cgf" vectorOffsetPosition="0,0,0" vectorOffsetRotation="0,0,0" iSlot="0"/>
+    <Hull14 fMass="1" object_Model="objects/heartsofoak/ships/stalbans/st_albans_21.cgf" vectorOffsetPosition="0,0,0" vectorOffsetRotation="0,0,0" iSlot="0"/>
+    <Hull15 fMass="1" object_Model="objects/heartsofoak/ships/stalbans/st_albans_25.cgf" vectorOffsetPosition="0,0,0" vectorOffsetRotation="0,0,0" iSlot="0"/>
+    <Hull16 fMass="1" object_Model="objects/heartsofoak/ships/stalbans/st_albans_26.cgf" vectorOffsetPosition="0,0,0" vectorOffsetRotation="0,0,0" iSlot="0"/>
+    <Hull17 fMass="1" object_Model="" vectorOffsetPosition="0,0,0" vectorOffsetRotation="0,0,0" iSlot="0"/>
+    <Hull18 fMass="1" object_Model="" vectorOffsetPosition="0,0,0" vectorOffsetRotation="0,0,0" iSlot="0"/>
+    <Hull19 fMass="1" object_Model="" vectorOffsetPosition="0,0,0" vectorOffsetRotation="0,0,0" iSlot="0"/>
+    <Hull20 fMass="1" object_Model="" vectorOffsetPosition="0,0,0" vectorOffsetRotation="0,0,0" iSlot="0"/>
+    <Hull21 fMass="1" object_Model="" vectorOffsetPosition="0,0,0" vectorOffsetRotation="0,0,0" iSlot="0"/>
+    <Hull22 fMass="1" object_Model="" vectorOffsetPosition="0,-18.1,15" vectorOffsetRotation="0,0,0" iSlot="0"/>
+    <Hull23 fMass="0" object_Model="" vectorOffsetPosition="0,-18.3,25.1" vectorOffsetRotation="0,0,0" iSlot="0"/>
+    <Hull24 fMass="1" object_Model="" vectorOffsetPosition="0,-18.7,15" vectorOffsetRotation="0,0,0" iSlot="0"/>
+    <Hull25 fMass="1" object_Model="" vectorOffsetPosition="0,0,0" vectorOffsetRotation="0,0,0" iSlot="0"/>
+    <Hull26 fMass="1" object_Model="" vectorOffsetPosition="0,0,0" vectorOffsetRotation="0,0,0" iSlot="0"/>
+   </Models>
+   <MultiplayerOptions bNetworked="1"/>
+   <Physics bActivateOnDamage="1" air_resistance="0" bCanBreakOthers="0" Density="-1" Mass="50000" bPhysicalize="1" bPushableByPlayers="1" bResting="0" bRigidBody="1" bRigidBodyActive="1">
+    <Buoyancy water_damping="4" water_density="1000" water_resistance="1000"/>
+    <CGFPropsOverride player_can_break="">
+     <Constraint constraint_collides="" constraint_damping="" constraint_limit="" constraint_maxang="" constraint_minang=""/>
+     <Deformable explosion_scale="" hardness="" max_impulse="" max_stretch="" skin_dist="" stiffness="" thickness=""/>
+     <Joint bend="" limit="" pull="" push="" shift="" twist=""/>
+    </CGFPropsOverride>
+    <CollisionFiltering>
+     <collisionIgnore bT_collision_class_articulated="0" bT_collision_class_living="0" bT_collision_class_particle="0" bT_collision_class_soft="0" bT_collision_class_terrain="0" bT_collision_class_wheeled="0" bT_gcc_ai="0" bT_gcc_large_kickable="0" bT_gcc_player_body="0" bT_gcc_player_capsule="0" bT_gcc_ragdoll="0" bT_gcc_rigid="0" bT_gcc_vehicle="0" bT_gcc_vtol="0"/>
+     <collisionType bT_collision_class_articulated="0" bT_collision_class_living="0" bT_collision_class_particle="0" bT_collision_class_soft="0" bT_collision_class_terrain="0" bT_collision_class_wheeled="0" bT_gcc_ai="0" bT_gcc_large_kickable="0" bT_gcc_player_body="0" bT_gcc_player_capsule="0" bT_gcc_ragdoll="0" bT_gcc_rigid="0" bT_gcc_vehicle="0" bT_gcc_vtol="0"/>
+    </CollisionFiltering>
+    <ForeignData bMovingPlatform="1"/>
+    <Simulation damping="1" bFixedDamping="0" max_time_step="1" sleep_speed="2" bUseSimpleSolver="0"/>
+   </Physics>
+  </Properties>
+  <FlowGraph Description="" Group="Startup" enabled="1" MultiPlayer="ClientServer">
+   <Nodes>
+    <Node Id="28" Class="Physics:ActionImpulse" pos="280,-40,0" flags="0" GraphEntity="0">
+     <Inputs entityId="0" impulse="0,80000,0" angImpulse="0,0,0" Point="0,0,0" partIndex="0" CoordSys="2"/>
+    </Node>
+    <Node Id="29" Class="Time:Timer" pos="-320,130,0" flags="0">
+     <Inputs period="6" min="0" max="0" paused="0"/>
+    </Node>
+    <Node Id="31" Class="entity:Ship" pos="-80,50,0" flags="1" GraphEntity="0">
+     <Inputs entityId="0" Activate="0" DisableUsable="0" EnableUsable="0" Hide="0" MakeInvulnerable="0" MakeVulnerable="0" Ragdollize="0" Remove="0" ResetHealth="0" SwitchToMaterial1="0" SwitchToMaterial2="0" SwitchToMaterialOriginal="0" UnHide="0" UseGunports="0" Used="0"/>
+    </Node>
+   </Nodes>
+   <Edges>
+    <Edge nodeIn="31" nodeOut="29" portIn="UseGunports" portOut="out" enabled="1"/>
+   </Edges>
+   <GraphTokens />
+  </FlowGraph>
+ </Object>
+</Objects>
