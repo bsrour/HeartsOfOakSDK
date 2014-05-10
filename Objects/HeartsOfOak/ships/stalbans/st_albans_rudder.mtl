@@ -1,0 +1,54 @@
+<Material MtlFlags="524544">
+ <SubMaterials>
+
+  <Material Name="m_hulldetails_dark1" MtlFlags="524416" Shader="Illum" GenMask="82201" StringGenMask="%ALLOW_SILHOUETTE_POM%BUMP_MAP%DETAIL_MAPPING%GLOSS_MAP" SurfaceType="mat_wood" MatTemplate="" Diffuse="0.024222942,0.016988052,0.011126082" Specular="0.13035227,0.09387587,0.063814871" Emissive="0,0,0" Shininess="50" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/heartsofoak/textures/wood_4b_diff.dds" Filter="7">
+     <TexMod TileU="40" TileV="40"/>
+    </Texture>
+    <Texture Map="Specular" File="objects/heartsofoak/textures/wood_4b_spec.tif"/>
+    <Texture Map="Bumpmap" File="objects/heartsofoak/textures/wood_4b_ddn.dds">
+     <TexMod TileU="30" TileV="30"/>
+    </Texture>
+    <Texture Map="Detail" File="objects/heartsofoak/textures/decal_3c_diff.tif">
+     <TexMod TileU="0.30000001"/>
+    </Texture>
+   </Textures>
+   <PublicParams SpecMapChannelB="0" SpecMapChannelR="0" GlossMapChannelB="0" SpecMapChannelG="0" FresnelScale="1" DetailDiffuseScale="1" FresnelBias="1" DetailBumpScale="0.5" DetailGlossScale="0.5" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+
+ <Material Name="m_keel" MtlFlags="524418" Shader="Illum" GenMask="82201" StringGenMask="%ALLOW_SILHOUETTE_POM%BUMP_MAP%DETAIL_MAPPING%GLOSS_MAP" SurfaceType="mat_wood" MatTemplate="" Diffuse="0.34402567,0.31118053,0.23099814" Specular="0.12752977,0.12752977,0.12752977" Emissive="0,0,0" Shininess="50" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/heartsofoak/textures/wood_4b_DIFF.dds">
+     <TexMod TileU="30" TileV="30"/>
+    </Texture>
+    <Texture Map="Specular" File="objects/heartsofoak/textures/wood_4b_spec.dds"/>
+    <Texture Map="Bumpmap" File="objects/heartsofoak/textures/wood_4b_ddn.dds"/>
+    <Texture Map="Detail" File="objects/heartsofoak/textures/decal_3c_diff.tif">
+     <TexMod TileU="0.5"/>
+    </Texture>
+   </Textures>
+   <PublicParams SpecMapChannelB="0" SpecMapChannelR="0" GlossMapChannelB="0" SpecMapChannelG="0" FresnelScale="1" DetailDiffuseScale="1" FresnelBias="1" DetailBumpScale="0.5" DetailGlossScale="0.5" IndirectColor="0.26735809,0.26735809,0.26735809"/>
+  </Material>
+
+  <Material Name="m_metalobjects" MtlFlags="524418" Shader="Illum" GenMask="82201" StringGenMask="%ALLOW_SILHOUETTE_POM%BUMP_MAP%DETAIL_MAPPING%GLOSS_MAP" SurfaceType="mat_metal" MatTemplate="" Diffuse="0.016988052,0.016988052,0.016988052" Specular="0.26735809,0.26735809,0.26735809" Emissive="0,0,0" Shininess="50" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/heartsofoak/textures/metal_2_diff.dds">
+     <TexMod TileU="50" TileV="50"/>
+    </Texture>
+    <Texture Map="Specular" File="objects/heartsofoak/textures/metal_2_spec.dds"/>
+    <Texture Map="Bumpmap" File="objects/heartsofoak/textures/metal_2_ddn.dds"/>
+    <Texture Map="Detail" File="objects/heartsofoak/textures/decal_3c_diff.tif">
+     <TexMod TileU="0.5" TileV="0.1"/>
+    </Texture>
+   </Textures>
+   <PublicParams SpecMapChannelB="0" SpecMapChannelR="0" GlossMapChannelB="0" SpecMapChannelG="0" FresnelScale="1" DetailDiffuseScale="1" FresnelBias="1" DetailBumpScale="0.5" DetailGlossScale="0.5" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+
+  <Material Name="proxy" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_nodraw" MatTemplate="" Diffuse="0.5,0.5,0.5" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1" LayerAct="1">
+   <Textures />
+  </Material>
+
+ </SubMaterials>
+ <PublicParams GlossFromDiffuseContrast="1" FresnelScale="1" GlossFromDiffuseOffset="0" FresnelBias="1" GlossFromDiffuseAmount="0" GlossFromDiffuseBrightness="0.333" IndirectColor="0.25,0.25,0.25"/>
+</Material>

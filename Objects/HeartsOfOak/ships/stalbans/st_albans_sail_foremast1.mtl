@@ -1,0 +1,25 @@
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Name="m_sails" MtlFlags="524418" Shader="Illum" GenMask="82201" StringGenMask="%ALLOW_SILHOUETTE_POM%BUMP_MAP%DETAIL_MAPPING%GLOSS_MAP" SurfaceType="mat_fabric" MatTemplate="" Diffuse="0.15728073,0.15728073,0.15728073" Specular="0.12640853,0.11590933,0.10468864" Emissive="0,0,0" Shininess="1" Opacity="1" vertModifType="2" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/heartsofoak/textures/sails_1_diff.dds"/>
+    <Texture Map="Specular" File="objects/heartsofoak/textures/sails_1_spec.tif"/>
+    <Texture Map="Bumpmap" File="objects/heartsofoak/textures/sails_1_ddn2.dds" Filter="7"/>
+    <Texture Map="Detail" File="objects/heartsofoak/textures/decal_3c_diff.tif">
+     <TexMod TileV="0.30000001"/>
+    </Texture>
+   </Textures>
+   <MaterialPropagationFlags flags="64"/>
+   <VertexDeform Type="2" DividerX="15" DividerY="0" DividerZ="0" DividerW="0" NoiseScale="0.0099999998,0.0099999998,0.0099999998">
+    <WaveX Type="1" Amp="0.1" Level="0" Phase="0" Freq="0.5"/>
+   </VertexDeform>
+   <PublicParams SpecMapChannelB="0" SpecMapChannelR="0" GlossMapChannelB="0" SpecMapChannelG="0" FresnelScale="0" DetailDiffuseScale="0.40000001" FresnelBias="1" DetailBumpScale="0.5" DetailGlossScale="0.5" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+
+<Material Name="proxy" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_nodraw" MatTemplate="" Diffuse="0.5,0.5,0.5" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1" LayerAct="1">
+   <Textures />
+  </Material>
+
+ </SubMaterials>
+ <PublicParams GlossFromDiffuseContrast="1" FresnelScale="1" GlossFromDiffuseOffset="0" FresnelBias="1" GlossFromDiffuseAmount="0" GlossFromDiffuseBrightness="0.333" IndirectColor="0.25,0.25,0.25"/>
+</Material>
