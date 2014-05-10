@@ -1,0 +1,15 @@
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Name="M_barrel" MtlFlags="524418" Shader="Illum" GenMask="2001" StringGenMask="%ALLOW_SILHOUETTE_POM%DETAIL_MAPPING" SurfaceType="mat_wood" MatTemplate="" Diffuse="0.078056589,0.078056589,0.078056589" Specular="0,0,0" Emissive="0,0,0" Shininess="50" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/heartsofoak/textures/barrel_2_diff.dds"/>
+    <Texture Map="Detail" File="objects/heartsofoak/textures/decal_3_diff.dds"/>
+   </Textures>
+   <PublicParams GlossFromDiffuseContrast="1" FresnelScale="1" GlossFromDiffuseOffset="0" DetailDiffuseScale="1" FresnelBias="1" GlossFromDiffuseAmount="0" DetailBumpScale="0.5" GlossFromDiffuseBrightness="0.333" DetailGlossScale="0.5" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="M_phys" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_nodraw" MatTemplate="" Diffuse="0.5,0.5,0.5" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1" LayerAct="1">
+   <Textures />
+  </Material>
+ </SubMaterials>
+ <PublicParams GlossFromDiffuseContrast="1" FresnelScale="1" GlossFromDiffuseOffset="0" FresnelBias="1" GlossFromDiffuseAmount="0" GlossFromDiffuseBrightness="0.333" IndirectColor="0.25,0.25,0.25"/>
+</Material>
