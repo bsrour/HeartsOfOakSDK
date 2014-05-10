@@ -1,0 +1,74 @@
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Name="wallsG" MtlFlags="524416" Shader="Illum" GenMask="8000201" StringGenMask="%ALLOW_SILHOUETTE_POM%BUMP_MAP%PARALLAX_OCCLUSION_MAPPING" SurfaceType="mat_wood" MatTemplate="" Diffuse="0.11926401,0.11926401,0.11926401" Specular="0.0049030972,0.0049030972,0.0049030972" Emissive="0,0,0" Shininess="99" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/generic/brick/brick_plaster_a_diff.dds"/>
+    <Texture Map="Bumpmap" File="objects/hoo/tavern/textures/walls_ground_n_01.tif"/>
+    <Texture Map="Heightmap" File="objects/hoo/tavern/textures/walls_ground_n_01_height.tif"/>
+   </Textures>
+   <PublicParams GlossFromDiffuseContrast="-2.9300001" PomDisplacement="0.049400002" FresnelScale="1" GlossFromDiffuseOffset="0" FresnelBias="1" GlossFromDiffuseAmount="0" GlossFromDiffuseBrightness="0.333" SelfShadowStrength="4.5430002" HeightBias="0.91500002" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="Material #14" MtlFlags="524416" Shader="Illum" GenMask="8000201" StringGenMask="%ALLOW_SILHOUETTE_POM%BUMP_MAP%PARALLAX_OCCLUSION_MAPPING" SurfaceType="mat_concrete" MatTemplate="" Diffuse="0.32503697,0.32503697,0.32503697" Specular="0.081188083,0.081188083,0.081188083" Emissive="0,0,0" Shininess="129" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/generic/concrete/concrete_a1_diff.dds"/>
+    <Texture Map="Bumpmap" File="objects/hoo/tavern/textures/walls_int_n.tif"/>
+    <Texture Map="Heightmap" File="objects/hoo/tavern/textures/walls_int_n_height.tif"/>
+   </Textures>
+   <PublicParams GlossFromDiffuseContrast="1" PomDisplacement="0.025" FresnelScale="1" GlossFromDiffuseOffset="0" FresnelBias="1" GlossFromDiffuseAmount="0" GlossFromDiffuseBrightness="0.333" SelfShadowStrength="3" HeightBias="1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="Material #13" MtlFlags="524416" Shader="Illum" GenMask="8000201" StringGenMask="%ALLOW_SILHOUETTE_POM%BUMP_MAP%PARALLAX_OCCLUSION_MAPPING" SurfaceType="mat_wood" MatTemplate="" Diffuse="0.34402567,0.34402567,0.34402567" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/generic/wood/wood_sheets_ruff_diff.dds"/>
+    <Texture Map="Bumpmap" File="objects/hoo/tavern/textures/detail_meshes_n.tif"/>
+    <Texture Map="Heightmap" File="objects/hoo/tavern/textures/detail_meshes_h.tif"/>
+   </Textures>
+   <PublicParams GlossFromDiffuseContrast="1" PomDisplacement="0.025" FresnelScale="1" GlossFromDiffuseOffset="0" FresnelBias="1" GlossFromDiffuseAmount="0" GlossFromDiffuseBrightness="0.333" SelfShadowStrength="3" HeightBias="1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="Horn" MtlFlags="524416" Shader="Illum" GenMask="8000201" StringGenMask="%ALLOW_SILHOUETTE_POM%BUMP_MAP%PARALLAX_OCCLUSION_MAPPING" SurfaceType="mat_rock" MatTemplate="" Diffuse="0.13902245,0.13902245,0.13902245" Specular="0.18711141,0.18711141,0.18711141" Emissive="0,0,0" Shininess="129" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/hoo/tavern/textures/roof_d.tif"/>
+    <Texture Map="Bumpmap" File="objects/hoo/tavern/textures/roof_n.tif"/>
+    <Texture Map="Heightmap" File="objects/hoo/tavern/textures/roof_n_height.tif"/>
+   </Textures>
+   <PublicParams GlossFromDiffuseContrast="1" PomDisplacement="0.025" FresnelScale="1" GlossFromDiffuseOffset="0" FresnelBias="1" GlossFromDiffuseAmount="0" GlossFromDiffuseBrightness="0.333" SelfShadowStrength="3" HeightBias="1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="floor" MtlFlags="524416" Shader="Illum" GenMask="201" StringGenMask="%ALLOW_SILHOUETTE_POM%BUMP_MAP" SurfaceType="mat_concrete" MatTemplate="" Diffuse="0.588,0.588,0.588" Specular="0.1430614,0.1430614,0.1430614" Emissive="0,0,0" Shininess="162" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/generic/brick/brick_floor_diff.dds"/>
+    <Texture Map="Bumpmap" File="objects/hoo/tavern/textures/floortile_0046_n.tif"/>
+    <Texture Map="Heightmap" File="objects/hoo/tavern/textures/floortile_0046_n_height.tif"/>
+   </Textures>
+   <PublicParams GlossFromDiffuseContrast="1" FresnelScale="1" GlossFromDiffuseOffset="0" FresnelBias="1" GlossFromDiffuseAmount="0" GlossFromDiffuseBrightness="0.333" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="glass" MtlFlags="542852" Shader="Glass" GenMask="8110" StringGenMask="%BILINEAR_FP16%BLUR_REFRACTION%DIRT_MAP" SurfaceType="mat_glass" MatTemplate="" Diffuse="0.17677432,0.17677432,0.17677432" Specular="0.020095482,0.020095482,0.020095482" Emissive="0,0,0" Shininess="83" Opacity="0.85000002" AlphaTest="0.80000001" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/generic/glass/glass_clear_diff.dds"/>
+   </Textures>
+   <PublicParams SpecFromDiffAlphaBias="-2.688" BumpMapTile="3.72" TintColor="0.82772583,0.99139285,0.93227684" BlurAmount="1.2180001" FresnelScale="1" SpecFromDiffAlphaMult="3.1199999" FresnelBias="1" TintCloudiness="0.068999998" BackLightScale="0.303" BumpScale="0.1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="Material #17" MtlFlags="524416" Shader="Illum" GenMask="201" StringGenMask="%ALLOW_SILHOUETTE_POM%BUMP_MAP" SurfaceType="mat_rock" MatTemplate="" Diffuse="0.073827766,0.073827766,0.073827766" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/natural/rocks/forest_rock/textures/rock_forest_a_diff.dds">
+     <TexMod TileU="2" TileV="2" RotateW="34.996948"/>
+    </Texture>
+    <Texture Map="Bumpmap" File="objects/natural/rocks/forest_rock/textures/rock_forest_a_ddn.dds">
+     <TexMod TileU="2" TileV="2" RotateW="34.996948"/>
+    </Texture>
+   </Textures>
+   <PublicParams GlossFromDiffuseContrast="1" FresnelScale="1" GlossFromDiffuseOffset="0" FresnelBias="1" GlossFromDiffuseAmount="0" GlossFromDiffuseBrightness="0.333" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="wood" MtlFlags="524416" Shader="Illum" GenMask="80201" StringGenMask="%ALLOW_SILHOUETTE_POM%BUMP_MAP%GLOSS_MAP" SurfaceType="mat_wood" MatTemplate="" Diffuse="0.58823532,0,0" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="0.30000001" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/generic/wood/floor_wood_04_diff.dds"/>
+    <Texture Map="Specular" File="textures/generic/wood/floor_wood_04_spec.dds"/>
+    <Texture Map="Bumpmap" File="textures/generic/wood/floor_wood_04_ddn.dds"/>
+   </Textures>
+   <PublicParams GlossFromDiffuseContrast="1" FresnelScale="1" GlossFromDiffuseOffset="0" FresnelBias="1" GlossFromDiffuseAmount="0" GlossFromDiffuseBrightness="0.333" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="stone" MtlFlags="524416" Shader="Illum" GenMask="1" StringGenMask="%ALLOW_SILHOUETTE_POM" SurfaceType="mat_rock" MatTemplate="" Diffuse="0.58823532,0,0" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="0.5" LayerAct="1">
+   <Textures />
+   <PublicParams GlossFromDiffuseContrast="1" FresnelScale="1" GlossFromDiffuseOffset="0" FresnelBias="1" GlossFromDiffuseAmount="0" GlossFromDiffuseBrightness="0.333" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams GlossFromDiffuseContrast="1" FresnelScale="1" GlossFromDiffuseOffset="0" FresnelBias="1" GlossFromDiffuseAmount="0" GlossFromDiffuseBrightness="0.333" IndirectColor="0.25,0.25,0.25"/>
+</Material>

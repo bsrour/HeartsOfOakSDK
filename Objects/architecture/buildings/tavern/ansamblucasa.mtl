@@ -1,0 +1,168 @@
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Name="perete-verde" MtlFlags="524416" Shader="Illum" GenMask="8080201" StringGenMask="%ALLOW_SILHOUETTE_POM%BUMP_MAP%GLOSS_MAP%PARALLAX_OCCLUSION_MAPPING" SurfaceType="mat_concrete" MatTemplate="" Diffuse="0.12752977,0.16364066,0.12474094" Specular="0,0,0" Emissive="0,0,0" Shininess="49" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="texturi/texturicasa/maps/pverde_dif.tif">
+     <TexMod TileU="60" TileV="60"/>
+    </Texture>
+    <Texture Map="Specular" File="texturi/texturicasa/maps/pverde_spec.tif">
+     <TexMod TileU="60" TileV="60"/>
+    </Texture>
+    <Texture Map="Bumpmap" File="texturi/texturicasa/maps/pverde_ddn.tif">
+     <TexMod TileU="60" TileV="60"/>
+    </Texture>
+    <Texture Map="Heightmap" File="texturi/texturicasa/maps/pverde_disp.tif">
+     <TexMod TileU="60" TileV="60"/>
+    </Texture>
+   </Textures>
+   <PublicParams SpecMapChannelB="0" SpecMapChannelR="0" GlossMapChannelB="0" PomDisplacement="0.0093" SpecMapChannelG="0" FresnelScale="1" FresnelBias="1" SelfShadowStrength="2.086" HeightBias="1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="sticla" MtlFlags="2623648" Shader="Glass" GenMask="10000080110" StringGenMask="%BILINEAR_FP16%BLUR_REFRACTION%GLOSS_MAP%TINT_MAP" SurfaceType="mat_glass" MatTemplate="" Diffuse="1,1,1" Specular="0.0040000002,0.0040000002,0.0040000002" Emissive="0,0,0" Shininess="163" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/generic/glass/window_glass_diff.dds"/>
+    <Texture Map="Specular" File="textures/defaults/white.dds"/>
+    <Texture Map="Bumpmap" File="texturi/texturicasa/maps/geamuri_ddn.tif"/>
+    <Texture Map="Environment" File="glass_cm.tif"/>
+   </Textures>
+   <PublicParams BumpMapTile="2.71" TintColor="1,1,1" BlurAmount="0.45699999" FresnelScale="25.629999" FresnelBias="0.68099999" CloudinessReducesGloss="0.014" CloudinessMasksBlur="0.44800001" TintCloudiness="0.0049999999" BackLightScale="0.15000001" BumpScale="0.38100001" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="Plastic Fine Textured - White" MtlFlags="524416" Shader="Illum" GenMask="1" StringGenMask="%ALLOW_SILHOUETTE_POM" SurfaceType="mat_plastic" MatTemplate="" Diffuse="0.10114516,0.11657578,0.11392093" Specular="0.010871115,0.010871115,0.010871115" Emissive="0,0,0" Shininess="93" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/defaults/white.dds"/>
+   </Textures>
+   <PublicParams GlossFromDiffuseContrast="1" FresnelScale="1" GlossFromDiffuseOffset="0" FresnelBias="1" GlossFromDiffuseAmount="0" GlossFromDiffuseBrightness="0.333" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="spatecasa" MtlFlags="524416" Shader="Illum" GenMask="8080201" StringGenMask="%ALLOW_SILHOUETTE_POM%BUMP_MAP%GLOSS_MAP%PARALLAX_OCCLUSION_MAPPING" SurfaceType="mat_rock_dusty" MatTemplate="" Diffuse="0.14799802,0.12198571,0.075926125" Specular="0.5,0.5,0.5" Emissive="0,0,0" Shininess="40" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="texturi/texturicasa/maps/pspate_diff.tif">
+     <TexMod TileU="40" TileV="35" TexMod_WRotateAmplitude="0.69763184"/>
+    </Texture>
+    <Texture Map="Specular" File="texturi/texturicasa/maps/pspate_spec.tif">
+     <TexMod TileU="40" TileV="35"/>
+    </Texture>
+    <Texture Map="Bumpmap" File="texturi/texturicasa/maps/pspate_ddn.tif">
+     <TexMod TileU="40" TileV="35"/>
+    </Texture>
+    <Texture Map="Heightmap" File="texturi/texturicasa/maps/pspate_disp.tif">
+     <TexMod TileU="40" TileV="35"/>
+    </Texture>
+   </Textures>
+   <PublicParams SpecMapChannelB="0" SpecMapChannelR="0" GlossMapChannelB="0" PomDisplacement="0.0295" SpecMapChannelG="0" FresnelScale="1" FresnelBias="1" SelfShadowStrength="3" HeightBias="1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="interior" MtlFlags="524416" Shader="Illum" GenMask="8080201" StringGenMask="%ALLOW_SILHOUETTE_POM%BUMP_MAP%GLOSS_MAP%PARALLAX_OCCLUSION_MAPPING" SurfaceType="mat_concrete" MatTemplate="" Diffuse="0.90754718,0.90754718,0.90754718" Specular="0,0,0" Emissive="0,0,0" Shininess="12" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="texturi/texturicasa/maps/var_dif.tif">
+     <TexMod TileU="60" TileV="60"/>
+    </Texture>
+    <Texture Map="Specular" File="texturi/texturicasa/maps/var_spec.tif">
+     <TexMod TileU="60" TileV="60"/>
+    </Texture>
+    <Texture Map="Bumpmap" File="texturi/texturicasa/maps/var_ddn.tif">
+     <TexMod TileU="60" TileV="60"/>
+    </Texture>
+    <Texture Map="Heightmap" File="texturi/texturicasa/maps/var_disp.tif">
+     <TexMod TileU="60" TileV="60"/>
+    </Texture>
+   </Textures>
+   <PublicParams SpecMapChannelB="0" SpecMapChannelR="0" GlossMapChannelB="0" PomDisplacement="0.003" SpecMapChannelG="0" FresnelScale="1" FresnelBias="1" SelfShadowStrength="3" HeightBias="1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="tabla casa" MtlFlags="524416" Shader="Illum" GenMask="8080201" StringGenMask="%ALLOW_SILHOUETTE_POM%BUMP_MAP%GLOSS_MAP%PARALLAX_OCCLUSION_MAPPING" SurfaceType="mat_metal" MatTemplate="" Diffuse="0.014310519,0.0090214908,0.0090214908" Specular="0.01036341,0.01036341,0.01036341" Emissive="0,0,0" Shininess="201" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="texturi/texturicasa/maps/acoperis_diff.tif">
+     <TexMod TileU="15" TileV="45"/>
+    </Texture>
+    <Texture Map="Specular" File="texturi/texturicasa/maps/acoperis_spec.tif">
+     <TexMod TileU="15" TileV="45"/>
+    </Texture>
+    <Texture Map="Bumpmap" File="texturi/texturicasa/maps/acoperis_ddn.tif">
+     <TexMod TileU="15" TileV="45"/>
+    </Texture>
+    <Texture Map="Heightmap" File="texturi/texturicasa/maps/acoperis_disp.tif">
+     <TexMod TileU="15" TileV="45"/>
+    </Texture>
+   </Textures>
+   <PublicParams SpecMapChannelB="0" SpecMapChannelR="0" GlossMapChannelB="0" PomDisplacement="0.003" SpecMapChannelG="0" FresnelScale="4.0300002" FresnelBias="1" SelfShadowStrength="4.2049999" HeightBias="1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="lemnsusacop" MtlFlags="524416" Shader="Illum" GenMask="8080201" StringGenMask="%ALLOW_SILHOUETTE_POM%BUMP_MAP%GLOSS_MAP%PARALLAX_OCCLUSION_MAPPING" SurfaceType="mat_wood" MatTemplate="" Diffuse="0.21576439,0.21576439,0.21576439" Specular="0.062180459,0.062180459,0.062180459" Emissive="0,0,0" Shininess="37" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="texturi/texturicasa/maps/lemns_diff.tif">
+     <TexMod TileU="10" TileV="10" RotateW="45"/>
+    </Texture>
+    <Texture Map="Specular" File="texturi/texturicasa/maps/lemns_spec.tif">
+     <TexMod TileU="10" TileV="10" RotateW="45"/>
+    </Texture>
+    <Texture Map="Bumpmap" File="texturi/texturicasa/maps/lemns_ddn.tif">
+     <TexMod TileU="10" TileV="10" RotateW="45"/>
+    </Texture>
+    <Texture Map="Heightmap" File="texturi/texturicasa/maps/lemns_disp.tif">
+     <TexMod TileU="10" TileV="10" RotateW="45"/>
+    </Texture>
+   </Textures>
+   <PublicParams SpecMapChannelB="0" SpecMapChannelR="0" GlossMapChannelB="0" PomDisplacement="0.025" SpecMapChannelG="0" FresnelScale="1" FresnelBias="1" SelfShadowStrength="3" HeightBias="1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="gresie bucatarie" MtlFlags="524416" Shader="Illum" GenMask="8080201" StringGenMask="%ALLOW_SILHOUETTE_POM%BUMP_MAP%GLOSS_MAP%PARALLAX_OCCLUSION_MAPPING" SurfaceType="mat_concrete" MatTemplate="" Diffuse="0.1869885,0.15105805,0.084641509" Specular="0.090000004,0.090000004,0.0080971094" Emissive="0,0,0" Shininess="208" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="texturi/texturicasa/maps/gresbuc_diff.tif">
+     <TexMod TileU="150" TileV="150"/>
+    </Texture>
+    <Texture Map="Specular" File="texturi/texturicasa/maps/gresbuc_spec.tif">
+     <TexMod TileU="150" TileV="150"/>
+    </Texture>
+    <Texture Map="Bumpmap" File="texturi/texturicasa/maps/gresbuc_ddn.tif">
+     <TexMod TileU="150" TileV="150"/>
+    </Texture>
+    <Texture Map="Heightmap" File="texturi/texturicasa/maps/gresbuc_disp.tif">
+     <TexMod TileU="150" TileV="150"/>
+    </Texture>
+   </Textures>
+   <PublicParams SpecMapChannelB="0" SpecMapChannelR="0" GlossMapChannelB="0" PomDisplacement="0.0078999996" SpecMapChannelG="0" FresnelScale="1" FresnelBias="1" SelfShadowStrength="3" HeightBias="1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="faianta" MtlFlags="524416" Shader="Illum" GenMask="8080201" StringGenMask="%ALLOW_SILHOUETTE_POM%BUMP_MAP%GLOSS_MAP%PARALLAX_OCCLUSION_MAPPING" SurfaceType="mat_concrete" MatTemplate="" Diffuse="0.36360392,0.29321617,0.24680044" Specular="0.34008586,0.26208767,0.25880414" Emissive="0,0,0" Shininess="160" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="texturi/texturicasa/maps/faiantab_diff.tif">
+     <TexMod TileU="150" TileV="125"/>
+    </Texture>
+    <Texture Map="Specular" File="texturi/texturicasa/maps/faiantab_spec.tif">
+     <TexMod TileU="150" TileV="125"/>
+    </Texture>
+    <Texture Map="Bumpmap" File="texturi/texturicasa/maps/faiantab_ddn.tif">
+     <TexMod TileU="150" TileV="125"/>
+    </Texture>
+    <Texture Map="Heightmap" File="texturi/texturicasa/maps/faiantab_disp.tif">
+     <TexMod TileU="150" TileV="125"/>
+    </Texture>
+   </Textures>
+   <PublicParams SpecMapChannelB="0" SpecMapChannelR="0" GlossMapChannelB="0" PomDisplacement="0.0078999996" SpecMapChannelG="0" FresnelScale="1" FresnelBias="1" SelfShadowStrength="3" HeightBias="1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="scari" MtlFlags="524416" Shader="Illum" GenMask="8080201" StringGenMask="%ALLOW_SILHOUETTE_POM%BUMP_MAP%GLOSS_MAP%PARALLAX_OCCLUSION_MAPPING" SurfaceType="mat_rock_dusty" MatTemplate="" Diffuse="0.26735809,0.26317474,0.24680044" Specular="0.2,0.2,0.2" Emissive="0,0,0" Shininess="43.21928" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="texturi/texturicasa/maps/scari_diff.tif">
+     <TexMod TileU="60" TileV="70"/>
+    </Texture>
+    <Texture Map="Specular" File="texturi/texturicasa/maps/scari_spec.tif">
+     <TexMod TileU="60" TileV="70"/>
+    </Texture>
+    <Texture Map="Bumpmap" File="texturi/texturicasa/maps/scari_ddn.tif">
+     <TexMod TileU="60" TileV="70"/>
+    </Texture>
+    <Texture Map="Heightmap" File="texturi/texturicasa/maps/scari_disp.tif">
+     <TexMod TileU="60" TileV="70"/>
+    </Texture>
+   </Textures>
+   <PublicParams SpecMapChannelB="0" SpecMapChannelR="0" GlossMapChannelB="0" PomDisplacement="0.0035999999" SpecMapChannelG="0" FresnelScale="1" FresnelBias="1" SelfShadowStrength="3" HeightBias="1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="proxy" MtlFlags="524416" Shader="Illum" GenMask="1" StringGenMask="%ALLOW_SILHOUETTE_POM" SurfaceType="" MatTemplate="" Diffuse="0.59215689,0,0" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="0.40000001" LayerAct="1">
+   <Textures />
+   <PublicParams GlossFromDiffuseContrast="1" FresnelScale="1" GlossFromDiffuseOffset="0" FresnelBias="1" GlossFromDiffuseAmount="0" GlossFromDiffuseBrightness="0.333" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="pervaz" MtlFlags="524416" Shader="Illum" GenMask="8080201" StringGenMask="%ALLOW_SILHOUETTE_POM%BUMP_MAP%GLOSS_MAP%PARALLAX_OCCLUSION_MAPPING" SurfaceType="mat_concrete" MatTemplate="" Diffuse="0.096266121,0.091518357,0.024222942" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1" CloakAmount="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/imobile/obiecte/pervaz/pervazlowdiffusemap.tif"/>
+    <Texture Map="Specular" File="objects/imobile/obiecte/pervaz/pervaz_occlusion.dds"/>
+    <Texture Map="Bumpmap" File="objects/imobile/obiecte/pervaz/pervazlownormalsmap.tif"/>
+   </Textures>
+   <PublicParams SpecMapChannelB="0" SpecMapChannelR="0" GlossMapChannelB="0" PomDisplacement="0.0057000001" SpecMapChannelG="0" FresnelScale="1" FresnelBias="1" SelfShadowStrength="2.1659999" HeightBias="1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams GlossFromDiffuseContrast="1" FresnelScale="1" GlossFromDiffuseOffset="0" FresnelBias="1" GlossFromDiffuseAmount="0" GlossFromDiffuseBrightness="0.333" IndirectColor="0.25,0.25,0.25"/>
+</Material>

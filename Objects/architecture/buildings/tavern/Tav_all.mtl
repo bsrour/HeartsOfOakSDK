@@ -1,0 +1,37 @@
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Name="cgfx_wood" MtlFlags="524416" Shader="Illum" GenMask="200" StringGenMask="%BUMP_MAP" SurfaceType="mat_default" MatTemplate="" Diffuse="1,1,1" Specular="0.472435,0.472435,0.472435" Emissive="0,0,0" Shininess="10" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/heartsofoak/textures/tavern/wood_d.dds"/>
+    <Texture Map="Bumpmap" File="objects/heartsofoak/textures/tavern/wood_n.dds"/>
+    <Texture Map="Heightmap" File="objects/heartsofoak/textures/tavern/wood_h.dds"/>
+   </Textures>
+   <PublicParams GlossFromDiffuseContrast="1" FresnelScale="1" GlossFromDiffuseOffset="0" FresnelBias="1" GlossFromDiffuseAmount="0" GlossFromDiffuseBrightness="0.333" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="cgfx_walls" MtlFlags="524416" Shader="Illum" GenMask="8000200" StringGenMask="%BUMP_MAP%PARALLAX_OCCLUSION_MAPPING" SurfaceType="" MatTemplate="" Diffuse="1,1,1" Specular="0.48818201,0.48818201,0.48818201" Emissive="0,0,0" Shininess="10" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/heartsofoak/textures/tavern/walls_ground_d_01.dds"/>
+    <Texture Map="Bumpmap" File="objects/heartsofoak/textures/tavern/walls_ground_n_01.dds"/>
+    <Texture Map="Heightmap" File="objects/heartsofoak/textures/tavern/walls_ground_h.dds"/>
+   </Textures>
+   <PublicParams GlossFromDiffuseContrast="1" PomDisplacement="0.050000001" FresnelScale="2.6600001" GlossFromDiffuseOffset="0" FresnelBias="1" GlossFromDiffuseAmount="0" GlossFromDiffuseBrightness="0.333" SelfShadowStrength="3" HeightBias="1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="cgfx_roof" MtlFlags="524416" Shader="Illum" GenMask="200" StringGenMask="%BUMP_MAP" SurfaceType="" MatTemplate="" Diffuse="1,1,1" Specular="0.42519301,0.42519301,0.42519301" Emissive="0,0,0" Shininess="10" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/heartsofoak/textures/tavern/roof_d.dds"/>
+    <Texture Map="Bumpmap" File="objects/heartsofoak/textures/tavern/roof_n.dds"/>
+    <Texture Map="Heightmap" File="objects/heartsofoak/textures/tavern/roof_h.dds"/>
+   </Textures>
+   <PublicParams GlossFromDiffuseContrast="1" FresnelScale="1" GlossFromDiffuseOffset="0" FresnelBias="1" GlossFromDiffuseAmount="0" GlossFromDiffuseBrightness="0.333" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="windows_upper" MtlFlags="524416" Shader="Illum" GenMask="200" StringGenMask="%BUMP_MAP" SurfaceType="" MatTemplate="" Diffuse="1,1,1" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/heartsofoak/textures/tavern/detail_meshes_d.dds"/>
+    <Texture Map="Bumpmap" File="objects/heartsofoak/textures/tavern/detail_meshes_n.dds"/>
+    <Texture Map="Heightmap" File="objects/heartsofoak/textures/tavern/detail_meshes_h.dds"/>
+   </Textures>
+   <PublicParams GlossFromDiffuseContrast="1" FresnelScale="1" GlossFromDiffuseOffset="0" FresnelBias="1" GlossFromDiffuseAmount="0" GlossFromDiffuseBrightness="0.333" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams GlossFromDiffuseContrast="1" FresnelScale="1" GlossFromDiffuseOffset="0" FresnelBias="1" GlossFromDiffuseAmount="0" GlossFromDiffuseBrightness="0.333" IndirectColor="0.25,0.25,0.25"/>
+</Material>
